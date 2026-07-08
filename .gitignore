@@ -7,4 +7,7 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
-.claude/
+# Personal permission allowlist — machine-specific, not meant to be shared.
+# Skills, launch.json, etc. under .claude/ ARE meant to ship with the repo.
+.claude/settings.local.json
+.vercel
