@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+/*
+  Joeski / Maya Records design tokens
+  Warm off-black, stone neutrals, muted bronze accent.
+  Premium underground: no neon, no SaaS gradients.
+*/
+@theme {
+  --color-night: #0b0a08;
+  --color-night-2: #100e0b;
+  --color-surface: #16130e;
+  --color-surface-2: #1d1912;
+  --color-line: rgba(200, 155, 90, 0.16);
+  --color-line-strong: rgba(200, 155, 90, 0.34);
+  --color-cream: #f4efe6;
+  --color-sand: #b3a48d;
+  --color-stone: #7c6f5c;
+  --color-faint: #4c4335;
+  --color-gold: #c89b5a;
+  --color-gold-bright: #dfb475;
+  --color-error: #c85454;
+  --color-ok: #7ba05b;
+
+  --font-display: var(--font-gilda), Georgia, serif;
+  --font-body: var(--font-jost), system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-cream);
+  font-family: var(--font-body);
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(200, 155, 90, 0.3);
+}
+
+/* Typographic scale — editorial, record-sleeve energy */
+.display-xl {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 9vw, 7rem);
+  line-height: 0.92;
+  letter-spacing: -0.01em;
+}
+.display-lg {
+  font-family: var(--font-display);
+  font-size: clamp(2.25rem, 5vw, 4rem);
+  line-height: 1.02;
+}
+.display-md {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.2vw, 2.5rem);
+  line-height: 1.1;
+}
+.display-sm {
+  font-family: var(--font-display);
+  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  line-height: 1.2;
+}
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  font-weight: 500;
+}
+.meta {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-stone);
+}
+
+/* Film grain + vignette for hero atmospherics */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+}
+
+/* Slow drift for hero imagery — the "alive" feel without video */
+@keyframes hero-drift {
+  0% { transform: scale(1.06) translate3d(0, 0, 0); }
+  100% { transform: scale(1.12) translate3d(-1.2%, -1%, 0); }
+}
+.hero-drift {
+  animation: hero-drift 26s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.fade-up-1 { animation-delay: 0.08s; }
+.fade-up-2 { animation-delay: 0.18s; }
+.fade-up-3 { animation-delay: 0.3s; }
+
+/* Reveal-on-scroll (driven by IntersectionObserver in Reveal.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-drift, .fade-up { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* Waveform divider — music-first section separator */
+.waveline {
+  height: 22px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--color-line-strong) 0 2px,
+    transparent 2px 7px
+  );
+  mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+
+/* Range input styling for the audio player */
+input[type="range"].scrub {
+  appearance: none;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--color-faint);
+  outline: none;
+}
+input[type="range"].scrub::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-gold);
+  cursor: pointer;
+}

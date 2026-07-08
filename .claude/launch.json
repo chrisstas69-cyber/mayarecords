@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "joeski-platform",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/chrisanastasi/Desktop/joeski website/joeski-platform",
+      "port": 3000
+    }
+  ]
+}
