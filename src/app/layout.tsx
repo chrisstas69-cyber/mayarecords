@@ -31,6 +31,14 @@ export const metadata: Metadata = {
     type: "website",
     images: ["/images/live/hero-crowd-1.jpg"],
   },
+  icons: {
+    apple: "/icons/apple-touch-icon.png",
+  },
+  appleWebApp: {
+    capable: true,
+    title: "Maya Portal",
+    statusBarStyle: "black-translucent",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

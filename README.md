@@ -46,6 +46,14 @@ Once the `releases` table has published rows, the public site automatically serv
 
 Managed at `/admin/mixes`. Upload the full recording (public `mixes` bucket) and it streams in the site player at `/mixes`; without a hosted file, the external SoundCloud/Mixcloud link is shown instead.
 
+## Install the portal as an app
+
+The Label Portal is installable on phone and desktop (no separate app needed):
+
+- **iPhone**: open `https://<your-domain>/admin` in Safari → Share → **Add to Home Screen**. It launches full-screen with the Maya icon.
+- **Android**: open the same URL in Chrome → menu → **Add to Home screen** / **Install app**.
+- **Desktop (Chrome/Edge)**: visit `/admin` → click the install icon in the address bar.
+
 ## Roles & permissions (RLS)
 
 | Ability | anon | artist | admin |
