@@ -268,7 +268,7 @@ export function ReleaseWizard({
                 value={data.catalog_number}
                 onChange={(e) => set("catalog_number", e.target.value.toUpperCase())}
                 onBlur={checkDuplicate}
-                placeholder="MYA-151"
+                placeholder="MAYA254"
                 required
               />
             </Field>

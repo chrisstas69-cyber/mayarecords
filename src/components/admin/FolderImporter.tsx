@@ -368,7 +368,7 @@ export function FolderImporter() {
             <FolderOpen size={42} strokeWidth={1.2} className="text-gold" />
             <p className="text-cream font-medium">Select or drag your catalog folder here</p>
             <p className="max-w-md text-xs leading-relaxed text-stone">
-              Make sure each release is organized in its own subfolder named after the catalog number (e.g. `MYA-150`), containing artwork (JPG/PNG) and track files (MP3/WAV/FLAC).
+              Make sure each release is organized in its own subfolder named after the catalog number (e.g. `MAYA150`), containing artwork (JPG/PNG) and track files (MP3/WAV/FLAC).
             </p>
           </button>
           <input

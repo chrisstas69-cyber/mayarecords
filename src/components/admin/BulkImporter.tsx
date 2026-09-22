@@ -272,9 +272,9 @@ export function BulkImporter() {
             <p className="meta mb-3">Example CSV</p>
             <pre className="overflow-x-auto text-xs leading-relaxed text-stone">
 {`Title,Cat No,Artist,Date,Genre,Tracklist
-Roots & Wire,MYA-150,Joeski,2026-06-12,Tribal House,"1. Roots & Wire
+Roots & Wire,MAYA150,Joeski,2026-06-12,Tribal House,"1. Roots & Wire
 2. Wire Dub"
-El Barrio EP,MYA-138,Hector Couto,2025-08-15,Tech House,"1. El Barrio
+El Barrio EP,MAYA138,Hector Couto,2025-08-15,Tech House,"1. El Barrio
 2. Calle Ocho"`}
             </pre>
           </div>

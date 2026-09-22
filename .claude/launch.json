@@ -5,7 +5,7 @@
       "name": "joeski-platform",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
-      "cwd": "/Users/chrisanastasi/Desktop/joeski website/joeski-platform",
+      "cwd": "/Users/stassm4/Projects/joeski-platform",
       "port": 3000
     }
   ]

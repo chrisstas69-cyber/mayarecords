@@ -11,3 +11,10 @@ next-env.d.ts
 # Skills, launch.json, etc. under .claude/ ARE meant to ship with the repo.
 .claude/settings.local.json
 .vercel
+
+# Local demo media — public/media is committed for now so the Vercel preview
+# renders (covers + 90s/60s previews); move it to Supabase Storage once that's
+# set up. private-media holds full Joeski edits (WAV/MP3, subscriber-gated) —
+# never commit those. catalog/discogs is raw import scratch, not needed at runtime.
+/private-media/
+/catalog/discogs/

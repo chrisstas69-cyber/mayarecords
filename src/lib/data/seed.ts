@@ -1,4 +1,6 @@
 import type { Artist, Mix, Product, Release } from "@/lib/types";
+import { ARCHIVE_RELEASES } from "./archive.generated";
+import { ARCHIVE_ARTISTS } from "./artists.generated";
 
 /**
  * Seed catalog — real Joeski / Maya Records history (bio-sourced) with
@@ -81,106 +83,65 @@ export const SEED_ARTISTS: Artist[] = [
   },
 ];
 
-function rel(
-  n: number,
-  cat: string,
-  title: string,
-  artistId: string,
-  date: string,
-  genre: string,
-  description: string,
-  tracks: Array<[string, number, number | null, string | null]>,
-  extra?: Partial<Release>
-): Release {
-  return {
-    id: `seed-release-${n}`,
-    title,
-    slug: cat.toLowerCase(),
-    catalog_number: cat,
-    artist_id: artistId,
-    artist_name: SEED_ARTISTS.find((a) => a.id === artistId)?.name,
-    artist_slug: SEED_ARTISTS.find((a) => a.id === artistId)?.slug,
-    release_date: date,
-    genre,
-    series: null,
-    description,
-    credits: "Written & produced by " + (SEED_ARTISTS.find((a) => a.id === artistId)?.name ?? "Joeski") + ". Mastered for Maya Records, New York.",
-    cover_url: `/images/covers/${cat.toLowerCase()}.svg`,
-    preview_url: null,
-    video_url: null,
-    links: [
-      { label: "Beatport", url: "https://www.beatport.com/label/maya-records/1035" },
-      { label: "Traxsource", url: "https://www.traxsource.com/label/447/maya-records" },
-      { label: "SoundCloud", url: "https://soundcloud.com/mayarecordings" },
-    ],
-    state: "published",
-    featured: false,
-    digital_price_cents: 299, // default per-release download price; overridden per release in admin
-    tracks: tracks.map(([t, pos, bpm, key], i) => ({
-      id: `seed-track-${n}-${i}`,
-      release_id: `seed-release-${n}`,
-      position: pos,
-      title: t,
-      duration_seconds: 360 + ((n * 37 + i * 53) % 180),
-      bpm,
-      musical_key: key,
-      isrc: null,
-      preview_url: null,
-    })),
-    ...extra,
-  };
+// Every artist seen on a Maya release (Discogs + the local archive), minus the
+// hand-written bios above. Joeski himself is excluded — he already has one.
+const KNOWN_SLUGS = new Set(SEED_ARTISTS.map((a) => a.slug));
+for (const a of ARCHIVE_ARTISTS) {
+  if (KNOWN_SLUGS.has(a.slug)) continue;
+  KNOWN_SLUGS.add(a.slug);
+  SEED_ARTISTS.push({ id: `archive-artist-${a.slug}`, name: a.name, slug: a.slug, origin: null, bio: null, photo_url: null, links: [] });
 }
 
-export const SEED_RELEASES: Release[] = [
-  rel(1, "MYA-150", "Roots & Wire", "seed-joeski", "2026-06-12", "Tribal House",
-    "Two cuts of raw, drum-forward house built for peak time. The title track pairs a live conga loop recorded in the Brooklyn studio with a sub-heavy groove; Wire Dub strips it back to the skeleton.",
-    [["Roots & Wire", 1, 126, "A min"], ["Wire Dub", 2, 126, "A min"]],
-    { featured: true }),
-  rel(2, "MYA-146", "Night Bodega", "seed-joeski", "2026-03-20", "Tech House",
-    "Late-night corner-store energy: swung hats, a bassline that walks, and a vocal chop lifted from the city itself.",
-    [["Night Bodega", 1, 127, "F# min"], ["After Hours Mix", 2, 124, "F# min"]]),
-  rel(3, "MYA-142", "Tribute to the Drum", "seed-joeski", "2025-11-07", "Tribal House",
-    "A percussion suite in three movements — Joeski's love letter to the drum, from batá patterns to warehouse-scale toms.",
-    [["Movement I — Call", 1, 125, "D min"], ["Movement II — Response", 2, 126, "D min"], ["Movement III — Release", 3, 128, "G min"]]),
-  rel(4, "MYA-138", "El Barrio EP", "seed-hector-couto", "2025-08-15", "Tech House",
-    "Hector Couto brings Iberian swing to the Maya sound. Rolling, warm, relentlessly danceable.",
-    [["El Barrio", 1, 125, "C min"], ["Calle Ocho", 2, 126, "E min"]]),
-  rel(5, "MYA-133", "Mind Function", "seed-joeski", "2025-04-04", "Deep House",
-    "A Traxsource Tech House top-10. Hypnotic stab work over a deceptively simple drum bed — a DJ's tool in the best sense.",
-    [["Mind Function", 1, 124, "A# min"], ["Function Dub", 2, 124, "A# min"]]),
-  rel(6, "MYA-127", "Dem Tings", "seed-joeski", "2024-12-06", "Tribal House",
-    "Joeski teams up with Harry Romero as HR+Ski. Two heavyweights, one drum room, no filler.",
-    [["Dem Tings (feat. Harry Romero)", 1, 127, "G min"]],
-    { credits: "Written & produced by Joeski & Harry Romero (HR+Ski). Mastered for Maya Records, New York." }),
-  rel(7, "MYA-119", "Lessons in Dub", "seed-joeski", "2024-07-19", "Deep House",
-    "Space, delay, and patience. Originally road-tested for Poker Flat sets, finished for Maya.",
-    [["Lessons in Dub", 1, 122, "B min"], ["Lesson Two", 2, 121, "B min"]]),
-  rel(8, "MYA-112", "Warehouse Theory", "seed-amir-alexander", "2024-02-09", "Deep Techno",
-    "Amir Alexander's Detroit weight on Maya. Concrete-room techno with a soul underneath.",
-    [["Warehouse Theory", 1, 130, "C# min"], ["Theory Applied", 2, 131, "C# min"]]),
-  rel(9, "MYA-104", "Obatala Rhythms", "seed-joeski", "2023-09-01", "Tribal House",
-    "A companion piece to the Crosstown Rebels 'Tribute to Obatala' — dropped by Pete Tong on BBC Radio 1. All three original cuts charted simultaneously on Beatport's Tech House Top 100.",
-    [["Obatala Rhythms", 1, 125, "D min"], ["Santo", 2, 126, "F min"], ["Ellegua's Dance", 3, 127, "D min"]]),
-  rel(10, "MYA-096", "Deep Elements", "seed-mikel", "2023-03-17", "Deep House",
-    "Mikel's warm, organic take on tribal rhythms — the Barcelona connection.",
-    [["Deep Elements", 1, 123, "E min"], ["Elemental", 2, 122, "G# min"]]),
-  rel(11, "MYA-088", "Percussion Protocol", "seed-angel-alanis", "2022-10-14", "Tech House",
-    "Angel Alanis runs the drums through the Chicago filter. Percussive, relentless, deeply musical.",
-    [["Percussion Protocol", 1, 129, "A min"], ["Protocol B", 2, 128, "A min"]]),
-  rel(12, "MYA-071", "Sacred Ground", "seed-joeski", "2021-06-25", "Deep House",
-    "Recorded in a single week back home after a Mexico tour — with Doc Martin jamming on the B-side.",
-    [["Sacred Ground", 1, 120, "C min"], ["Sacred Dub (with Doc Martin)", 2, 120, "C min"]]),
-  rel(13, "MYA-054", "Midnight Transit", "seed-joeski", "2019-11-08", "Tribal House",
-    "The late train home as a rhythm section. A catalog staple that still turns up in sets worldwide.",
-    [["Midnight Transit", 1, 124, "G min"], ["Express Mix", 2, 126, "G min"]]),
-  rel(14, "MYA-032", "El Amor", "seed-joeski", "2004-05-10", "Tribal House",
-    "The DJ Chus collaboration that propelled Maya to the forefront of the U.S. house sound — worldwide acclaim from clubbers and DJs alike.",
-    [["El Amor (feat. DJ Chus)", 1, 126, "A min"], ["El Amor (Dub)", 2, 126, "A min"]],
-    { credits: "Written & produced by Joeski & DJ Chus. Mastered for Maya Records, New York." }),
-  rel(15, "MYA-001", "Hustler's Revenge", "seed-joeski", "2001-09-03", "Tribal House",
-    "Where it all started. The first Maya Records catalog number — the label built to release music on its own terms.",
-    [["Hustler's Revenge", 1, 125, "E min"], ["Revenge Reprise", 2, 123, "E min"]]),
-];
+
+const FALLBACK_COVER = "/images/logos/maya-head-line.png";
+const FEATURED_CAT = "MAYA188";
+
+/** Real Maya catalog, generated from the label archive by scripts/import-archive.py. */
+export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
+  .sort((a, b) => b.catalog_number.localeCompare(a.catalog_number))
+  .map((r) => {
+    const id = `archive-${r.catalog_number.toLowerCase()}`;
+    const artistId = SEED_ARTISTS.find((a) => a.slug === r.artist_slug)?.id ?? "seed-joeski";
+    return {
+      id,
+      title: r.title,
+      slug: r.catalog_number.toLowerCase(),
+      catalog_number: r.catalog_number,
+      artist_id: artistId,
+      artist_name: r.artist_name,
+      artist_slug: r.artist_slug === "joeski" ? "joeski" : r.artist_slug,
+      release_date: "release_date" in r ? r.release_date : null,
+      genre: "genre" in r ? r.genre : null,
+      series: null,
+      description: null,
+      credits: null,
+      cover_url: r.cover_url ?? FALLBACK_COVER,
+      preview_url: (r.tracks[0] as { preview_url?: string })?.preview_url ?? null,
+      video_url: null,
+      links: [
+        { label: "Beatport", url: "https://www.beatport.com/label/maya-records/1035" },
+        { label: "Traxsource", url: "https://www.traxsource.com/label/447/maya-records" },
+        ...("discogs_url" in r && r.discogs_url ? [{ label: "Discogs", url: r.discogs_url }] : []),
+      ],
+      state: "published",
+      featured: r.catalog_number === FEATURED_CAT,
+      digital_price_cents: null,
+      tracks: r.tracks.map((t) => {
+        const track = t as { position: number; title: string; duration_seconds?: number | null; preview_url?: string | null };
+        return {
+          id: `${id}-${track.position}`,
+          release_id: id,
+          position: track.position,
+          title: track.title,
+          duration_seconds: track.duration_seconds ?? null,
+          bpm: null,
+          musical_key: null,
+          isrc: null,
+          preview_url: track.preview_url ?? null,
+        };
+      }),
+    } satisfies Release;
+  });
 
 export const SEED_LIVE_PHOTOS = [
   { src: "/images/live/hero-crowd-1.jpg", caption: "Joeski live — packed courtyard show" },

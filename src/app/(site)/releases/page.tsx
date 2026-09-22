@@ -18,7 +18,7 @@ export default async function ReleasesPage() {
         <p className="eyebrow mb-3">Maya Records</p>
         <h1 className="display-lg text-cream">The Catalog</h1>
         <p className="mt-4 max-w-xl text-sand">
-          Every release, from MYA-001 forward. Tribal, deep and tech house — released on its own terms since 2001.
+          Every release, from MAYA001 forward. Tribal, deep and tech house — released on its own terms since 2001.
         </p>
       </header>
       <CatalogBrowser releases={releases} />
