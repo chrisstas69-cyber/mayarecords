@@ -18,3 +18,5 @@ next-env.d.ts
 # never commit those. catalog/discogs is raw import scratch, not needed at runtime.
 /private-media/
 /catalog/discogs/
+/catalog/labelworx-audio/
+/catalog/masters.json

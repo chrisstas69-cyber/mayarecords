@@ -5,6 +5,22 @@ This is what survives when a chat gets compacted or you switch tools.
 
 ---
 
+## 2026-09-23: full catalog, Labelworx audio, promoter EPK
+
+- Catalog: 255 releases (Labelworx export = source of truth, Discogs fills gaps, archive has masters).
+  Pipeline + gotchas: `.claude/skills/label-catalog-import/SKILL.md` (reusable for other labels).
+- Covers: 122 real Labelworx covers (public CDN), rest from Discogs; 4 have none anywhere.
+- Previews: Labelworx sample MP3s, linked straight from their public CDN (not stored in git).
+- For sale: 20 releases with local WAV masters (placeholder prices). The Buy flow needs Supabase + Stripe.
+- `/press` is now a promoter-only EPK: register → instant access; promoters saved (Supabase `promoters`).
+  Admin: `/admin/audience` (promoters + fans + members, CSV export).
+- `scripts/sync-to-supabase.py` loads everything into Supabase in one command.
+- Old fake placeholder catalog removed (seed.sql, SVG sleeves).
+
+**Next:** Chris follows `SETUP-TOMORROW.md` (Supabase → keys in .env.local → Stripe test mode).
+
+---
+
 ## 2026-09-22 — Members (Joeski edits) + real Maya catalog
 
 - `scripts/import-archive.py` builds local media from ~/Downloads archives (gitignored: public/media, private-media).

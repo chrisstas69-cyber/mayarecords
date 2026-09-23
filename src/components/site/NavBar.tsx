@@ -15,7 +15,7 @@ const NAV_ITEMS = [
   { href: "/artists", label: "Artists" },
   { href: "/store", label: "Store" },
   { href: "/about", label: "About" },
-  { href: "/press", label: "Press" },
+  { href: "/press", label: "Press Kit" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -56,13 +56,13 @@ export function NavBar() {
           </span>
         </Link>
 
-        <div className="hidden items-center gap-8 md:flex">
+        <div className="hidden items-center gap-6 lg:gap-8 md:flex">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
               className={cn(
-                "text-[0.72rem] uppercase tracking-[0.24em] transition-colors",
+                "whitespace-nowrap text-[0.72rem] uppercase tracking-[0.24em] transition-colors",
                 pathname.startsWith(item.href) ? "text-gold" : "text-sand hover:text-cream"
               )}
             >

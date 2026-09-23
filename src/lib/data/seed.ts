@@ -113,10 +113,10 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
       release_date: "release_date" in r ? r.release_date : null,
       genre: "genre" in r ? r.genre : null,
       series: null,
-      description: null,
+      description: "description" in r ? (r.description as string) : null,
       credits: null,
       cover_url: r.cover_url ?? FALLBACK_COVER,
-      preview_url: (r.tracks[0] as { preview_url?: string })?.preview_url ?? null,
+      preview_url: (r.tracks as ReadonlyArray<{ preview_url?: string | null }>).find((t) => t.preview_url)?.preview_url ?? null,
       video_url: null,
       links: [
         { label: "Beatport", url: "https://www.beatport.com/label/maya-records/1035" },
@@ -125,9 +125,15 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
       ],
       state: "published",
       featured: r.catalog_number === FEATURED_CAT,
-      digital_price_cents: null,
+      digital_price_cents: "digital_price_cents" in r ? (r.digital_price_cents as number | null) : null,
       tracks: r.tracks.map((t) => {
-        const track = t as { position: number; title: string; duration_seconds?: number | null; preview_url?: string | null };
+        const track = t as {
+          position: number;
+          title: string;
+          duration_seconds?: number | null;
+          preview_url?: string | null;
+          isrc?: string | null;
+        };
         return {
           id: `${id}-${track.position}`,
           release_id: id,
@@ -136,7 +142,7 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
           duration_seconds: track.duration_seconds ?? null,
           bpm: null,
           musical_key: null,
-          isrc: null,
+          isrc: track.isrc ?? null,
           preview_url: track.preview_url ?? null,
         };
       }),
@@ -207,7 +213,7 @@ export const SEED_MIXES: Mix[] = [
     duration_seconds: 3600,
     description:
       "The long-running Maya Sessions podcast — new label material, unreleased edits, and the records shaping the next quarter of the catalog.",
-    cover_url: "/images/covers/mya-150.svg",
+    cover_url: "/images/press/joeski-3.jpg",
     audio_url: null,
     external_url: "https://soundcloud.com/mayarecordings",
     tracklist: null,

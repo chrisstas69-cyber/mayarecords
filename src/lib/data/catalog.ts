@@ -123,17 +123,19 @@ export async function getArtists(): Promise<Artist[]> {
       .select("*, releases(count)")
       .order("name");
     if (!error && data && data.length > 0) {
-      return data.map((a) => ({
-        ...(a as unknown as Artist),
-        links: (a.links as Artist["links"]) ?? [],
-        release_count: (a.releases as Array<{ count: number }> | null)?.[0]?.count ?? 0,
-      }));
+      return data
+        .map((a) => ({
+          ...(a as unknown as Artist),
+          links: (a.links as Artist["links"]) ?? [],
+          release_count: (a.releases as Array<{ count: number }> | null)?.[0]?.count ?? 0,
+        }))
+        .filter((a) => a.release_count > 0);
     }
   }
   return SEED_ARTISTS.map((a) => ({
     ...a,
     release_count: SEED_RELEASES.filter((r) => r.artist_id === a.id).length,
-  }));
+  })).filter((a) => a.release_count > 0);
 }
 
 export async function getArtistBySlug(slug: string): Promise<{ artist: Artist; releases: Release[] } | null> {

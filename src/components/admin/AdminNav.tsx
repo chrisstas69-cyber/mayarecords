@@ -15,6 +15,7 @@ import {
   LogOut,
   Radio,
   ShoppingBag,
+  Contact,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -25,6 +26,7 @@ const NAV = [
   { href: "/admin/mixes", label: "Mixes", icon: Radio },
   { href: "/admin/merch", label: "Merch", icon: ShoppingBag },
   { href: "/admin/artists", label: "Artists", icon: Users },
+  { href: "/admin/audience", label: "Promoters & Fans", icon: Contact },
   { href: "/admin/media", label: "Media Library", icon: ImageIcon },
   { href: "/admin/bulk", label: "Bulk Upload", icon: UploadCloud },
   { href: "/admin/drafts", label: "Drafts", icon: FileClock },
