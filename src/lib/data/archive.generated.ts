@@ -439,7 +439,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/47/8x47er3n1e674va7.mp3"
       },
       {
         "position": 2,
@@ -500,7 +500,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/pz/qapz99betwq8yrpa.mp3"
       },
       {
         "position": 2,
@@ -608,7 +608,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ng/kangmnd4hbdbdjdx.mp3"
       },
       {
         "position": 2,
@@ -681,7 +681,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/96/6x96jk3mh3m3neza.mp3"
       },
       {
         "position": 2,
@@ -761,7 +761,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/r3/pxr3y8e7h9rbn53a.mp3"
       },
       {
         "position": 2,
@@ -2420,7 +2420,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/54/ja54n8e719ww66xk.mp3"
       },
       {
         "position": 2,
@@ -2429,7 +2429,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/p5/qap5wqvptd44pnxb.mp3"
       }
     ],
     "digital_price_cents": null
@@ -2531,7 +2531,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923660",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/63/qa63zj9qs4mmv9xy.mp3"
       },
       {
         "position": 2,
@@ -2540,7 +2540,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923661",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3z/ma3zvpgq2b33dwx4.mp3"
       },
       {
         "position": 3,
@@ -2549,7 +2549,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923662",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vz/vavzjb8p2n55mzar.mp3"
       }
     ],
     "description": "Joeski Back again on the classic maya imprint.. This time on a more latin tribal tip! Banging drums, melodic congas, latin vocals,Solid breakdown big room party record! On the first rmx Joeski takes it in a darker direction with techy stabs dubbed out latin vocals. And on the last mix Istanbuls Mert Yurcel gives us a dark deep stripped down banger!! Solid rmx!!!",
@@ -2848,7 +2848,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923665",
         "writers": "JoeskiAudio KoDe",
         "producers": "JoeskiAudio KoDe",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yr/rxyr6zd8c9qqj5a3.mp3"
       },
       {
         "position": 2,
@@ -2857,7 +2857,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923666",
         "writers": "JoeskiAudio KoDe",
         "producers": "JoeskiAudio KoDe",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/54/ja54n8ejh9ww3zxk.mp3"
       }
     ],
     "description": "Joeski & Audio Kode...Back again! This time on an old school NY hip hop tip! Giving us jacking beats and a rumbling baseline, DJ Ody Roc cutting up an NY city hip hop legend. Big room tech house hip hop folks!!! And on the rework, a more peak time banger!! Solid release from J & AK folks!!\n\nProduced by Joeski & Audio Kode \n\nRecorded at Maya's room studios nyc\n\nJoeski Bmi",
@@ -3181,7 +3181,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923671",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4e/8x4ewg97hr559wa7.mp3"
       },
       {
         "position": 2,
@@ -3190,7 +3190,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923672",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/q5/yxq5ny3ztbwwzjxj.mp3"
       },
       {
         "position": 3,
@@ -3199,7 +3199,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923673",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/kb/7akbed8604jjk7xw.mp3"
       }
     ],
     "description": "Maya Records celebrates it's 100th release with this reggae dub house banger! Jacking drums, piano stab riding through the groove into a full reggae vocal.\nDeep dub bass line breaking down to a full dub groove big build massive tune! On the next mix is a solid dub. On the rmx is Tech house master delivers \nPeak time Tech house monster sure to rock any floor!!\n\nSupport: Luciano, Chus, Wally Lopez, Doc Martin, Aldo Cadiz, Quentin Harris, Saeed Younan, Hector Romero, Fedde Le Grand, Jay Tripwire, Gel Abril, David herrero, The Henchmen, And many more.\n\nRecorded at Maya's Room Studio's NYC\n\nJoeski bmi",
@@ -3594,7 +3594,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923674",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/w7/qaw7d34nhmpp6ka8.mp3"
       },
       {
         "position": 2,
@@ -3603,7 +3603,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923675",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ne/kane3nd80k66m8xe.mp3"
       }
     ],
     "description": "After the succses of 'Night Train' Joeski delivers full deep tech\nexperience. With a hypnotic driving dubbed vocal hook throughout.\n'Exhale' builds into a huge peak. 'Mind Body & Soul' goes deeper on a more tech tip,\nbig synth line pushing the track foward to a big build.",
@@ -3626,7 +3626,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923677",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/gx/7d/gx7dmbez0d88w8ab.mp3"
       },
       {
         "position": 2,
@@ -3635,7 +3635,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923678",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4e/8x4ewg9v1r55vra7.mp3"
       },
       {
         "position": 3,
@@ -3644,7 +3644,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923679",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/q5/yxq5ny38sbww54xj.mp3"
       },
       {
         "position": 4,
@@ -3653,7 +3653,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923680",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/kb/7akbed87t4jjy6xw.mp3"
       },
       {
         "position": 5,
@@ -3662,7 +3662,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923681",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yr/rxyr6z8w09qq3va3.mp3"
       },
       {
         "position": 6,
@@ -3671,7 +3671,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923682",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/54/ja54n8jws9wwk6xk.mp3"
       }
     ],
     "description": "After the success of the original had to bring this one back rmx'd deep melodic dark acid with spoken word on the original Chile's Andre Butano & Phillip Liard take it on a more funkier vibe, Mert Yucel trips it out al Murt style! Berlins Tom Peter delivers a more stripped down techno rendition New yorks Jean Pierre takes us on a more hypnotic driving journey and last but not least New yorks Audio Kode delivers a minimal style late night groover. Solid rmx package folks!",
@@ -3694,7 +3694,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1952518",
         "writers": "Tripio X",
         "producers": "Tripio X",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/re/pxrezpvd2krrw7aq.mp3"
       },
       {
         "position": 2,
@@ -3703,7 +3703,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1952519",
         "writers": "Tripio X",
         "producers": "Tripio X",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/9x/g3/9xg3m5pr29jj6qxv.mp3"
       }
     ],
     "description": "For the 117th release we bring you bulgarias Tripio X \n\nDeep hypnotic minimal grooves on both cuts Top noch minimal tech house with dub elements and sub undertones\n\nsolid ep from the man!",
@@ -3726,7 +3726,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "QMSMV1200036",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mg/kxmg6vj518bbq5x8.mp3"
       }
     ],
     "description": "Joeski, Poncho Warwick - Move Yourself is the latest release on Maya Recordings.",
@@ -3749,7 +3749,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "QMSMV1200037",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/95/6x959w3pcnjjggx9.mp3"
       }
     ],
     "description": "Joeski back with a big room Bomb! Driving beats, rolling bass, jackin drums, Dub stabs, Psychedelic vocal hook big room tech house folks!",
@@ -3812,7 +3812,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "QMSMV1200039",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vz/vavzjbn4cn5537ar.mp3"
       }
     ],
     "description": "Joeksi back on a more funk tip Funk cosmic disco beats, latin driving bass,funky cahnts big build solid track!",
@@ -3879,7 +3879,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923739",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/q5/yxq5nybzsbww3jxj.mp3"
       }
     ],
     "description": "N.Y.C. house legends Harry Romero & Joeski (HR & Ski) debut release on Maya Records 'Chemical Imbalance' is a jackin' bass driven bomb! Tripped out synth elements, punk rock vocal...sure to be a big tune!!!!",
@@ -3934,7 +3934,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923750",
         "writers": "Vangelis Kostoxenakis",
         "producers": "Vangelis Kostoxenakis",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/re/pxrezp67hkrr6vaq.mp3"
       }
     ],
     "description": "Athens own Vangelis Kostoxenakis drops his first single on Maya Records! Vangelis is known for his jackin work on Kling Klong Records. With Ngok Vangelis takes us on a more bumping world music tip, solid release!",
@@ -3957,7 +3957,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923751",
         "writers": "Joeski",
         "producers": "Joeski, 333",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3a/eq/3aeqe4ymtbggqdaz.mp3"
       },
       {
         "position": 2,
@@ -3966,7 +3966,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923752",
         "writers": "Joeski",
         "producers": "Joeski, 333",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mg/kxmg6v8928bb4mx8.mp3"
       },
       {
         "position": 3,
@@ -3975,7 +3975,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923753",
         "writers": "Joeski",
         "producers": "Joeski, 333",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8b/8x8b83vy1p9979x3.mp3"
       }
     ],
     "description": "For this release Joeski teams up with 333 and deliver a funky ep.\n\nThe original mix is a funky, driving groove,with dubby guitar licks and dark vocals. \n\nOn the Joeski mix he goes on a more sax drivin vibe. \n\n333 mix is more tech hypnotic groove all cuts sure to rock any floor.",
@@ -4029,7 +4029,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923755",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/63/qa63zj6bt4mm63xy.mp3"
       },
       {
         "position": 2,
@@ -4038,7 +4038,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923756",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3z/ma3zvpj9cb33vmx4.mp3"
       }
     ],
     "description": "Joeski killing em this time with a wailing electric guitar! Bangin beats dark hypnotic groove full guitar solo driving the track big build up.\nAlso a Guitarless instrumental\nOn the rmx a darker more jakin house rendition. solid Ep\n\nProduced by Joeski\nGuitar by Evan Ubirea",
@@ -4061,7 +4061,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923765",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/w7/qaw7d3z82mppqga8.mp3"
       },
       {
         "position": 2,
@@ -4070,7 +4070,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923766",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ne/kane3n9yck665vxe.mp3"
       }
     ],
     "description": "For this release, Joeski teams up with Greece's own Vangelis Kostoxenakis and deliver 2 cuts of oldschool style jackin, floor pounding big room house!! Solid Ep",
@@ -4093,7 +4093,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "QMSMV1200047",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/gx/7d/gx7dmb3rcd88n9ab.mp3"
       }
     ],
     "description": "Already being supported by thge best in the bizz! Joeski delivers a banging peaktime house track here. Jacking house beats ,driving bass, guitar licks that wont quit rasta vocal solid tune here.",
@@ -4280,7 +4280,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923758",
         "writers": "George Privatti",
         "producers": "George Privatti",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3a/eq/3aeqe4yr2bggndaz.mp3"
       },
       {
         "position": 2,
@@ -4289,7 +4289,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923759",
         "writers": "George Privatti",
         "producers": "George Privatti",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mg/kxmg6v8rt8bbdmx8.mp3"
       }
     ],
     "description": "First time on Maya Records Spains George Privatti with 2 cuts of deep tech funkyness solid ep",
@@ -4365,7 +4365,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923760",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bw/3xbw43yr09kkqea4.mp3"
       },
       {
         "position": 2,
@@ -4374,7 +4374,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923761",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/63/qa63zj6kc4mmp3xy.mp3"
       },
       {
         "position": 3,
@@ -4383,7 +4383,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923762",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3z/ma3zvpj7hb334mx4.mp3"
       }
     ],
     "description": "Spains David Herrero is back! 3 cutz of pure fire! house,techno energy!",
@@ -4428,7 +4428,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923763",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/z6/8xz634e51j88b4x5.mp3"
       }
     ],
     "description": "Joeski's latest work 'Mud Funk' massive Techno track Latin techno bass, Stabs Big support on this one.",
@@ -4614,7 +4614,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923769",
         "writers": "Aldo Cadiz",
         "producers": "Aldo Cadiz",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/re/pxrezpby0krkjqaq.mp3"
       },
       {
         "position": 2,
@@ -4623,7 +4623,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1923770",
         "writers": "Aldo Cadiz",
         "producers": "Aldo Cadiz",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/9x/g3/9xg3m5nj29j9ydxv.mp3"
       }
     ],
     "description": "Aldo Cadiz - Senza EP\n\nMaya are pleased to welcome Aldo Cadiz with his Senza EP. Getting things moving, the title track Senza sets the bar high with its dusty, granular, tribal groove. The track is painted with a raw and striking personality, along with hints of tribal influence within its rhythm and percussive elements and haunting background chants that display Aldo's skill at infusing his tracks with character and spirituality. The track also features a great exhibition of Aldos vast creative palette and technical ability in the studio by fusing forward-thinking dance music with organic indigenous elements.\n\n\nThe second track 'Tramdoul' features faster percussion chops, a rolling yet tough bassline, and cleverly placed vocal cuts. A peak-time, groovy weapon, this track that is going to be causing carnage across many dancefloors. Aldo has expertly executed each element to complement each other perfectly as this one moves forward and builds into a big breakdown via a bouncy groove paired with a low sub bassline. Vocal chops filtered through the track keeps the energy pulsating, whilst clever arrangement and percussion chops keep the listener locked into the groove.",
@@ -4646,7 +4646,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1952523",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/kb/7akbedq914j4vmxw.mp3"
       },
       {
         "position": 2,
@@ -4655,7 +4655,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1952524",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yr/rxyr6z7mh9q945a3.mp3"
       },
       {
         "position": 3,
@@ -4664,7 +4664,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1952525",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/54/ja54n8vdh9w94zxk.mp3"
       }
     ],
     "description": "David Herrero - Shamefa EP\n\nDavid Herrero is back on Maya with his Shamefa EP and boy is it a big one. The title track opens with some energetic drums married to a deep, rolling bassline that build the foundations for edgy, nagging synths and chopped up vocals which swirl upwards to the break. A familiar yet powerful Spanish vocal takes over at the breakdown and builds into a crescendo as the release comes ensuring maximum impact for the dance floor. A dub version accompanies the title track for those who wish to maintain the energetic feel of the original but sans the vocal in the breakdown. \n\n\nThe EP closes with Divino Canto which is oozing with Latin flavor. The percussion bubbles nicely alongside a deep driving bassline accompanied by an old school Spanish low slung vocal that chugs along with the rest of the track. This one mixes signature rhythms with fine percussion and real musical and emotive depth with great drums and percussion sounding steamy and seductive. The breakdown builds with this vocal until the drop where the infectious tribal groove comes roaring back, this one is meant for peak hour summertime sets where the temps are as high as the dance floor energy!",
@@ -4709,7 +4709,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61813139",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/d7/dad7w5e9hdwng7x5.mp3"
       },
       {
         "position": 2,
@@ -4718,7 +4718,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61813140",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vz/vavz8gey0n9zm4ar.mp3"
       }
     ],
     "description": "Joeski - Uh Oh Rasta! is the latest release on Maya Recordings.",
@@ -4741,7 +4741,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1914651",
         "writers": "P. Simpson, A. Malloy",
         "producers": "Joe Flores, Serious Intention, Paul Simpson",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/95/6x95bzmdfn5pbgx9.mp3"
       },
       {
         "position": 2,
@@ -4750,7 +4750,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1914652",
         "writers": "P. Simpson, A. Malloy",
         "producers": "Joe Flores, Serious Intention, Paul Simpson",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mg/kxmgb9dk089k6rx8.mp3"
       }
     ],
     "description": "Serious Intention\nYou Dont Know",
@@ -4773,7 +4773,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1914647",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yr/rxyrdpmn09p737a3.mp3"
       },
       {
         "position": 2,
@@ -4782,7 +4782,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1914648",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/w7/qaw79k6v1myweka8.mp3"
       },
       {
         "position": 3,
@@ -4820,7 +4820,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1914645",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/jd/rxjdmr46s6d678x9.mp3"
       },
       {
         "position": 2,
@@ -4829,7 +4829,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1914646",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/re/pxrevdby0kdkvvaq.mp3"
       }
     ],
     "release_date": "2019-02-25",
@@ -4852,7 +4852,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1965122",
         "writers": "Juanito",
         "producers": "Juanito",
-        "preview_url": "/media/previews/maya157-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/6x/95/6x957e9jt57ryrx9.mp3"
       },
       {
         "position": 2,
@@ -4861,7 +4861,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1965123",
         "writers": "Juanito",
         "producers": "Juanito",
-        "preview_url": "/media/previews/maya157-2.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/rx/jd/rxjd4yjq2nb3djx9.mp3"
       },
       {
         "position": 3,
@@ -4870,7 +4870,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1965124",
         "writers": "Juanito",
         "producers": "Juanito",
-        "preview_url": "/media/previews/maya157-3.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/da/d7/dad73y4vhwk6jbx5.mp3"
       },
       {
         "position": 4,
@@ -4879,7 +4879,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1965125",
         "writers": "Juanito",
         "producers": "Juanito",
-        "preview_url": "/media/previews/maya157-4.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bw/3xbwby462e4yqpa4.mp3"
       }
     ],
     "release_date": "2019-06-25",
@@ -4924,7 +4924,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1957193",
         "writers": "Joe Flores",
         "producers": "Joeski",
-        "preview_url": "/media/previews/maya159-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/da/d7/dad73ywn2wk6jjx5.mp3"
       }
     ],
     "release_date": "2019-04-15",
@@ -4947,7 +4947,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1957191",
         "writers": "Joeski",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya160-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3z/ma3z6jgdc9kjppx4.mp3"
       },
       {
         "position": 2,
@@ -4956,7 +4956,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1957192",
         "writers": "Joeski",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya160-2.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/va/vz/vavzwn8gc94w87ar.mp3"
       }
     ],
     "release_date": "2019-04-22",
@@ -4979,7 +4979,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1957194",
         "writers": "Joe Flores",
         "producers": "Joeski",
-        "preview_url": "/media/previews/maya161-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ne/kane896qsq8zynxe.mp3"
       }
     ],
     "release_date": "2019-05-20",
@@ -5002,7 +5002,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1957190",
         "writers": "Joe Flores",
         "producers": "Joeski",
-        "preview_url": "/media/previews/maya162-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/ja/54/ja54vbe5h5gz4mxk.mp3"
       }
     ],
     "release_date": "2019-05-20",
@@ -5025,7 +5025,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1961065",
         "writers": "Rachel Collins",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya163-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/gx/7d/gx7d57dnc4n36bab.mp3"
       }
     ],
     "release_date": "2019-07-08",
@@ -5048,7 +5048,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1965130",
         "writers": "Joe Flores",
         "producers": "Joe Flores \"Joeski\"",
-        "preview_url": "/media/previews/maya164-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8b/8x8bmgpb147mz6x3.mp3"
       }
     ],
     "release_date": "2019-06-25",
@@ -5071,7 +5071,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1969668",
         "writers": "Joe Flores",
         "producers": "Joe Flores \"Joeski\"",
-        "preview_url": "/media/previews/maya165-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yr/rxyrejymcpr7e6a3.mp3"
       }
     ],
     "release_date": "2019-07-08",
@@ -5094,7 +5094,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1976546",
         "writers": "Joe Flores, E-Man",
         "producers": "Joe Flores, Damian Lazarus",
-        "preview_url": "/media/previews/maya166-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/qa/p5/qap58bp6s3mrn7xb.mp3"
       }
     ],
     "release_date": "2019-07-22",
@@ -5117,7 +5117,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1979172",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya167-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/8x/z6/8xz6zdvp2wekjex5.mp3"
       }
     ],
     "release_date": "2019-07-29",
@@ -5140,7 +5140,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1985790",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya168-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4e/8x4e56re28w6r3a7.mp3"
       }
     ],
     "release_date": "2019-08-06",
@@ -5163,7 +5163,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1991831",
         "writers": "Joe Flores. Sax-Sax Kitten",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya169-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/px/re/pxrekee5cmq648aq.mp3"
       }
     ],
     "release_date": "2019-09-09",
@@ -5186,7 +5186,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU1993597",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya170-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/3a/eq/3aeq9qqq237qwvaz.mp3"
       }
     ],
     "release_date": "2019-09-20",
@@ -5209,7 +5209,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61905358",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya171-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mg/kxmgv7kvtzzgb3x8.mp3"
       }
     ],
     "release_date": "2019-10-14",
@@ -5232,7 +5232,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61905361",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya172-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3z/ma3zprvm277n37x4.mp3"
       }
     ],
     "release_date": "2019-10-28",
@@ -5255,7 +5255,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61916700",
         "writers": "Jonathon Aguilar",
         "producers": "Jonathon Aguilar",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/qz/yxqzr764fe5bdpaj.mp3"
       }
     ],
     "release_date": "2019-11-12",
@@ -5404,7 +5404,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915600",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/9x/g3/9xg35m8j2mzyzbxv.mp3"
       },
       {
         "position": 16,
@@ -5413,7 +5413,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915601",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mg/kxmgv63ysz5v5gx8.mp3"
       },
       {
         "position": 17,
@@ -5422,7 +5422,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915602",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8b/8x8b38ng0nwgw6x3.mp3"
       },
       {
         "position": 18,
@@ -5431,7 +5431,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915603",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/95/6x95w9ny26qeqkx9.mp3"
       },
       {
         "position": 19,
@@ -5440,7 +5440,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915604",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/jd/rxjd9jg6s9q8qbx9.mp3"
       },
       {
         "position": 20,
@@ -5449,7 +5449,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915605",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/d7/dad7z4nmcmvyv5x5.mp3"
       },
       {
         "position": 21,
@@ -5458,7 +5458,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915606",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bw/3xbw34k7f3rzr9a4.mp3"
       },
       {
         "position": 22,
@@ -5467,7 +5467,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915607",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/63/qa63jz5v23wjw8xy.mp3"
       },
       {
         "position": 23,
@@ -5476,7 +5476,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915608",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3z/ma3zpvnb27gpg7x4.mp3"
       },
       {
         "position": 24,
@@ -5485,7 +5485,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61915609",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vz/vavzbj5m2qe8ejar.mp3"
       }
     ],
     "release_date": "2019-11-29",
@@ -5511,7 +5511,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV61926468",
         "writers": "Denney",
         "producers": "Denney",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/n7/kan7w9wbsrn7drxe.mp3"
       }
     ],
     "description": "Denny comes with a Dancefloor banger with a groove much like French Kiss",
@@ -5534,7 +5534,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2003917",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/m7/kxm7e8ekc7ngwkx8.mp3"
       },
       {
         "position": 2,
@@ -5592,7 +5592,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3r/ma3rz5691m9z4dx4.mp3"
       }
     ],
     "description": "Joeski brings a beautiful deep house track",
@@ -5615,7 +5615,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2017225",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/jn/rxjndk4bhvn5dvx9.mp3"
       }
     ],
     "description": "Joeski delivers a Latin monster with Colombian samples",
@@ -5638,7 +5638,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2045861",
         "writers": "Green Velvet, Joeski",
         "producers": "Green Velvet, Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6p/qa6p56n9279zqmay.mp3"
       }
     ],
     "description": "Green Velvet & Joeski team up for some Latin goodness",
@@ -5658,7 +5658,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2031903",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": "/media/previews/maya181-1.mp3"
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8p/8x8ppv3wfyw9egx3.mp3"
       }
     ],
     "release_date": "2020-03-31",
@@ -5678,7 +5678,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2045348",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/47/8x47y9prfynnwma7.mp3"
       }
     ],
     "title": "Soy Latino (Original Mix)",
@@ -5706,7 +5706,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2053474",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/k6/7ak655ggcqmemrxw.mp3"
       }
     ],
     "description": "El Jibaro at it again with some nasty tribal beat and African chants",
@@ -5746,7 +5746,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2070695",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6p/qa6p7vz407b6egay.mp3"
       }
     ],
     "description": "Joeski brings the heat with spoken word banger",
@@ -5769,7 +5769,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2080037",
         "writers": "Alexander Louis",
         "producers": "Alexander Louis",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/dd/dadd58w9t3wd53a5.mp3"
       },
       {
         "position": 2,
@@ -5778,7 +5778,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2080038",
         "writers": "Alexander Louis",
         "producers": "Alexander Louis",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6p/qa6p7k9gt784mray.mp3"
       }
     ],
     "description": "The Traveler Ep by Alexander Louis",
@@ -5801,7 +5801,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2080110",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yy/rxyyqr6gsdbkbdx3.mp3"
       }
     ],
     "description": "Joeski on the mix with some funky R&B flavor",
@@ -5856,7 +5856,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62014014",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/rw/pxrwmnmms7y58qaq.mp3"
       }
     ],
     "description": "Joeski - I Miss You is the latest release on Maya Recordings.",
@@ -5879,7 +5879,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62036019",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/pn/qapnk383fne8zvab.mp3"
       },
       {
         "position": 2,
@@ -5888,7 +5888,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62036020",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8p/8x8pje9efj3peyx3.mp3"
       }
     ],
     "description": "Joeski - American Dream is the latest release on Maya Recordings.",
@@ -5911,7 +5911,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62036026",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3r/ma3rvn9zfd7z7wx4.mp3"
       }
     ],
     "description": "Joeski at it again with a dope tribal track",
@@ -5934,7 +5934,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2111689",
         "writers": "Robb Swinga",
         "producers": "Robb Swinga",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/jn/rxjne665teme7rx9.mp3"
       },
       {
         "position": 2,
@@ -5943,7 +5943,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2111690",
         "writers": "Robb Swinga",
         "producers": "Robb Swinga",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/5r/ja5re33y2dkdmyxk.mp3"
       }
     ],
     "description": "Maya camp Robb Swinga brings some tech acid house heat. Joeski Tech Acid house remix is an added bonus to this package",
@@ -5966,7 +5966,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2109857",
         "writers": "Aldo Cadiz, Andre Butano",
         "producers": "Aldo Cadiz, Andre Butano",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/n7/kan76yybtvmvk5xe.mp3"
       },
       {
         "position": 2,
@@ -5975,7 +5975,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2109858",
         "writers": "Aldo Cadiz, Andre Butano",
         "producers": "Aldo Cadiz, Andre Butano",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/rw/pxrwnyy807w7dkaq.mp3"
       },
       {
         "position": 3,
@@ -5984,7 +5984,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2109859",
         "writers": "Aldo Cadiz, Andre Butano",
         "producers": "Aldo Cadiz, Andre Butano",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8p/8x8pdggefjbjqex3.mp3"
       }
     ],
     "description": "Aldo Cadiz & Andre Butano with an tech house ep on Maya records",
@@ -6007,7 +6007,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2144783",
         "writers": "N. Roman, N. Jean",
         "producers": "Joe flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/dd/daddy843h9wbgza5.mp3"
       }
     ],
     "description": "2021 REMIX OF THE EASY STREET CLASSIC OUT OF THE JUNGLE",
@@ -6030,7 +6030,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2153384",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/qz/yxqzd4m7276bm3aj.mp3"
       }
     ],
     "description": "Joeski-Gitana",
@@ -6047,7 +6047,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2153385",
         "writers": "Joeski Flores",
         "producers": "Joeski Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6p/qa6pwrb71r74bday.mp3"
       }
     ],
     "title": "WHAT DO YOU WANT FEAT PATRICA STARR",
@@ -6075,7 +6075,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2182328",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8p/8x8pmvqq0wzvqpx3.mp3"
       }
     ],
     "description": "Joeski's One People is a dancefloor Monster",
@@ -6098,7 +6098,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bn/3xbn6374fr3pyjx4.mp3"
       },
       {
         "position": 2,
@@ -6107,7 +6107,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": null,
         "writers": null,
         "producers": null,
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6p/qa6pmjvz1w3dnday.mp3"
       }
     ],
     "digital_price_cents": null
@@ -6129,7 +6129,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62124054",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3r/ma3rp4jwt6wppnx4.mp3"
       }
     ],
     "description": "dope afro beat",
@@ -6152,7 +6152,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2204241",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/pp/qapp7n6pc7em5rab.mp3"
       }
     ],
     "description": "Joeski Dame Fuerza percussion by Jimmy Lopez is a dancefloor afro monster",
@@ -6175,7 +6175,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2209639",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/r4/pxr4e74bhwmbddxq.mp3"
       }
     ],
     "description": "Joeski comes in hard with a tribal chant track called Bascka",
@@ -6198,7 +6198,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2234235",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3a/eb/3aebbk6wtqye4yxz.mp3"
       }
     ],
     "description": "Mother Africa is a deep Afro Tribal track thas sure to destroy the dancefloor",
@@ -6221,7 +6221,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2263224",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8n/8x8nyryds7nj33x3.mp3"
       }
     ],
     "description": "Joeski back with De No for a deep tech production",
@@ -6244,7 +6244,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2297250",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4y/8x4y656mf4bz5ra7.mp3"
       }
     ],
     "description": "Joeski's follow up with Xionara Torress",
@@ -6267,7 +6267,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62217393",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/dn/dadn6rdm2jrdgga5.mp3"
       }
     ],
     "description": "Joeski delivers a dancefloor Afro Tribal Monster",
@@ -6307,7 +6307,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2321899",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/pp/qappvp76cw8krjma.mp3"
       },
       {
         "position": 2,
@@ -6316,7 +6316,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2321900",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/v5/vav585q7c78wg4jx.mp3"
       }
     ],
     "description": "Joeski add a dancefloor monster track to the Maya collection with this dancefloor bomb",
@@ -6339,7 +6339,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2332277",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/9n/6x9n3krrc3e7q3za.mp3"
       }
     ],
     "description": "Joeski delivers another afro tribal dancefloor bomb",
@@ -6362,7 +6362,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2346239",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/dn/dadnp3bpfpymmwma.mp3"
       },
       {
         "position": 2,
@@ -6371,7 +6371,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2346240",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/65/qa65dwndt9j3387x.mp3"
       }
     ],
     "description": "Joeski delivers an updated version of classic 70s Latin classics",
@@ -6394,7 +6394,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2355316",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/wy/qawyzv9v25463kba.mp3"
       },
       {
         "position": 2,
@@ -6403,7 +6403,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2355317",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/nr/kanr9p6p2bym9g9a.mp3"
       }
     ],
     "description": "Joeski delivers a beautiful Vocal House track.",
@@ -6426,7 +6426,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2365673",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/nr/kanr88k72bbnvrma.mp3"
       },
       {
         "position": 2,
@@ -6435,7 +6435,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2365674",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/zm/8xzmeeny277r46ya.mp3"
       }
     ],
     "description": "Joeski delivering a Afro Acid House bomb",
@@ -6458,7 +6458,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2377030",
         "writers": "Joe Flores",
         "producers": "Joeski, John Young",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3a/eb/3aeb6v7e1yy9ndex.mp3"
       },
       {
         "position": 2,
@@ -6467,7 +6467,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2377031",
         "writers": "Joe Flores",
         "producers": "Joeski, John Young",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/m3/kxm3qme61yyrd3yx.mp3"
       }
     ],
     "description": "beautiful vocal track feat Jackie Wells produced by Joeski",
@@ -6490,7 +6490,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2381457",
         "writers": "Aldo Cadiz",
         "producers": "Aldo Cadiz",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/9n/6x9n89j3f33nwzja.mp3"
       }
     ],
     "description": "Really out-there tech house with some Latin samples from Aldo Cadiz that will rock the dance floor",
@@ -6530,7 +6530,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62304433",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/dn/dadnzkew0p4p9jpa.mp3"
       }
     ],
     "description": "Joeski brings a tech house gem",
@@ -6570,7 +6570,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2402753",
         "writers": "Joe Flores, Canelo Rodriguez",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/j7/rxj7vpjjfzg6355a.mp3"
       }
     ],
     "description": "Joeski teams up with a Street barrio artist from the streets of Columbia to creat this magical record",
@@ -6593,7 +6593,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2405433",
         "writers": "Joe Flores, Zina Saihi \"Harkati\"",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/k5/7ak5zb7y2n5q559a.mp3"
       },
       {
         "position": 2,
@@ -6602,7 +6602,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2405434",
         "writers": "Joe Flores, Zina Saihi \"Harkati\"",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6g/qa6g43n609q7qzqx.mp3"
       }
     ],
     "description": "Joeski delivers a dope progressive track with Vocals from Detriot-based Harkati",
@@ -6619,7 +6619,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2409782",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ng/kangv4w70bnvv83x.mp3"
       }
     ],
     "title": "Bam",
@@ -6647,7 +6647,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2412617",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4k/8x4kzmkdtngjb7ba.mp3"
       },
       {
         "position": 2,
@@ -6656,7 +6656,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2412618",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4k/8x4kzmkdtng9365a.mp3"
       }
     ],
     "description": "Joeski delivers a another Latin poetry dancefloor monster",
@@ -6679,7 +6679,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2422529",
         "writers": "Joe Flores",
         "producers": "Joe Flores Mastered-John Young",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6g/qa6gpebds9yq644x.mp3"
       }
     ],
     "description": "Joeski delivers a dope dancefloor Party Jam",
@@ -6702,7 +6702,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2433070",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/96/6x96gp8zf3pmbzva.mp3"
       }
     ],
     "description": "Joe teams up with John young on the bass to make this magical deep tech house track",
@@ -6725,7 +6725,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2440548",
         "writers": "Davincho, Joe Flores, Cristian Salgado <Lyricist>, Davincho <Lyricist>, Joe Flores <Lyricist>",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/q6/yxq6p3bm1nkb64ja.mp3"
       },
       {
         "position": 2,
@@ -6734,7 +6734,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2440549",
         "writers": "Davincho, Joe Flores, Cristian Salgado <Lyricist>, Davincho <Lyricist>, Joe Flores <Lyricist>",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/56/ja567jbd1vp965qx.mp3"
       }
     ],
     "description": "Joeski returns to his own Maya Records with Pensando En Ti feat. Davincho.  Joeski is a man on fire right now - he keeps on turning out essential house tunes that evolve each time and this new one shows that once more.  Pensando En Ti feat. Davincho is a brilliantly deep and atmospheric house tune. The warming drums are topped with soft shakers and some spiritual vocals. Horns bring a jazzy and musical feel and the tumbling percussion is loose-limbed to get the crowd going.  This is another winner from Joeski.",
@@ -6757,7 +6757,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2449605",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8kkgwd0dmeedda.mp3"
       },
       {
         "position": 2,
@@ -6766,7 +6766,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2449606",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/96/6x966ykbt3pww34a.mp3"
       }
     ],
     "description": "Joeskie brings the heat again with this massive Afro Progressive Zax monster. beautiful deep dark elements with amazing build-ups that rock all the dancefloors around the world",
@@ -6789,7 +6789,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2466761",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8ky36kfdrd8w9a.mp3"
       }
     ],
     "description": "Akawabba \n\nProduced  by Joeski\nRecorded at Maya's Room Studios BK NYC\nMastered by John Young",
@@ -6812,7 +6812,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2466762",
         "writers": "Joe Flores",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/4k/8x4kp8k8fn3gzdka.mp3"
       }
     ],
     "description": "Produced by Joeski\n\nRecorded at Maya's Room Studio's BK NYC",
@@ -6835,7 +6835,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2466778",
         "writers": "Joe Flores",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6g/qa6gqe7wc9nq9nnx.mp3"
       }
     ],
     "description": "Produced by Joeski\nRecorded at Maya's Room Studios BK NYC",
@@ -6858,7 +6858,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2466846",
         "writers": "Macondo",
         "producers": "Macondo",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8kqwgrsdrkdw4a.mp3"
       }
     ],
     "description": "Produced by Macondo",
@@ -6881,7 +6881,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2468592",
         "writers": "Joe Flores",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/56/ja56gr4vcvne3rgx.mp3"
       }
     ],
     "description": "Joeski - Va Y Se Va",
@@ -6904,7 +6904,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2494012",
         "writers": "Joeski, Joe Flores",
         "producers": "Joeski, Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bm/3xbm7zjk2wyg53ma.mp3"
       },
       {
         "position": 2,
@@ -6913,7 +6913,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2494013",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/zw/8xzwd8nm0756g6na.mp3"
       }
     ],
     "description": "Joeski - God Is In Control - Maya Recordings",
@@ -6936,7 +6936,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "QMSMV1200097",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ng/kangybrv0bprrnnx.mp3"
       }
     ],
     "description": "Joeski - Way Back - Maya Records",
@@ -6959,7 +6959,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2494014",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/k5/7ak539qqsn3zydza.mp3"
       },
       {
         "position": 2,
@@ -6968,7 +6968,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2494015",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bm/3xbm7zbb0wyg5gya.mp3"
       }
     ],
     "description": "Joeski - Brooklyn Horn Hustle feat Aaron Burnett. - Maya Recordings",
@@ -6991,7 +6991,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2494028",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/mz/kxmzydqjfyp7qwya.mp3"
       },
       {
         "position": 2,
@@ -7000,7 +7000,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2494029",
         "writers": "Joeski",
         "producers": "Joeski",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/bm/3xbm7zjpswyg5bja.mp3"
       }
     ],
     "description": "Joeski - Frequencia feat Unna X - Maya Recordings",
@@ -7040,7 +7040,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2520662",
         "writers": "Joe Flores",
         "producers": "Joeski Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8kd6n30dve78va.mp3"
       }
     ],
     "digital_price_cents": null
@@ -7062,7 +7062,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2520660",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/y5/rxy5d9retmwj3p4x.mp3"
       },
       {
         "position": 2,
@@ -7071,7 +7071,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2520661",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ja/56/ja56eq4kfvz3k5vx.mp3"
       }
     ],
     "description": "Joeski - Take You Higher",
@@ -7094,7 +7094,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2527090",
         "writers": "Joe Fllores, Mariel Taveras <Lyricist>, Joe Manuel Flores, Mariel Taveras",
         "producers": "Joe Manuel Flores, Mariel Taveras",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/da/d9/dad9p6p8fp7q9pex.mp3"
       },
       {
         "position": 2,
@@ -7103,7 +7103,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2527091",
         "writers": "Joe Manuel Flores, Mariel Taveras",
         "producers": "Joe Manuel Flores, Mariel Taveras",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/wp/qawp4b4mh5wq3ddx.mp3"
       }
     ],
     "description": "Joeski - Conocerte feat La Morena - Maya Records",
@@ -7126,7 +7126,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2543050",
         "writers": "Joe Flores, Adrian Viafara, Joe Manuel Flores, Adrian Viafara",
         "producers": "Joe Manuel Flores, Joe Manuel Flores, Adrian Viafara",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3k/ma3kjyp7tenzpw8a.mp3"
       },
       {
         "position": 2,
@@ -7135,7 +7135,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2543051",
         "writers": "Joe Manuel Flores, Adrian Viafara",
         "producers": "Joe Manuel Flores, Adrian Viafara",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vy/vavyn3br27rb8kbx.mp3"
       }
     ],
     "description": "Produced by Joesk\nRecorded at Maya's Room Studios BK NYC\nMarimba  Performed by Adrain Viafara \nRecorded at Bombo Records Cali Colombia\nMarimba recorded by Christan Salgado",
@@ -7158,7 +7158,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2550728",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/zw/8xzwev7dt7z83gra.mp3"
       },
       {
         "position": 2,
@@ -7167,7 +7167,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2550729",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/gx/7v/gx7vnr57s758zw3a.mp3"
       }
     ],
     "digital_price_cents": null
@@ -7189,7 +7189,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2575536",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/zw/8xzw7ywv17z3g8ra.mp3"
       }
     ],
     "description": "Pumayaku\n\nProduced by Joeski\nRecorded at Maya's Room studios BK NY\nJoeski bmi",
@@ -7209,7 +7209,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2575562",
         "writers": "K'áax Flores",
         "producers": "K'áax Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/96/6x968gzb23dqg55a.mp3"
       }
     ],
     "release_date": "2025-08-08",
@@ -7234,7 +7234,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2582986",
         "writers": "Joe Flore",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/ng/kangmmg8cbdyqe5x.mp3"
       }
     ],
     "digital_price_cents": null
@@ -7256,7 +7256,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2582999",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8kmmk90d6g483a.mp3"
       }
     ],
     "digital_price_cents": null
@@ -7275,7 +7275,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2583049",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/zw/8xzw77k8s7qnky8a.mp3"
       },
       {
         "position": 2,
@@ -7284,7 +7284,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2583050",
         "writers": "David Herrero",
         "producers": "David Herrero",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/gx/7v/gx7v55q6c7ej4nda.mp3"
       }
     ],
     "release_date": "2025-09-26",
@@ -7306,7 +7306,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2583051",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/yx/q6/yxq6jjvetnm9434a.mp3"
       }
     ],
     "release_date": "2025-10-03",
@@ -7328,7 +7328,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2583102",
         "writers": "Joe Flores",
         "producers": "Joe Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/7a/k5/7ak5rr9ncnrv67qa.mp3"
       }
     ],
     "release_date": "2025-10-24",
@@ -7350,7 +7350,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2584498",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/y5/rxy5ez8wcm8m8vex.mp3"
       }
     ],
     "release_date": "2025-11-07",
@@ -7369,7 +7369,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2584522",
         "writers": "Káax Flores",
         "producers": "Káax Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/6g/qa6gyj6829d9dv7x.mp3"
       }
     ],
     "title": "Illuminated",
@@ -7413,7 +7413,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2601666",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/qa/pb/qapb5n48swepdqwa.mp3"
       }
     ],
     "digital_price_cents": null
@@ -7429,7 +7429,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2601675",
         "writers": "Joe Manuel Flores, Sama Flores",
         "producers": "Joe Manuel Flores, Sama Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yp/rxypryz91mkd9y9a.mp3"
       },
       {
         "position": 2,
@@ -7438,7 +7438,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2604706",
         "writers": "Joe Manuel Flores, Sama Flores",
         "producers": "Joe Manuel Flores, Sama Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3a/em/3aemq5492ydzrkya.mp3"
       }
     ],
     "title": "Abre Tus Ojos",
@@ -7498,7 +7498,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2616731",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vg/vavg9jv327byekbx.mp3"
       }
     ],
     "title": "Music Is Everything",
@@ -7519,7 +7519,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2618275",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ma/3d/ma3drjbrsekpzqmx.mp3"
       }
     ],
     "title": "Out In The Street",
@@ -7540,7 +7540,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2624987",
         "writers": "Jamal Winstrom, Joe Manuel Flores",
         "producers": "Jamal Winstrom, Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/rx/yp/rxypbbkmhmynjd7a.mp3"
       },
       {
         "position": 2,
@@ -7549,7 +7549,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2624988",
         "writers": "Jamal Winstrom, Joe Manuel Flores",
         "producers": "Jamal Winstrom, Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/kx/m9/kxm933edsymnj5vx.mp3"
       }
     ],
     "title": "Leg Up",
@@ -7570,7 +7570,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2625056",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/nj/kanjrr79sb8nwd6a.mp3"
       }
     ],
     "title": "For Eternity",
@@ -7591,7 +7591,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2631933",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/nj/kanjr84bcb8zv7da.mp3"
       }
     ],
     "title": "Mi Koro",
@@ -7612,7 +7612,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2651160",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/nj/kanjjbkjhb8jwbda.mp3"
       }
     ],
     "title": "Vibrations",
@@ -7633,7 +7633,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2652750",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/3x/b5/3xb554j9fw4g34ja.mp3"
       },
       {
         "position": 2,
@@ -7642,7 +7642,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2652751",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/va/vg/vavggj6q074jq54x.mp3"
       }
     ],
     "title": "El Campesino",
@@ -7664,7 +7664,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2682346",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/8x/zr/8xzrd8pzs78m5q9x.mp3"
       }
     ],
     "title": "Wanting You",
@@ -7685,7 +7685,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBKQU2682359",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/ka/nj/kanjybey0b68p8na.mp3"
       }
     ],
     "title": "All For You",
@@ -7706,7 +7706,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62604872",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/px/r3/pxr3g5m7t9r4zgya.mp3"
       }
     ],
     "title": "Everyday",
@@ -7727,7 +7727,7 @@ export const ARCHIVE_RELEASES = [
         "isrc": "GBLV62605321",
         "writers": "Joe Manuel Flores",
         "producers": "Joe Manuel Flores",
-        "preview_url": null
+        "preview_url": "https://cdn.label-worx.com/samples/6x/9z/6x9zd5ge23jqkypa.mp3"
       }
     ],
     "title": "Sensual Vibrations",
