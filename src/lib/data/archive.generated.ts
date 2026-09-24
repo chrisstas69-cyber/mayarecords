@@ -71,7 +71,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Out Of The Jungle (Joeski Mix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 999,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA002",
@@ -92,7 +93,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Rod's Groove"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA003",
@@ -117,7 +119,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Dub On Cresent St."
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA004",
@@ -157,7 +160,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA005",
@@ -178,7 +182,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Besame Más"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA006",
@@ -218,7 +223,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA007",
@@ -239,7 +245,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Percuscive Vibe (Maya Dub)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA008",
@@ -270,7 +277,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA009",
@@ -299,7 +307,8 @@ export const ARCHIVE_RELEASES = [
         "title": "The Ghost (Taco's Full Moon Mix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA010",
@@ -330,7 +339,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA011",
@@ -359,7 +369,8 @@ export const ARCHIVE_RELEASES = [
         "title": "You Don't Know (Joeski Dub Mix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA012",
@@ -380,7 +391,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Out Of The Jungle (Joeski's Mix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA013",
@@ -420,7 +432,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA014",
@@ -460,7 +473,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA015",
@@ -481,7 +495,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Ma Foom Bey 2004 (Blakkat's Vocal Dub)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA016",
@@ -512,7 +527,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA017",
@@ -537,7 +553,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Skrik Som En Gris  (Dub Mix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA018",
@@ -568,7 +585,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA019",
@@ -589,7 +607,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Beautiful Day (Joeski's Dub Mix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA020",
@@ -620,7 +639,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA021",
@@ -641,7 +661,8 @@ export const ARCHIVE_RELEASES = [
         "title": "La V (Joeski Remix)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA022",
@@ -662,7 +683,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Ft EL Soye (Joeski Dub)"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA023",
@@ -702,7 +724,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA024",
@@ -742,7 +765,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA025",
@@ -773,7 +797,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA026",
@@ -804,7 +829,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA027",
@@ -834,7 +860,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2007-05-21",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA028",
@@ -864,7 +891,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2007-04-24",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA029",
@@ -894,7 +922,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2007-05-16",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA030",
@@ -925,7 +954,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA031",
@@ -955,7 +985,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2008-04-18",
     "genre": "Tech House",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA032",
@@ -985,7 +1016,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "333-3ski",
     "release_date": "2008-03-22",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA033",
@@ -1078,7 +1110,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "333-3ski",
     "release_date": "2008-03-25",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 999,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA036",
@@ -1117,7 +1150,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "shaboom-allstars",
     "release_date": "2008-11-26",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA037",
@@ -1138,7 +1172,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2008-12-19",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA038",
@@ -1160,7 +1195,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA039",
@@ -1181,7 +1217,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "333-3ski",
     "release_date": "2009-02-19",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA040",
@@ -1202,7 +1239,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-03-26",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA041",
@@ -1223,7 +1261,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-04-11",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA042",
@@ -1244,7 +1283,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-04-30",
     "genre": "Tech House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA043",
@@ -1274,7 +1314,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-05-28",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA044",
@@ -1295,7 +1336,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-07-28",
     "genre": "Tech House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA045",
@@ -1325,7 +1367,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-10-15",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA046",
@@ -1355,7 +1398,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "leoesco",
     "release_date": "2009-11-05",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA047",
@@ -1385,7 +1429,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-11-17",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA048",
@@ -1415,7 +1460,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2009-12-17",
     "genre": null,
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA050",
@@ -1446,7 +1492,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA051",
@@ -1477,7 +1524,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA052",
@@ -1517,7 +1565,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA053",
@@ -1575,7 +1624,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA054",
@@ -1606,7 +1656,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA055",
@@ -1637,7 +1688,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA056",
@@ -1686,7 +1738,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA057",
@@ -1717,7 +1770,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA058",
@@ -1766,7 +1820,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA059",
@@ -1815,7 +1870,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA060",
@@ -1855,7 +1911,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA061",
@@ -1886,7 +1943,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA062",
@@ -1917,7 +1975,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA063",
@@ -1966,7 +2025,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA064",
@@ -2006,7 +2066,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA065",
@@ -2064,7 +2125,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA066",
@@ -2095,7 +2157,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA067",
@@ -2126,7 +2189,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA068",
@@ -2157,7 +2221,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA069",
@@ -2188,7 +2253,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA070",
@@ -2228,7 +2294,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA071",
@@ -2268,7 +2335,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA072",
@@ -2299,7 +2367,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA073",
@@ -2339,7 +2408,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA074",
@@ -2370,7 +2440,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA075",
@@ -2401,7 +2472,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA077",
@@ -2432,7 +2504,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/qa/p5/qap5wqvptd44pnxb.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA078",
@@ -2463,7 +2536,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA079",
@@ -2512,7 +2586,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA080",
@@ -2553,7 +2628,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski Back again on the classic maya imprint.. This time on a more latin tribal tip! Banging drums, melodic congas, latin vocals,Solid breakdown big room party record! On the first rmx Joeski takes it in a darker direction with techy stabs dubbed out latin vocals. And on the last mix Istanbuls Mert Yurcel gives us a dark deep stripped down banger!! Solid rmx!!!",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA081",
@@ -2593,7 +2669,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA082",
@@ -2624,7 +2701,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA083",
@@ -2655,7 +2733,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA084",
@@ -2767,7 +2846,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 999,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA085",
@@ -2798,7 +2878,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA086",
@@ -2829,7 +2910,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA087",
@@ -2861,7 +2943,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski & Audio Kode...Back again! This time on an old school NY hip hop tip! Giving us jacking beats and a rumbling baseline, DJ Ody Roc cutting up an NY city hip hop legend. Big room tech house hip hop folks!!! And on the rework, a more peak time banger!! Solid release from J & AK folks!!\n\nProduced by Joeski & Audio Kode \n\nRecorded at Maya's room studios nyc\n\nJoeski Bmi",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA088",
@@ -2892,7 +2975,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA089",
@@ -2923,7 +3007,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA090",
@@ -2954,7 +3039,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA091",
@@ -2976,7 +3062,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA092",
@@ -3007,7 +3094,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA093",
@@ -3038,7 +3126,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA095",
@@ -3069,7 +3158,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA096",
@@ -3091,7 +3181,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA097",
@@ -3122,7 +3213,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA099",
@@ -3162,7 +3254,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA100",
@@ -3203,7 +3296,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Maya Records celebrates it's 100th release with this reggae dub house banger! Jacking drums, piano stab riding through the groove into a full reggae vocal.\nDeep dub bass line breaking down to a full dub groove big build massive tune! On the next mix is a solid dub. On the rmx is Tech house master delivers \nPeak time Tech house monster sure to rock any floor!!\n\nSupport: Luciano, Chus, Wally Lopez, Doc Martin, Aldo Cadiz, Quentin Harris, Saeed Younan, Hector Romero, Fedde Le Grand, Jay Tripwire, Gel Abril, David herrero, The Henchmen, And many more.\n\nRecorded at Maya's Room Studio's NYC\n\nJoeski bmi",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA101",
@@ -3234,7 +3328,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA103",
@@ -3256,7 +3351,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA104",
@@ -3278,7 +3374,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA105",
@@ -3309,7 +3406,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA106",
@@ -3340,7 +3438,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA107",
@@ -3362,7 +3461,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA108",
@@ -3393,7 +3493,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA109",
@@ -3451,7 +3552,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA110",
@@ -3473,7 +3575,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA111",
@@ -3504,7 +3607,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA112",
@@ -3535,7 +3639,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA113",
@@ -3575,7 +3680,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA115",
@@ -3607,7 +3713,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "After the succses of 'Night Train' Joeski delivers full deep tech\nexperience. With a hypnotic driving dubbed vocal hook throughout.\n'Exhale' builds into a huge peak. 'Mind Body & Soul' goes deeper on a more tech tip,\nbig synth line pushing the track foward to a big build.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA116",
@@ -3675,7 +3782,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "After the success of the original had to bring this one back rmx'd deep melodic dark acid with spoken word on the original Chile's Andre Butano & Phillip Liard take it on a more funkier vibe, Mert Yucel trips it out al Murt style! Berlins Tom Peter delivers a more stripped down techno rendition New yorks Jean Pierre takes us on a more hypnotic driving journey and last but not least New yorks Audio Kode delivers a minimal style late night groover. Solid rmx package folks!",
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA117",
@@ -3707,7 +3815,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "For the 117th release we bring you bulgarias Tripio X \n\nDeep hypnotic minimal grooves on both cuts Top noch minimal tech house with dub elements and sub undertones\n\nsolid ep from the man!",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA118",
@@ -3730,7 +3839,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski, Poncho Warwick - Move Yourself is the latest release on Maya Recordings.",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA119",
@@ -3753,7 +3863,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski back with a big room Bomb! Driving beats, rolling bass, jackin drums, Dub stabs, Psychedelic vocal hook big room tech house folks!",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA120",
@@ -3793,7 +3904,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA121",
@@ -3816,7 +3928,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeksi back on a more funk tip Funk cosmic disco beats, latin driving bass,funky cahnts big build solid track!",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA122",
@@ -3838,7 +3951,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA123",
@@ -3860,7 +3974,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA124",
@@ -3883,7 +3998,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "N.Y.C. house legends Harry Romero & Joeski (HR & Ski) debut release on Maya Records 'Chemical Imbalance' is a jackin' bass driven bomb! Tripped out synth elements, punk rock vocal...sure to be a big tune!!!!",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA125",
@@ -3915,7 +4031,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": ".",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA126",
@@ -3938,7 +4055,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Athens own Vangelis Kostoxenakis drops his first single on Maya Records! Vangelis is known for his jackin work on Kling Klong Records. With Ngok Vangelis takes us on a more bumping world music tip, solid release!",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA127",
@@ -3979,7 +4097,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "For this release Joeski teams up with 333 and deliver a funky ep.\n\nThe original mix is a funky, driving groove,with dubby guitar licks and dark vocals. \n\nOn the Joeski mix he goes on a more sax drivin vibe. \n\n333 mix is more tech hypnotic groove all cuts sure to rock any floor.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA128",
@@ -4010,7 +4129,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA129",
@@ -4042,7 +4162,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski killing em this time with a wailing electric guitar! Bangin beats dark hypnotic groove full guitar solo driving the track big build up.\nAlso a Guitarless instrumental\nOn the rmx a darker more jakin house rendition. solid Ep\n\nProduced by Joeski\nGuitar by Evan Ubirea",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA130",
@@ -4074,7 +4195,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "For this release, Joeski teams up with Greece's own Vangelis Kostoxenakis and deliver 2 cuts of oldschool style jackin, floor pounding big room house!! Solid Ep",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA131",
@@ -4097,7 +4219,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Already being supported by thge best in the bizz! Joeski delivers a banging peaktime house track here. Jacking house beats ,driving bass, guitar licks that wont quit rasta vocal solid tune here.",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA132",
@@ -4119,7 +4242,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA133",
@@ -4159,7 +4283,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA134",
@@ -4199,7 +4324,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA135",
@@ -4230,7 +4356,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA136",
@@ -4261,7 +4388,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA137",
@@ -4293,7 +4421,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "First time on Maya Records Spains George Privatti with 2 cuts of deep tech funkyness solid ep",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA138",
@@ -4324,7 +4453,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA139",
@@ -4346,7 +4476,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA140",
@@ -4387,7 +4518,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Spains David Herrero is back! 3 cutz of pure fire! house,techno energy!",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA141",
@@ -4409,7 +4541,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA142",
@@ -4432,7 +4565,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski's latest work 'Mud Funk' massive Techno track Latin techno bass, Stabs Big support on this one.",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA143",
@@ -4463,7 +4597,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA144",
@@ -4485,7 +4620,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA145",
@@ -4507,7 +4643,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA146",
@@ -4529,7 +4666,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA147",
@@ -4551,7 +4689,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA148",
@@ -4573,7 +4712,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA149",
@@ -4595,7 +4735,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA150",
@@ -4627,7 +4768,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Aldo Cadiz - Senza EP\n\nMaya are pleased to welcome Aldo Cadiz with his Senza EP. Getting things moving, the title track Senza sets the bar high with its dusty, granular, tribal groove. The track is painted with a raw and striking personality, along with hints of tribal influence within its rhythm and percussive elements and haunting background chants that display Aldo's skill at infusing his tracks with character and spirituality. The track also features a great exhibition of Aldos vast creative palette and technical ability in the studio by fusing forward-thinking dance music with organic indigenous elements.\n\n\nThe second track 'Tramdoul' features faster percussion chops, a rolling yet tough bassline, and cleverly placed vocal cuts. A peak-time, groovy weapon, this track that is going to be causing carnage across many dancefloors. Aldo has expertly executed each element to complement each other perfectly as this one moves forward and builds into a big breakdown via a bouncy groove paired with a low sub bassline. Vocal chops filtered through the track keeps the energy pulsating, whilst clever arrangement and percussion chops keep the listener locked into the groove.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA151",
@@ -4668,7 +4810,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "David Herrero - Shamefa EP\n\nDavid Herrero is back on Maya with his Shamefa EP and boy is it a big one. The title track opens with some energetic drums married to a deep, rolling bassline that build the foundations for edgy, nagging synths and chopped up vocals which swirl upwards to the break. A familiar yet powerful Spanish vocal takes over at the breakdown and builds into a crescendo as the release comes ensuring maximum impact for the dance floor. A dub version accompanies the title track for those who wish to maintain the energetic feel of the original but sans the vocal in the breakdown. \n\n\nThe EP closes with Divino Canto which is oozing with Latin flavor. The percussion bubbles nicely alongside a deep driving bassline accompanied by an old school Spanish low slung vocal that chugs along with the rest of the track. This one mixes signature rhythms with fine percussion and real musical and emotive depth with great drums and percussion sounding steamy and seductive. The breakdown builds with this vocal until the drop where the infectious tribal groove comes roaring back, this one is meant for peak hour summertime sets where the temps are as high as the dance floor energy!",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA152",
@@ -4690,7 +4833,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": null
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA153",
@@ -4722,7 +4866,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Uh Oh Rasta! is the latest release on Maya Recordings.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA154",
@@ -4754,7 +4899,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Serious Intention\nYou Dont Know",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA155",
@@ -4804,7 +4950,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski is back with a dancefloor monster. Deep dark techy build up with and explosion of a classic house sample Set You Free.",
-    "digital_price_cents": null
+    "digital_price_cents": 599,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA156",
@@ -4836,7 +4983,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31690754-Joeski-Feat-De-No-I-Am",
     "description": "Joeski feat. de No - I Am is the latest release on Maya Recordings.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA157",
@@ -4886,7 +5034,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31688243-Juanito-7-Rose-EP",
     "description": "Spains own Junaito delivers a ep of latin tribal and funky house with this 2 track ep",
-    "digital_price_cents": 599
+    "digital_price_cents": 599,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA158",
@@ -4908,7 +5057,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2019-04-09",
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31688225-Joeski-Feat-Rachel-51-Talk-To-Me",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA159",
@@ -4931,7 +5081,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31688162-Joeski-Hey-Fellas",
     "description": "Joeski on the 90's house vibe",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA160",
@@ -4963,7 +5114,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31688186-Hipp-E-Fantasy-EP",
     "description": "H- Foundations Hipp E Delivers a solid 2 track ep of some house goodness.",
-    "digital_price_cents": 399
+    "digital_price_cents": 399,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA161",
@@ -4986,7 +5138,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/31688135-Joeski-I-Rise",
     "description": "Joeski on a deep ragga dub kick",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA162",
@@ -5009,7 +5162,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31688090-Joeski-Toxic",
     "description": "Joeski at it again with a tech house banger called toxic",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA163",
@@ -5032,7 +5186,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31687217-Joeski-Feat-Rachel-51-Reach-For-The-Stars",
     "description": "Uplifting driving spoken word tech house",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA164",
@@ -5055,7 +5210,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House - Jackin",
     "discogs_url": "https://www.discogs.com/release/31688057-Joeski-Jump-Up",
     "description": "Joeski at it again with a Jackin house dancefloor monster",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA165",
@@ -5078,7 +5234,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House - Deep",
     "discogs_url": "https://www.discogs.com/release/31688033-Joeski-Dub",
     "description": "Joeski - DUB is the latest release on Maya Recordings.",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA166",
@@ -5101,7 +5258,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House - Deep",
     "discogs_url": "https://www.discogs.com/release/31687802-Joeski-Feat-E-Man-I-Remember-House-Damian-Lazurus-Re-Shape",
     "description": "Damian Lazurus gives Joeski's 'I Remember House' A nice tweak deep and minimal been playing this one a lot.",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA167",
@@ -5124,7 +5282,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/31687766-Joeski-Freedom-Now",
     "description": "Huge peak time banger by Joeski",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA168",
@@ -5147,7 +5306,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House - Tribal",
     "discogs_url": "https://www.discogs.com/release/31687604-Joeski-Somebody",
     "description": "Huge peak time banger by Joeski",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA169",
@@ -5170,7 +5330,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/31687619-Joeski-Feat-Sax-Kitten-Sax-Hustler",
     "description": "Joeski at what he ultimately does best. Following up on an all-time classic Maya's first Vinyl release Hustlers Revenge. This horn track is full of energy with peak time build-ups ready to rock any dance floor.",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA170",
@@ -5193,7 +5354,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/31687637-Tru-York-Homage",
     "description": "Joeski - TRU-YORK Homage is the latest release on Maya Recordings.",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA171",
@@ -5216,7 +5378,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House - Acid",
     "discogs_url": "https://www.discogs.com/release/31687568-El-Jibaro-Asi-Me-Gusta",
     "description": "Joeski Delivers a smooth Latin Tech House track with the perfect hint of Acid to get the dancefloor going.",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA172",
@@ -5239,7 +5402,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House - Acid",
     "discogs_url": "https://www.discogs.com/release/31740143-Joeski-Feat-Rachel-51-Be-Free",
     "description": "Joeski and Racheal at it again with an Old School NYC vibe track with that true underground NY flavor.",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA173",
@@ -5262,7 +5426,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Tech House",
     "discogs_url": "https://www.discogs.com/release/31687712-Juanito-7-Make-A-Move",
     "description": "Juanito brings the jacking heat to Maya Records",
-    "digital_price_cents": 399
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA174",
@@ -5492,7 +5657,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "Electronica",
     "discogs_url": "https://www.discogs.com/release/31687868-Joeski-20-Years-Of-Maya",
     "description": "Reaching the outstanding landmark of twenty years of releasing music, Maya Recordings spearhead and house\nmusic aficionado Joeski presents his debut album 20 years of Maya, an impressive collection of work that\ncaptures the dynamic spirit of the revered label.",
-    "digital_price_cents": 999
+    "digital_price_cents": 999,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA175",
@@ -5515,7 +5681,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Denny comes with a Dancefloor banger with a groove much like French Kiss",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA176",
@@ -5556,7 +5723,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski at it with a dancefloor Latin monster.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA177",
@@ -5573,7 +5741,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Cada Noche"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA178",
@@ -5596,7 +5765,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski brings a beautiful deep house track",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA179",
@@ -5619,7 +5789,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers a Latin monster with Colombian samples",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA180",
@@ -5642,7 +5813,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Green Velvet & Joeski team up for some Latin goodness",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA181",
@@ -5665,7 +5837,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/31685765-Joeski-Soy-Latino",
     "description": "I wanted to take just a few minutes to thank Governor Cuomo, our state officials, and the extraordinary medical professionals putting their lives on the line every day for the leadership they're showing during this difficult and trying time.\n\nThey've all been inspiring.\n\nThis track is an ode to not just them, but to the millions of New Yorkers that, like me, are at home thinking about the future.\n\nI hope that as we're focusing on moving forward together, my music brings you some joy. Stay indoors. But most importantly, stay positive, because like the Governor said earlier this week: when we are united, there's nothing we can't do.\n\nJoeski",
-    "digital_price_cents": 199
+    "digital_price_cents": 199,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA182",
@@ -5687,7 +5860,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2020-05-08",
     "genre": "House - Latin",
     "description": "Joeski delivering a Latin Dancefloor Monster track",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA183",
@@ -5710,7 +5884,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "El Jibaro at it again with some nasty tribal beat and African chants",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA184",
@@ -5727,7 +5902,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Ajicero"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA185",
@@ -5750,7 +5926,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski brings the heat with spoken word banger",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA186",
@@ -5782,7 +5959,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "The Traveler Ep by Alexander Louis",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA187",
@@ -5805,7 +5983,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski on the mix with some funky R&B flavor",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA188",
@@ -5837,7 +6016,8 @@ export const ARCHIVE_RELEASES = [
     "genre": "House - Latin",
     "discogs_url": "https://www.discogs.com/release/31685339-Joeski-Feat-Canalón-De-Timbiqui-Tierra-Linda",
     "description": "Dope Latin flavored track. major support by Louie Vega",
-    "digital_price_cents": 399
+    "digital_price_cents": 399,
+    "has_master": true
   },
   {
     "catalog_number": "MAYA189",
@@ -5860,7 +6040,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - I Miss You is the latest release on Maya Recordings.",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA190",
@@ -5892,7 +6073,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - American Dream is the latest release on Maya Recordings.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA191",
@@ -5915,7 +6097,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski at it again with a dope tribal track",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA192",
@@ -5947,7 +6130,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Maya camp Robb Swinga brings some tech acid house heat. Joeski Tech Acid house remix is an added bonus to this package",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA193",
@@ -5988,7 +6172,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Aldo Cadiz & Andre Butano with an tech house ep on Maya records",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA194",
@@ -6011,7 +6196,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "2021 REMIX OF THE EASY STREET CLASSIC OUT OF THE JUNGLE",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA195",
@@ -6034,7 +6220,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski-Gitana",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA196",
@@ -6056,7 +6243,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2021-06-04",
     "genre": "House - Tribal",
     "description": "Joeskl want do want feat Patrica Starr",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA197",
@@ -6079,7 +6267,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski's One People is a dancefloor Monster",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA198",
@@ -6110,7 +6299,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/qa/6p/qa6pmjvz1w3dnday.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA199",
@@ -6133,7 +6323,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "dope afro beat",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA200",
@@ -6156,7 +6347,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski Dame Fuerza percussion by Jimmy Lopez is a dancefloor afro monster",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA201",
@@ -6179,7 +6371,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski comes in hard with a tribal chant track called Bascka",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA202",
@@ -6202,7 +6395,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Mother Africa is a deep Afro Tribal track thas sure to destroy the dancefloor",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA203",
@@ -6225,7 +6419,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski back with De No for a deep tech production",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA204",
@@ -6248,7 +6443,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski's follow up with Xionara Torress",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA205",
@@ -6271,7 +6467,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers a dancefloor Afro Tribal Monster",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA206",
@@ -6288,7 +6485,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Pá Cuba"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA207",
@@ -6320,7 +6518,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski add a dancefloor monster track to the Maya collection with this dancefloor bomb",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA208",
@@ -6343,7 +6542,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers another afro tribal dancefloor bomb",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA209",
@@ -6375,7 +6575,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers an updated version of classic 70s Latin classics",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA210",
@@ -6407,7 +6608,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers a beautiful Vocal House track.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA211",
@@ -6439,7 +6641,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivering a Afro Acid House bomb",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA212",
@@ -6471,7 +6674,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "beautiful vocal track feat Jackie Wells produced by Joeski",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA213",
@@ -6494,7 +6698,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Really out-there tech house with some Latin samples from Aldo Cadiz that will rock the dance floor",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA214",
@@ -6511,7 +6716,8 @@ export const ARCHIVE_RELEASES = [
         "title": "On The Line"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA215",
@@ -6534,7 +6740,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski brings a tech house gem",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA216",
@@ -6551,7 +6758,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Mwambi"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA217",
@@ -6574,7 +6782,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski teams up with a Street barrio artist from the streets of Columbia to creat this magical record",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA218",
@@ -6606,7 +6815,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers a dope progressive track with Vocals from Detriot-based Harkati",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA219",
@@ -6628,7 +6838,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2024-02-09",
     "genre": "House",
     "description": "Joeski re-touches this classic dancehall record that destroys the floor",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA220",
@@ -6660,7 +6871,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers a another Latin poetry dancefloor monster",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA221",
@@ -6683,7 +6895,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski delivers a dope dancefloor Party Jam",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA222",
@@ -6706,7 +6919,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joe teams up with John young on the bass to make this magical deep tech house track",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA223",
@@ -6738,7 +6952,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski returns to his own Maya Records with Pensando En Ti feat. Davincho.  Joeski is a man on fire right now - he keeps on turning out essential house tunes that evolve each time and this new one shows that once more.  Pensando En Ti feat. Davincho is a brilliantly deep and atmospheric house tune. The warming drums are topped with soft shakers and some spiritual vocals. Horns bring a jazzy and musical feel and the tumbling percussion is loose-limbed to get the crowd going.  This is another winner from Joeski.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA224",
@@ -6770,7 +6985,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeskie brings the heat again with this massive Afro Progressive Zax monster. beautiful deep dark elements with amazing build-ups that rock all the dancefloors around the world",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA225",
@@ -6793,7 +7009,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Akawabba \n\nProduced  by Joeski\nRecorded at Maya's Room Studios BK NYC\nMastered by John Young",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA226",
@@ -6816,7 +7033,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Produced by Joeski\n\nRecorded at Maya's Room Studio's BK NYC",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA227",
@@ -6839,7 +7057,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Produced by Joeski\nRecorded at Maya's Room Studios BK NYC",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA228",
@@ -6862,7 +7081,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Produced by Macondo",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA229",
@@ -6885,7 +7105,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Va Y Se Va",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA230",
@@ -6917,7 +7138,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - God Is In Control - Maya Recordings",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA231",
@@ -6940,7 +7162,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Way Back - Maya Records",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA232",
@@ -6972,7 +7195,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Brooklyn Horn Hustle feat Aaron Burnett. - Maya Recordings",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA233",
@@ -7004,7 +7228,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Frequencia feat Unna X - Maya Recordings",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA235",
@@ -7021,7 +7246,8 @@ export const ARCHIVE_RELEASES = [
         "title": "Spanglish"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA236",
@@ -7043,7 +7269,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8kd6n30dve78va.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA237",
@@ -7075,7 +7302,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Take You Higher",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA238",
@@ -7107,7 +7335,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Joeski - Conocerte feat La Morena - Maya Records",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA239",
@@ -7139,7 +7368,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Produced by Joesk\nRecorded at Maya's Room Studios BK NYC\nMarimba  Performed by Adrain Viafara \nRecorded at Bombo Records Cali Colombia\nMarimba recorded by Christan Salgado",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA240",
@@ -7170,7 +7400,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/gx/7v/gx7vnr57s758zw3a.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA241",
@@ -7193,7 +7424,8 @@ export const ARCHIVE_RELEASES = [
       }
     ],
     "description": "Pumayaku\n\nProduced by Joeski\nRecorded at Maya's Room studios BK NY\nJoeski bmi",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA242",
@@ -7215,7 +7447,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2025-08-08",
     "genre": "House - Afro House",
     "discogs_url": "https://www.discogs.com/release/35186884-Káax-Chaaman",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA243",
@@ -7237,7 +7470,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/ka/ng/kangmmg8cbdyqe5x.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA244",
@@ -7259,7 +7493,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/8x/8k/8x8kmmk90d6g483a.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA245",
@@ -7290,7 +7525,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2025-09-26",
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/35593438-David-Herrero-Furia-EP",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA246",
@@ -7312,7 +7548,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2025-10-03",
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/35593327-Joeski-Haunted-By-You",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA247",
@@ -7334,7 +7571,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2025-10-24",
     "genre": "House - Afro House",
     "discogs_url": "https://www.discogs.com/release/35593426-Káax-Flor-De-Un-Dia",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA248",
@@ -7356,7 +7594,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2025-11-07",
     "genre": "House",
     "discogs_url": "https://www.discogs.com/release/35593312-Joeski-Boombastic",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA249",
@@ -7377,7 +7616,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "kax",
     "release_date": "2025-11-21",
     "genre": "House - Deep",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA250",
@@ -7394,7 +7634,8 @@ export const ARCHIVE_RELEASES = [
         "title": "That Shit!"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA251",
@@ -7416,7 +7657,8 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/qa/pb/qapb5n48swepdqwa.mp3"
       }
     ],
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA252",
@@ -7446,7 +7688,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-02-06",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA253",
@@ -7485,7 +7728,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-03-06",
     "genre": "House - Latin",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA254",
@@ -7506,7 +7750,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-02-20",
     "genre": "House - Afro House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA255",
@@ -7527,7 +7772,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-03-06",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA256",
@@ -7557,7 +7803,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-03-20",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA257",
@@ -7578,7 +7825,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-04-03",
     "genre": "House - Afro Melodic",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA258",
@@ -7599,7 +7847,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-04-17",
     "genre": "House - Afro House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA259",
@@ -7620,7 +7869,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-05-22",
     "genre": "House - Minimal",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA260",
@@ -7651,7 +7901,8 @@ export const ARCHIVE_RELEASES = [
     "release_date": "2026-06-05",
     "genre": "House - Latin",
     "description": "Rooted in the soil, built for the dancefloor. El Campesinno blends Afro-Cumbia rhythms, traditional Colombian flutes, and a driving Latin bassline into a hypnotic tech house journey.",
-    "digital_price_cents": null
+    "digital_price_cents": 399,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA261",
@@ -7672,7 +7923,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-08-28",
     "genre": "House - Minimal",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA262",
@@ -7693,7 +7945,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-09-18",
     "genre": "House - Deep",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA263",
@@ -7714,7 +7967,8 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-10-02",
     "genre": "House",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   },
   {
     "catalog_number": "MAYA264",
@@ -7735,6 +7989,7 @@ export const ARCHIVE_RELEASES = [
     "artist_slug": "joeski",
     "release_date": "2026-10-16",
     "genre": "House - Acid",
-    "digital_price_cents": null
+    "digital_price_cents": 199,
+    "has_master": false
   }
 ] as const;

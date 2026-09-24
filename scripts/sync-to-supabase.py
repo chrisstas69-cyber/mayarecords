@@ -117,6 +117,7 @@ def sync_catalog() -> dict:
             "links": [{"label": "Discogs", "url": r["discogs_url"]}] if r.get("discogs_url") else [],
             "state": "published",
             "featured": cat == "MAYA188",
+            "digital_price_cents": r.get("digital_price_cents"),
         }
         saved = rest("POST", "releases", params={"on_conflict": "slug"},
                      prefer="resolution=merge-duplicates,return=representation", json_body=row)[0]

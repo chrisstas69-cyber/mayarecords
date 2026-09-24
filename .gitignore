@@ -20,3 +20,4 @@ next-env.d.ts
 /catalog/discogs/
 /catalog/labelworx-audio/
 /catalog/masters.json
+/catalog/missing-masters.txt
