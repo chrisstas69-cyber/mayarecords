@@ -104,6 +104,23 @@ EDIT_LIST = [
     ("ChatGPT Image Sep 20, 2026, 01_36_13 PM.png", "Joeski VS Carl Bean - Born this Way (Joeski Edit).wav", "Carl Bean", "Born This Way"),
     ("ChatGPT Image Sep 20, 2026, 01_57_29 PM.png", "Joeski Vs 50 Centfeat Chris Brown - Im The Man (Joeski Edit).wav", "50 Cent feat. Chris Brown", "I'm The Man"),
 ]
+# Batch 2: each edit has a promo video (used for its cover frame) instead of a
+# pre-made image. (video filename, wav filename, original artist, title, cover
+# seek-seconds, rotate the frame 180°?)
+EDITS2 = Path.home() / "Downloads/Joeski Edits 2  Vids and Wavs"
+EDIT_LIST_2 = [
+    ("Cure My Desire.mov", "Joeski VS Hannah Wants -Cure My Desire (Joeski Edit).wav", "Hannah Wants", "Cure My Desire", 2, False),
+    ("Un Dia Mas Vid.mov", "Joeski VS Chi Chi Peralta - Un Dia Mas (Joeski Edit).wav", "Chi Chi Peralta", "Un Dia Mas", 2, False),
+    ("Black Roses Vid.mov", "Joeski VS Barington Levy - Black Roses (Joeski Edit).wav", "Barrington Levy", "Black Roses", 2, False),
+    ("Bloodsport Vid.mov", "Joeski VS Raleigh Ritchie - Bloodsport (Joeski Edit).wav", "Raleigh Ritchie", "Bloodsport", 2, False),
+    ("untitled folder/Depeche Mode Vid.mov", "untitled folder/Joeski VS Depeche Mode - Enjoy-The-Silence (Joeski Edit).wav", "Depeche Mode", "Enjoy The Silence", 8, True),
+    ("untitled folder 2/Led Zep Vid.mov", "untitled folder 2/Joieski VS Led Zepelin - Babe Im Gonna Leave You (Joeski Edit).wav", "Led Zeppelin", "Babe I'm Gonna Leave You", 2, False),
+    ("untitled folder 3/Peso Pluma Vid.mov", "untitled folder 3/Joeski VS Peso Pluma - Baila Sola (Joeski Edit).wav", "Peso Pluma", "Baila Sola", 2, False),
+    ("untitled folder 4/Gladys Knight Vid.mov", "untitled folder 4/Joeski VS Gladys Knight - Saying Goodbye (Joeski Edit).wav", "Gladys Knight", "Saying Goodbye", 2, False),
+    ("untitled folder 5/Cool Like That Vid.mov", "untitled folder 5/Joeski VS Digable Planets - Cool Like That (Joeski Edit).wav", "Digable Planets", "Cool Like That", 2, False),
+    ("untitled folder 6/Bob Marley Vid.mov", "untitled folder 6/Joeski VS Bob Marley - Forever Loving Jah (Joeski  Edit).wav", "Bob Marley", "Forever Loving Jah", 2, False),
+]
+
 # One edit per week, Fridays. The first drop is backdated so the demo shows a mix of out + upcoming.
 FIRST_DROP = date(2026, 8, 14)
 
@@ -146,6 +163,15 @@ def image(src: Path, dst: Path, size: int = 900) -> None:
                    capture_output=True, check=True)
 
 
+def frame_from_video(src: Path, dst: Path, seek: float = 2, rotate180: bool = False) -> None:
+    """Cover art from a promo video (the spinning-vinyl clips don't have a separate image)."""
+    if dst.exists():
+        return
+    vf = "scale=900:900,transpose=2,transpose=2" if rotate180 else "scale=900:900"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(seek), "-i", str(src), "-vf", vf,
+                     "-frames:v", "1", str(dst)], check=True)
+
+
 def build_releases() -> list[dict]:
     (PUB / "covers").mkdir(parents=True, exist_ok=True)
     (PUB / "previews").mkdir(parents=True, exist_ok=True)
@@ -180,7 +206,9 @@ def build_edits() -> list[dict]:
     (PUB / "edits").mkdir(parents=True, exist_ok=True)
     PRIV.mkdir(parents=True, exist_ok=True)
     out = []
-    for n, (img, wav, original, title) in enumerate(EDIT_LIST):
+    n = 0
+
+    for img, wav, original, title in EDIT_LIST:
         slug = slugify(f"{original} {title}")
         src = EDITS / wav
         total = duration(src)
@@ -198,6 +226,28 @@ def build_edits() -> list[dict]:
             "wav_bytes": src.stat().st_size,
         })
         print(f"edit {slug} → drops {out[-1]['drop_date']}")
+        n += 1
+
+    for vid, wav, original, title, seek, rotate in EDIT_LIST_2:
+        slug = slugify(f"{original} {title}")
+        src = EDITS2 / wav
+        total = duration(src)
+        frame_from_video(EDITS2 / vid, PUB / "edits" / f"{slug}.jpg", seek, rotate)
+        clip(src, PUB / "edits" / f"{slug}-preview.mp3", 60, total, "160k")
+        encode_full(src, PRIV / f"{slug}.mp3")
+        if not (PRIV / f"{slug}.wav").exists():
+            shutil.copy2(src, PRIV / f"{slug}.wav")
+        out.append({
+            "slug": slug, "title": title, "original_artist": original,
+            "drop_date": (FIRST_DROP + timedelta(weeks=n)).isoformat(),
+            "duration_seconds": total,
+            "cover_url": f"/media/edits/{slug}.jpg",
+            "preview_url": f"/media/edits/{slug}-preview.mp3",
+            "wav_bytes": src.stat().st_size,
+        })
+        print(f"edit {slug} → drops {out[-1]['drop_date']}")
+        n += 1
+
     return out
 
 

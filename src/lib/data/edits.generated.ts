@@ -109,5 +109,105 @@ export const EDITS_DATA = [
     "cover_url": "/media/edits/50-cent-feat-chris-brown-im-the-man.jpg",
     "preview_url": "/media/edits/50-cent-feat-chris-brown-im-the-man-preview.mp3",
     "wav_bytes": 98182532
+  },
+  {
+    "slug": "hannah-wants-cure-my-desire",
+    "title": "Cure My Desire",
+    "original_artist": "Hannah Wants",
+    "drop_date": "2026-10-30",
+    "duration_seconds": 421,
+    "cover_url": "/media/edits/hannah-wants-cure-my-desire.jpg",
+    "preview_url": "/media/edits/hannah-wants-cure-my-desire-preview.mp3",
+    "wav_bytes": 111789618
+  },
+  {
+    "slug": "chi-chi-peralta-un-dia-mas",
+    "title": "Un Dia Mas",
+    "original_artist": "Chi Chi Peralta",
+    "drop_date": "2026-11-06",
+    "duration_seconds": 382,
+    "cover_url": "/media/edits/chi-chi-peralta-un-dia-mas.jpg",
+    "preview_url": "/media/edits/chi-chi-peralta-un-dia-mas-preview.mp3",
+    "wav_bytes": 67594102
+  },
+  {
+    "slug": "barrington-levy-black-roses",
+    "title": "Black Roses",
+    "original_artist": "Barrington Levy",
+    "drop_date": "2026-11-13",
+    "duration_seconds": 374,
+    "cover_url": "/media/edits/barrington-levy-black-roses.jpg",
+    "preview_url": "/media/edits/barrington-levy-black-roses-preview.mp3",
+    "wav_bytes": 99257388
+  },
+  {
+    "slug": "raleigh-ritchie-bloodsport",
+    "title": "Bloodsport",
+    "original_artist": "Raleigh Ritchie",
+    "drop_date": "2026-11-20",
+    "duration_seconds": 351,
+    "cover_url": "/media/edits/raleigh-ritchie-bloodsport.jpg",
+    "preview_url": "/media/edits/raleigh-ritchie-bloodsport-preview.mp3",
+    "wav_bytes": 93053824
+  },
+  {
+    "slug": "depeche-mode-enjoy-the-silence",
+    "title": "Enjoy The Silence",
+    "original_artist": "Depeche Mode",
+    "drop_date": "2026-11-27",
+    "duration_seconds": 435,
+    "cover_url": "/media/edits/depeche-mode-enjoy-the-silence.jpg",
+    "preview_url": "/media/edits/depeche-mode-enjoy-the-silence-preview.mp3",
+    "wav_bytes": 115283312
+  },
+  {
+    "slug": "led-zeppelin-babe-im-gonna-leave-you",
+    "title": "Babe I'm Gonna Leave You",
+    "original_artist": "Led Zeppelin",
+    "drop_date": "2026-12-04",
+    "duration_seconds": 367,
+    "cover_url": "/media/edits/led-zeppelin-babe-im-gonna-leave-you.jpg",
+    "preview_url": "/media/edits/led-zeppelin-babe-im-gonna-leave-you-preview.mp3",
+    "wav_bytes": 97431344
+  },
+  {
+    "slug": "peso-pluma-baila-sola",
+    "title": "Baila Sola",
+    "original_artist": "Peso Pluma",
+    "drop_date": "2026-12-11",
+    "duration_seconds": 392,
+    "cover_url": "/media/edits/peso-pluma-baila-sola.jpg",
+    "preview_url": "/media/edits/peso-pluma-baila-sola-preview.mp3",
+    "wav_bytes": 103910072
+  },
+  {
+    "slug": "gladys-knight-saying-goodbye",
+    "title": "Saying Goodbye",
+    "original_artist": "Gladys Knight",
+    "drop_date": "2026-12-18",
+    "duration_seconds": 524,
+    "cover_url": "/media/edits/gladys-knight-saying-goodbye.jpg",
+    "preview_url": "/media/edits/gladys-knight-saying-goodbye-preview.mp3",
+    "wav_bytes": 138873456
+  },
+  {
+    "slug": "digable-planets-cool-like-that",
+    "title": "Cool Like That",
+    "original_artist": "Digable Planets",
+    "drop_date": "2026-12-25",
+    "duration_seconds": 316,
+    "cover_url": "/media/edits/digable-planets-cool-like-that.jpg",
+    "preview_url": "/media/edits/digable-planets-cool-like-that-preview.mp3",
+    "wav_bytes": 83938588
+  },
+  {
+    "slug": "bob-marley-forever-loving-jah",
+    "title": "Forever Loving Jah",
+    "original_artist": "Bob Marley",
+    "drop_date": "2027-01-01",
+    "duration_seconds": 405,
+    "cover_url": "/media/edits/bob-marley-forever-loving-jah.jpg",
+    "preview_url": "/media/edits/bob-marley-forever-loving-jah-preview.mp3",
+    "wav_bytes": 107334460
   }
 ] as const;
