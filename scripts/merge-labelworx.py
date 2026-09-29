@@ -98,6 +98,7 @@ def load_labelworx(xlsx: Path) -> dict:
         desc = (r[col["Release Description"]] or "").strip()
         # Several descriptions are just "LABEL x CATALOG y" boilerplate.
         if desc and not re.match(r"^LABEL\b", desc, re.I):
+            desc = re.sub(r"\bJoesk\b", "Joeski", desc)  # typo in the Labelworx export (MAYA239)
             rel.setdefault("description", desc)
         mix = r[col["Mix Name"]]
         title = r[col["Track Title"]] or rel["title"]

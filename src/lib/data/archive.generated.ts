@@ -7367,7 +7367,7 @@ export const ARCHIVE_RELEASES = [
         "preview_url": "https://cdn.label-worx.com/samples/va/vy/vavyn3br27rb8kbx.mp3"
       }
     ],
-    "description": "Produced by Joesk\nRecorded at Maya's Room Studios BK NYC\nMarimba  Performed by Adrain Viafara \nRecorded at Bombo Records Cali Colombia\nMarimba recorded by Christan Salgado",
+    "description": "Produced by Joeski\nRecorded at Maya's Room Studios BK NYC\nMarimba  Performed by Adrain Viafara \nRecorded at Bombo Records Cali Colombia\nMarimba recorded by Christan Salgado",
     "digital_price_cents": 399,
     "has_master": false
   },
