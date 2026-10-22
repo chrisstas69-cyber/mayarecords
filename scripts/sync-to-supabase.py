@@ -106,7 +106,7 @@ def sync_catalog() -> dict:
 
         row = {
             "title": r["title"],
-            "slug": cat.lower(),
+            "slug": r.get("slug") or cat.lower(),
             "catalog_number": cat,
             "artist_id": artist_ids.get(r.get("artist_slug")) or artist_ids["joeski"],
             "release_date": r.get("release_date"),
