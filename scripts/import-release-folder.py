@@ -84,7 +84,8 @@ def main():
                 raise ValueError(f"Invalid duplicate reference: {name}")
             continue
         cat = row["catalog_number"]
-        if not re.fullmatch(r"MAYA\d{3}", cat) or cat not in by_cat:
+        pending_number = by_cat.get(cat, {}).get("catalog_number_pending") is True
+        if cat not in by_cat or not (re.fullmatch(r"MAYA\d{3}", cat) or (cat == "TBC" and pending_number)):
             raise ValueError(f"Unknown catalog number: {cat}")
         tracks = by_cat[cat]["tracks"]
         if not any(t["position"] == row["position"] for t in tracks):

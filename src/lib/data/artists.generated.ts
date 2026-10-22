@@ -222,6 +222,10 @@ export const ARCHIVE_ARTISTS = [
     "name": "Robert Garcia"
   },
   {
+    "slug": "ruben-zurita",
+    "name": "Ruben Zurita"
+  },
+  {
     "slug": "serious-intention",
     "name": "Serious Intention"
   },

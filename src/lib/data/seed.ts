@@ -105,7 +105,7 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
     return {
       id,
       title: r.title,
-      slug: r.catalog_number.toLowerCase(),
+      slug: "slug" in r ? String(r.slug) : r.catalog_number.toLowerCase(),
       catalog_number: r.catalog_number,
       artist_id: artistId,
       artist_name: r.artist_name,

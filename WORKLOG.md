@@ -7,12 +7,12 @@ This is what survives when a chat gets compacted or you switch tools.
 
 ## 2026-10-22 — supplied Maya release folder
 
-- Branch: `codex/import-maya-release-folder`. Imported 349 AIFF tracks across 209 releases from `~/Downloads/joeski maya`; verified eight WAV copies have identical decoded audio and omitted duplicates.
-- Added missing MAYA098, Tete de la Course — Before Sunrise (2 tracks): catalog now 256 releases. Ruben Zurita — X is pending catalog-number confirmation (tracked in the import manifest).
-- Generated 182 missing 60-second MP3 previews and six missing embedded covers. Preserved existing previews, titles, tracklists and prices. Imported durations, BPM/key and missing genre/date metadata; fixed UTC release-date formatting after browser verification showed the new EP one day early.
+- Branch: `codex/import-maya-release-folder`. Imported 350 AIFF tracks across 210 releases from `~/Downloads/joeski maya`; verified eight WAV copies have identical decoded audio and omitted duplicates.
+- Added missing MAYA098, Tete de la Course — Before Sunrise (2 tracks): catalog now 257 releases. Per Chris’s follow-up, Ruben Zurita — X is included with catalog number TBC and stable slug `ruben-zurita-x`; Chris will confirm its MAYA number later.
+- Generated 183 missing 60-second MP3 previews and seven missing embedded covers. Preserved existing previews, titles, tracklists and prices. Imported durations, BPM/key and missing genre/date metadata; fixed UTC release-date formatting after browser verification showed the new EP one day early.
 - Reusable reviewed manifest: `catalog/imports/joeski-maya.json`; run `scripts/import-release-folder.py` after the Labelworx merge. Original recordings remain in Downloads; ignored `catalog/masters.json` retains their paths for private storage sync.
 - Backend confirmed: `/admin/releases/new` manual wizard and `/admin/bulk` exist. Production has zero Vercel environment variables; live `/admin` displays Connect Supabase. No Maya Supabase project appears in the connected account. Backend activation remains pending; no accounts or paid resources created.
-- Verified: initial production build passes; all local media references resolve; all 182 previews are 60 seconds; catalog numbers/track positions unique; importer re-run checked for idempotency. Local browser loaded new EP, displayed both tracks/BPM/key, and played its 60-second preview. Final production build passes, including TypeScript. Vercel preview/production checks pending.
+- Verified: initial production build passes; all local media references resolve; all 183 previews are 60 seconds; catalog numbers/track positions unique; importer re-run checked for idempotency. Local browser loaded new EP, displayed both tracks/BPM/key, and played its 60-second preview. Initial production build passes, including TypeScript. Rechecking after Chris requested X with a provisional catalog number; Vercel preview/production checks pending.
 
 
 ---

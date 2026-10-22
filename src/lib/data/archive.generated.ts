@@ -8714,5 +8714,28 @@ export const ARCHIVE_RELEASES = [
     "genre": "House - Acid",
     "digital_price_cents": 199,
     "has_master": true
+  },
+  {
+    "catalog_number": "TBC",
+    "catalog_number_pending": true,
+    "slug": "ruben-zurita-x",
+    "title": "X",
+    "artist_name": "Ruben Zurita",
+    "artist_slug": "ruben-zurita",
+    "release_date": "2013-10-08",
+    "genre": "Tech House",
+    "cover_url": "/media/covers/tbc-folder.jpg",
+    "digital_price_cents": 199,
+    "tracks": [
+      {
+        "position": 1,
+        "title": "X (Original Mix)",
+        "duration_seconds": 450,
+        "bpm": 152.0,
+        "musical_key": "G#min",
+        "preview_url": "/media/previews/tbc-1-folder.mp3"
+      }
+    ],
+    "has_master": true
   }
 ] as const;

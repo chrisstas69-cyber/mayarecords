@@ -21,9 +21,11 @@ configuration, and missing mixes must be supplied before selling a full release.
 
 The manifest includes the missing MAYA098 **Before Sunrise** EP, with two tracks.
 Its catalog number is documented in the manifest's source link; artwork and audio
-metadata come from the supplied files. Ruben Zurita's **X** remains pending until
-its catalog number is confirmed. Resolve its pending row and add its release
-metadata to `new_releases` before re-running the importer.
+metadata come from the supplied files. At Chris's request, Ruben Zurita's **X**
+is included with catalog number **TBC** and stable URL `/releases/ruben-zurita-x`.
+Confirm its official MAYA number later; update both its manifest release and
+file mapping, and migrate the existing generated entry rather than adding a
+second release. Preserve the stable slug when updating its catalog number.
 
 ## Manual release management
 

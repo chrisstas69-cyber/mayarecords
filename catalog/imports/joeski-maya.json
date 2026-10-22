@@ -19,6 +19,24 @@
           "title": "Before Sunset (Original Mix)"
         }
       ]
+    },
+    {
+      "catalog_number": "TBC",
+      "catalog_number_pending": true,
+      "slug": "ruben-zurita-x",
+      "title": "X",
+      "artist_name": "Ruben Zurita",
+      "artist_slug": "ruben-zurita",
+      "release_date": "2013-10-08",
+      "genre": "Tech House",
+      "cover_url": null,
+      "digital_price_cents": 199,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "X (Original Mix)"
+        }
+      ]
     }
   ],
   "files": [
@@ -1751,7 +1769,8 @@
     },
     {
       "file": "Ruben Zurita -X (Original mix).aiff",
-      "pending": "Catalog number needs confirmation; no catalog number embedded in the supplied audio."
+      "catalog_number": "TBC",
+      "position": 1
     },
     {
       "file": "Sama NYC -Abre Tus Ojos (Acid Dub Mix).aiff",
