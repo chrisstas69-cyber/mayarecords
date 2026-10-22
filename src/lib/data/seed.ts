@@ -133,6 +133,8 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
           duration_seconds?: number | null;
           preview_url?: string | null;
           isrc?: string | null;
+          bpm?: number | null;
+          musical_key?: string | null;
         };
         return {
           id: `${id}-${track.position}`,
@@ -140,8 +142,8 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
           position: track.position,
           title: track.title,
           duration_seconds: track.duration_seconds ?? null,
-          bpm: null,
-          musical_key: null,
+          bpm: track.bpm ?? null,
+          musical_key: track.musical_key ?? null,
           isrc: track.isrc ?? null,
           preview_url: track.preview_url ?? null,
         };

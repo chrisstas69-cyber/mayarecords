@@ -1,0 +1,1810 @@
+{
+  "new_releases": [
+    {
+      "catalog_number": "MAYA098",
+      "title": "Before Sunrise",
+      "artist_name": "Tete de la Course",
+      "artist_slug": "tete-de-la-course",
+      "release_date": "2013-07-02",
+      "genre": "Deep House",
+      "cover_url": null,
+      "digital_price_cents": 399,
+      "tracks": [
+        {
+          "position": 1,
+          "title": "Before Sunrise (Original Mix)"
+        },
+        {
+          "position": 2,
+          "title": "Before Sunset (Original Mix)"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "-lez -Cablature (Original).aiff",
+      "catalog_number": "MAYA120",
+      "position": 3
+    },
+    {
+      "file": "-lez -Termites (Original).aiff",
+      "catalog_number": "MAYA120",
+      "position": 1
+    },
+    {
+      "file": "-lez -Waiting (Original).aiff",
+      "catalog_number": "MAYA120",
+      "position": 2
+    },
+    {
+      "file": "Afrikali, Joeski -Out Of The Jungle (Joeski-s 2021 Rmx).aiff",
+      "catalog_number": "MAYA194",
+      "position": 1
+    },
+    {
+      "file": "Aldo Cadiz -Crazy Body.aiff",
+      "catalog_number": "MAYA213",
+      "position": 1
+    },
+    {
+      "file": "Aldo Cadiz -Senza (Original).aiff",
+      "catalog_number": "MAYA150",
+      "position": 1
+    },
+    {
+      "file": "Aldo Cadiz -Tramdoul (Original).aiff",
+      "catalog_number": "MAYA150",
+      "position": 2
+    },
+    {
+      "file": "Aldo Cadiz, Andre Butano -Gossip.aiff",
+      "catalog_number": "MAYA193",
+      "position": 3
+    },
+    {
+      "file": "Aldo Cadiz, Andre Butano -NDope.aiff",
+      "catalog_number": "MAYA193",
+      "position": 2
+    },
+    {
+      "file": "Aldo Cadiz, Andre Butano -Uncle Frank.aiff",
+      "catalog_number": "MAYA193",
+      "position": 1
+    },
+    {
+      "file": "Alex Sosa -Anormal Status (Original mix).aiff",
+      "catalog_number": "MAYA092",
+      "position": 2
+    },
+    {
+      "file": "Alex Sosa -Blacc (Original mix).aiff",
+      "catalog_number": "MAYA092",
+      "position": 1
+    },
+    {
+      "file": "Alexander-louis -4th Dimension.aiff",
+      "catalog_number": "MAYA186",
+      "position": 1
+    },
+    {
+      "file": "Alexander-louis -Come With Me.aiff",
+      "catalog_number": "MAYA186",
+      "position": 2
+    },
+    {
+      "file": "Alfred Azzetto -Music Selecta (Dub Mix).aiff",
+      "catalog_number": "MAYA113",
+      "position": 2
+    },
+    {
+      "file": "Alfred Azzetto -Music Selecta (Original).aiff",
+      "catalog_number": "MAYA113",
+      "position": 1
+    },
+    {
+      "file": "Alfred Azzetto, Itaoboys -Music Selecta (Itaoboys Rmx).aiff",
+      "catalog_number": "MAYA113",
+      "position": 3
+    },
+    {
+      "file": "Benji Candelario -Rude Boy Styleee (Original).aiff",
+      "catalog_number": "MAYA148",
+      "position": 1
+    },
+    {
+      "file": "Brooklyn Pirates, Liberty -Time Flies (Original mix).aiff",
+      "catalog_number": "MAYA105",
+      "position": 1
+    },
+    {
+      "file": "Brooklyn Pirates, Liberty, Hanfry Martinez, Javier Carballo -Time Flies (Hanfry Martinez - Javier Carballo rmx).aiff",
+      "catalog_number": "MAYA105",
+      "position": 2
+    },
+    {
+      "file": "Cricco Castelli -StreetLife (Newyork Guitar Remix).aiff",
+      "catalog_number": "MAYA056",
+      "position": 4
+    },
+    {
+      "file": "Cricco Castelli -StreetLife (Original Mix).aiff",
+      "catalog_number": "MAYA056",
+      "position": 1
+    },
+    {
+      "file": "Cricco Castelli, Block 16 -StreetLife (Block 16 Remix).aiff",
+      "catalog_number": "MAYA056",
+      "position": 2
+    },
+    {
+      "file": "Cricco Castelli, Joeski -StreetLife (Joeski-s Back In The Day Remix).aiff",
+      "catalog_number": "MAYA056",
+      "position": 3
+    },
+    {
+      "file": "David Herrero -Celebration (Original).aiff",
+      "catalog_number": "MAYA128",
+      "position": 1
+    },
+    {
+      "file": "David Herrero -Divino Canto (Original).aiff",
+      "catalog_number": "MAYA151",
+      "position": 3
+    },
+    {
+      "file": "David Herrero -Dubway (Original).aiff",
+      "catalog_number": "MAYA140",
+      "position": 3
+    },
+    {
+      "file": "David Herrero -Furia.aiff",
+      "catalog_number": "MAYA245",
+      "position": 1
+    },
+    {
+      "file": "David Herrero -Gaffou (Original).aiff",
+      "catalog_number": "MAYA140",
+      "position": 2
+    },
+    {
+      "file": "David Herrero -In The Air (Original).aiff",
+      "catalog_number": "MAYA128",
+      "position": 2
+    },
+    {
+      "file": "David Herrero -Mi Morena.aiff",
+      "catalog_number": "MAYA245",
+      "position": 2
+    },
+    {
+      "file": "David Herrero -Shamefa (Dub Mix).aiff",
+      "catalog_number": "MAYA151",
+      "position": 2
+    },
+    {
+      "file": "David Herrero -Shamefa (Original).aiff",
+      "catalog_number": "MAYA151",
+      "position": 1
+    },
+    {
+      "file": "David Herrero -White Horsex (Original).aiff",
+      "catalog_number": "MAYA140",
+      "position": 1
+    },
+    {
+      "file": "Denney -Beat The Drum.aiff",
+      "catalog_number": "MAYA175",
+      "position": 1
+    },
+    {
+      "file": "El Jibaro -Asi Me Gusta.aiff",
+      "catalog_number": "MAYA171",
+      "position": 1
+    },
+    {
+      "file": "El Jibaro -Massai (Original).aiff",
+      "catalog_number": "MAYA183",
+      "position": 1
+    },
+    {
+      "file": "Flores, Valentin, Joeski,Joe Flores - Valentin -Closer To You.aiff",
+      "catalog_number": "MAYA029",
+      "position": 1
+    },
+    {
+      "file": "Flores, Valentin, Joeski,Joe Flores - Valentin -Closer To You.wav",
+      "duplicate_of": "Flores, Valentin, Joeski,Joe Flores - Valentin -Closer To You.aiff"
+    },
+    {
+      "file": "Flores, Valentin, Joeski,Joe Flores - Valentin -Summer Breeze.aiff",
+      "catalog_number": "MAYA029",
+      "position": 2
+    },
+    {
+      "file": "Flores, Valentin, Joeski,Joe Flores - Valentin -Summer Breeze.wav",
+      "duplicate_of": "Flores, Valentin, Joeski,Joe Flores - Valentin -Summer Breeze.aiff"
+    },
+    {
+      "file": "Funkyloco -Oyelo (Original mix).aiff",
+      "catalog_number": "MAYA101",
+      "position": 1
+    },
+    {
+      "file": "Funkyloco -lluminado (Original mix).aiff",
+      "catalog_number": "MAYA101",
+      "position": 2
+    },
+    {
+      "file": "George Privatti -Fender (Original Mix).aiff",
+      "catalog_number": "MAYA137",
+      "position": 1
+    },
+    {
+      "file": "George Privatti -Horny (Original Mix).aiff",
+      "catalog_number": "MAYA137",
+      "position": 2
+    },
+    {
+      "file": "Green Velvet, Joeski -Sacudelo (Original).aiff",
+      "catalog_number": "MAYA180",
+      "position": 1
+    },
+    {
+      "file": "HR - SKI -Dem Tings (Original Mix).aiff",
+      "catalog_number": "MAYA139",
+      "position": 1
+    },
+    {
+      "file": "HR - SKI, Harry Romero, Joeski -Chemical Imbalance (Original Mix).aiff",
+      "catalog_number": "MAYA124",
+      "position": 1
+    },
+    {
+      "file": "Harry Romero -Get Get (Original Mix).aiff",
+      "catalog_number": "MAYA123",
+      "position": 1
+    },
+    {
+      "file": "Herald, Alex davis, Herald And Alex Davis -House All (Original Mix).aiff",
+      "catalog_number": "MAYA062",
+      "position": 1
+    },
+    {
+      "file": "Herald, Alex davis, Joeski -House All (Joeski Remix).aiff",
+      "catalog_number": "MAYA062",
+      "position": 2
+    },
+    {
+      "file": "Hipp-e -Fantasy.aiff",
+      "catalog_number": "MAYA160",
+      "position": 2
+    },
+    {
+      "file": "Hipp-e -Penetrate.aiff",
+      "catalog_number": "MAYA160",
+      "position": 1
+    },
+    {
+      "file": "Ismael Rivas -No Understand (Original Mix).aiff",
+      "catalog_number": "MAYA111",
+      "position": 2
+    },
+    {
+      "file": "Ismael Rivas -Sincope (Original Mix).aiff",
+      "catalog_number": "MAYA111",
+      "position": 1
+    },
+    {
+      "file": "Javi Lopez -Urban Box (Original mix).aiff",
+      "catalog_number": "MAYA091",
+      "position": 1
+    },
+    {
+      "file": "Javi Lopez, Ruben Zurita, Joeski -Party Favors (Joeski-s Rework).aiff",
+      "catalog_number": "MAYA097",
+      "position": 2
+    },
+    {
+      "file": "Jesante, Joeski -Been a while (Dub).aiff",
+      "catalog_number": "MAYA106",
+      "position": 2
+    },
+    {
+      "file": "Joeski - Audio Kode -Feel It (Instrumental).aiff",
+      "catalog_number": "MAYA095",
+      "position": 2
+    },
+    {
+      "file": "Joeski - Audio Kode -Feel It (Original mix).aiff",
+      "catalog_number": "MAYA095",
+      "position": 1
+    },
+    {
+      "file": "Joeski - Doc Martin -Tides.aiff",
+      "catalog_number": "MAYA178",
+      "position": 1
+    },
+    {
+      "file": "Joeski -A La Vida Feat Xiomara Torres , Adrian Viafara (Original).aiff",
+      "catalog_number": "MAYA198",
+      "position": 1
+    },
+    {
+      "file": "Joeski -A Piece Of Me (Rebirth) (Original).aiff",
+      "catalog_number": "MAYA224",
+      "position": 1
+    },
+    {
+      "file": "Joeski -African Sunrise.aiff",
+      "catalog_number": "MAYA174",
+      "position": 3
+    },
+    {
+      "file": "Joeski -Afro Acid.aiff",
+      "catalog_number": "MAYA211",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Afro Eroticism.aiff",
+      "catalog_number": "MAYA199",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Afro Latinism.aiff",
+      "catalog_number": "MAYA207",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Agua Negra (Original Mix).aiff",
+      "catalog_number": "MAYA205",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Akawabba (Original).aiff",
+      "catalog_number": "MAYA225",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Aliens On Earth.aiff",
+      "catalog_number": "MAYA222",
+      "position": 1
+    },
+    {
+      "file": "Joeski -All For You.aiff",
+      "catalog_number": "MAYA262",
+      "position": 1
+    },
+    {
+      "file": "Joeski -American Poem (Original Mix).aiff",
+      "catalog_number": "MAYA190",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Ay Amor (Original).aiff",
+      "catalog_number": "MAYA226",
+      "position": 1
+    },
+    {
+      "file": "Joeski -BS Groove.aiff",
+      "catalog_number": "MAYA027",
+      "position": 1
+    },
+    {
+      "file": "Joeski -BS Groove.wav",
+      "duplicate_of": "Joeski -BS Groove.aiff"
+    },
+    {
+      "file": "Joeski -Babylon (Original).aiff",
+      "catalog_number": "MAYA134",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Back to the drum (Continuous DJ Mix).aiff",
+      "catalog_number": "MAYA084",
+      "position": 11
+    },
+    {
+      "file": "Joeski -Backa.aiff",
+      "catalog_number": "MAYA201",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Be Free Feat Rachel.aiff",
+      "catalog_number": "MAYA172",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Blue Bus (Original).aiff",
+      "catalog_number": "MAYA132",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Boombastic.aiff",
+      "catalog_number": "MAYA248",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Breakthrough.aiff",
+      "catalog_number": "MAYA185",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Brothers - Sisters (Original Mix).aiff",
+      "catalog_number": "MAYA055",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Cada Noche (Original).aiff",
+      "catalog_number": "MAYA177",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Carrion Feat Mikaell Garcia.aiff",
+      "catalog_number": "MAYA174",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Chainless.aiff",
+      "catalog_number": "MAYA251",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Close Your Eyes.aiff",
+      "catalog_number": "MAYA174",
+      "position": 21
+    },
+    {
+      "file": "Joeski -Conocerte Feat La Morena (Original).aiff",
+      "catalog_number": "MAYA238",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Dame Fuerza Feat Jimmy Lopez On Percussion.aiff",
+      "catalog_number": "MAYA200",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Devour You XXX (Original).aiff",
+      "catalog_number": "MAYA149",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Don-t Stop (Onionz Rmx).aiff",
+      "catalog_number": "MAYA068",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Don-t Stop (Original Mix).aiff",
+      "catalog_number": "MAYA068",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Dont Stop (Original).aiff",
+      "catalog_number": "MAYA084",
+      "position": 10
+    },
+    {
+      "file": "Joeski -Dub (Original).aiff",
+      "catalog_number": "MAYA165",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Dub Eyes.aiff",
+      "catalog_number": "MAYA174",
+      "position": 13
+    },
+    {
+      "file": "Joeski -El Campesino (No Flute Acid Mix).aiff",
+      "catalog_number": "MAYA260",
+      "position": 2
+    },
+    {
+      "file": "Joeski -El Campesino (Original).aiff",
+      "catalog_number": "MAYA260",
+      "position": 1
+    },
+    {
+      "file": "Joeski -El Santo.aiff",
+      "catalog_number": "MAYA191",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Everyday.aiff",
+      "catalog_number": "MAYA263",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Exhale (Original Mix).aiff",
+      "catalog_number": "MAYA115",
+      "position": 2
+    },
+    {
+      "file": "Joeski -For Eternity.aiff",
+      "catalog_number": "MAYA257",
+      "position": 1
+    },
+    {
+      "file": "Joeski -For So Long.aiff",
+      "catalog_number": "MAYA210",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Freedom Now- (Original).aiff",
+      "catalog_number": "MAYA167",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Gitana.aiff",
+      "catalog_number": "MAYA195",
+      "position": 1
+    },
+    {
+      "file": "Joeski -God Is In Control.aiff",
+      "catalog_number": "MAYA230",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Haunted By You.aiff",
+      "catalog_number": "MAYA246",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Hey Fellas (Original).aiff",
+      "catalog_number": "MAYA159",
+      "position": 1
+    },
+    {
+      "file": "Joeski -I Miss You.aiff",
+      "catalog_number": "MAYA189",
+      "position": 1
+    },
+    {
+      "file": "Joeski -I Rise.aiff",
+      "catalog_number": "MAYA161",
+      "position": 1
+    },
+    {
+      "file": "Joeski -I-m Happy (On Acid Mix).aiff",
+      "catalog_number": "MAYA174",
+      "position": 23
+    },
+    {
+      "file": "Joeski -Inside My Mind (Herald - Alex davis rmx).aiff",
+      "catalog_number": "MAYA059",
+      "position": 3
+    },
+    {
+      "file": "Joeski -Inside My Mind (K Alexi-s Back 2k rmx).aiff",
+      "catalog_number": "MAYA059",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Inside My Mind (Norman Chung rmx).aiff",
+      "catalog_number": "MAYA059",
+      "position": 4
+    },
+    {
+      "file": "Joeski -Inside My Mind (Original  mix).aiff",
+      "catalog_number": "MAYA059",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Inside My Mind (Original).aiff",
+      "catalog_number": "MAYA116",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Into The Future.aiff",
+      "catalog_number": "MAYA174",
+      "position": 5
+    },
+    {
+      "file": "Joeski -Jump Up- (Original).aiff",
+      "catalog_number": "MAYA164",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Kamba dance (Original mix).aiff",
+      "catalog_number": "MAYA071",
+      "position": 1
+    },
+    {
+      "file": "Joeski -La Cumbia.aiff",
+      "catalog_number": "MAYA236",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Life On Mars (Original).aiff",
+      "catalog_number": "MAYA146",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Like This (Original).aiff",
+      "catalog_number": "MAYA187",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Listen to the drum (Original Mix).aiff",
+      "catalog_number": "MAYA057",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Listen to the drum (Original).aiff",
+      "catalog_number": "MAYA084",
+      "position": 7
+    },
+    {
+      "file": "Joeski -Lost Drum (Original Mix).aiff",
+      "catalog_number": "MAYA135",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Love Tribe (Sunrise Mix).aiff",
+      "catalog_number": "MAYA174",
+      "position": 17
+    },
+    {
+      "file": "Joeski -Love Without Judgement.aiff",
+      "catalog_number": "MAYA174",
+      "position": 19
+    },
+    {
+      "file": "Joeski -Mi Gente (Joeski Dark tribal Tech Mix).aiff",
+      "catalog_number": "MAYA080",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Mi Gente (Original mix).aiff",
+      "catalog_number": "MAYA080",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Mi Koro.aiff",
+      "catalog_number": "MAYA258",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Mind Body - Soul (Original Mix).aiff",
+      "catalog_number": "MAYA115",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Mind Function (Original).aiff",
+      "catalog_number": "MAYA141",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Monkey Funk (Original Mix).aiff",
+      "catalog_number": "MAYA121",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Montes.aiff",
+      "catalog_number": "MAYA179",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Mother Africa.aiff",
+      "catalog_number": "MAYA202",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Mud Funk (Original).aiff",
+      "catalog_number": "MAYA142",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Music For My People (Back To Dark Rmx).aiff",
+      "catalog_number": "MAYA067",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Music For My People (Original Mix).aiff",
+      "catalog_number": "MAYA067",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Music Is Everything.aiff",
+      "catalog_number": "MAYA254",
+      "position": 1
+    },
+    {
+      "file": "Joeski -My Cello.aiff",
+      "catalog_number": "MAYA174",
+      "position": 15
+    },
+    {
+      "file": "Joeski -My Guitar (Instrumental Mix).aiff",
+      "catalog_number": "MAYA129",
+      "position": 2
+    },
+    {
+      "file": "Joeski -My Guitar (Original Mix).aiff",
+      "catalog_number": "MAYA129",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Natty Dread (Dub Mix).aiff",
+      "catalog_number": "MAYA100",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Natty Dread (Original).aiff",
+      "catalog_number": "MAYA100",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Night Train (Joeski-s Jacked Up Mix).aiff",
+      "catalog_number": "MAYA112",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Night Train (Original Mix).aiff",
+      "catalog_number": "MAYA112",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Niyahola.aiff",
+      "catalog_number": "MAYA244",
+      "position": 1
+    },
+    {
+      "file": "Joeski -No Laughing Matter (Original).aiff",
+      "catalog_number": "MAYA119",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Noche Andina (Incl- Yousef Remix) (Kuningas rmx).aiff",
+      "catalog_number": "MAYA058",
+      "position": 3
+    },
+    {
+      "file": "Joeski -Noche Andina (Incl- Yousef Remix) (Original mix).aiff",
+      "catalog_number": "MAYA058",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Noche Andina (Incl- Yousef Remix) (Valentin-s Dreamers dub mix).aiff",
+      "catalog_number": "MAYA058",
+      "position": 4
+    },
+    {
+      "file": "Joeski -Noche Andina (Incl- Yousef Remix) (Yousef-s Circus rework).aiff",
+      "catalog_number": "MAYA058",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Noche Andina (Original).aiff",
+      "catalog_number": "MAYA084",
+      "position": 3
+    },
+    {
+      "file": "Joeski -Now Hear Dis.aiff",
+      "catalog_number": "MAYA221",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Ode To My Latinas.aiff",
+      "catalog_number": "MAYA220",
+      "position": 1
+    },
+    {
+      "file": "Joeski -One People.aiff",
+      "catalog_number": "MAYA197",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Orgullo Latino (Original mix).aiff",
+      "catalog_number": "MAYA096",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Oshosi.aiff",
+      "catalog_number": "MAYA208",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Out In The Street.aiff",
+      "catalog_number": "MAYA255",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Para Mi Patria Feat Adarian Viafara (Epic Mix).aiff",
+      "catalog_number": "MAYA239",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Presente.aiff",
+      "catalog_number": "MAYA227",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Pumayaku.aiff",
+      "catalog_number": "MAYA241",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Pá Cuba.aiff",
+      "catalog_number": "MAYA206",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Sailorboy.aiff",
+      "catalog_number": "MAYA243",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Same Revolution (Original Mix).aiff",
+      "catalog_number": "MAYA131",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Sensual Vibrations.aiff",
+      "catalog_number": "MAYA264",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Set You Free (Original).aiff",
+      "catalog_number": "MAYA155",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Sex On Acid (Original).aiff",
+      "catalog_number": "MAYA110",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Silhouette Feat De No.aiff",
+      "catalog_number": "MAYA203",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Slave To Your Love Feat Rachel.aiff",
+      "catalog_number": "MAYA174",
+      "position": 9
+    },
+    {
+      "file": "Joeski -Soledad.aiff",
+      "catalog_number": "MAYA174",
+      "position": 7
+    },
+    {
+      "file": "Joeski -Somebody.aiff",
+      "catalog_number": "MAYA168",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Soy Latino (Original).aiff",
+      "catalog_number": "MAYA182",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Spanglish.aiff",
+      "catalog_number": "MAYA235",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Sunset In Uganda (Spiritual Mix).aiff",
+      "catalog_number": "MAYA174",
+      "position": 11
+    },
+    {
+      "file": "Joeski -Take You Higher (Original).aiff",
+      "catalog_number": "MAYA237",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Take Your Love Away (Instrumental Mix).aiff",
+      "catalog_number": "MAYA077",
+      "position": 2
+    },
+    {
+      "file": "Joeski -Take Your Love Away (Original Vocal Mix).aiff",
+      "catalog_number": "MAYA077",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Tapao E Mar Feat Xiomara Torres, Adrian Viafara.aiff",
+      "catalog_number": "MAYA204",
+      "position": 1
+    },
+    {
+      "file": "Joeski -That Shit-.aiff",
+      "catalog_number": "MAYA250",
+      "position": 1
+    },
+    {
+      "file": "Joeski -The Orishas Feat Jimmy Lopez (Joeski-s Drum Madness Mix).aiff",
+      "catalog_number": "MAYA143",
+      "position": 2
+    },
+    {
+      "file": "Joeski -The Orishas Feat Jimmy Lopez (Original).aiff",
+      "catalog_number": "MAYA143",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Time Out (Heat Merchantz Rmx).aiff",
+      "catalog_number": "MAYA065",
+      "position": 5
+    },
+    {
+      "file": "Joeski -Time Out (Original Mix).aiff",
+      "catalog_number": "MAYA065",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Time Out (Si Gordon Rmx).aiff",
+      "catalog_number": "MAYA065",
+      "position": 3
+    },
+    {
+      "file": "Joeski -Time Out (Valentin-s Disco 3000 Dub).aiff",
+      "catalog_number": "MAYA065",
+      "position": 4
+    },
+    {
+      "file": "Joeski -Top Of The World (Original).aiff",
+      "catalog_number": "MAYA215",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Touch me (Original Mix).aiff",
+      "catalog_number": "MAYA104",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Toxic.aiff",
+      "catalog_number": "MAYA162",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Traicion.aiff",
+      "catalog_number": "MAYA176",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Uh Oh Rasta- (Original).aiff",
+      "catalog_number": "MAYA153",
+      "position": 1
+    },
+    {
+      "file": "Joeski -V Y Se Va.aiff",
+      "catalog_number": "MAYA229",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Vibrations.aiff",
+      "catalog_number": "MAYA259",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Wanting You.aiff",
+      "catalog_number": "MAYA261",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Way Back.aiff",
+      "catalog_number": "MAYA231",
+      "position": 1
+    },
+    {
+      "file": "Joeski -Zenaida (Original).aiff",
+      "catalog_number": "MAYA209",
+      "position": 1
+    },
+    {
+      "file": "Joeski, 333 -Bring Me Down (333 Rmx).aiff",
+      "catalog_number": "MAYA127",
+      "position": 3
+    },
+    {
+      "file": "Joeski, 333 -Bring Me Down (Joeski-s Bring The Horn Mix).aiff",
+      "catalog_number": "MAYA127",
+      "position": 2
+    },
+    {
+      "file": "Joeski, 333 -Bring Me Down (Original Mix).aiff",
+      "catalog_number": "MAYA127",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Aakan, Idd Aziz -Mwambi.aiff",
+      "catalog_number": "MAYA216",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Aaron Burnett -Brooklyn Horn Hustle Feat Aaron Burnett (Original).aiff",
+      "catalog_number": "MAYA232",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Alex Sosa -Brothers - Sisters (Alex Sosa Remix).aiff",
+      "catalog_number": "MAYA055",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Alex Sosa -Listen to the drum (Alex Sosa Remix).aiff",
+      "catalog_number": "MAYA057",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Andre Butano - Phillip Liard -Inside My Mind (Andre Butano - Phillip Liard Rmx).aiff",
+      "catalog_number": "MAYA116",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Angel Urena -Mi Gente (Original mix).aiff",
+      "catalog_number": "MAYA084",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Acid (J - AK Rework).aiff",
+      "catalog_number": "MAYA086",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode -Acid (Original mix).aiff",
+      "catalog_number": "MAYA086",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Boom Cha (Original mix).aiff",
+      "catalog_number": "MAYA082",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Boom Cha (Ski-s loop the bass Re Rub).aiff",
+      "catalog_number": "MAYA082",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode -Can i Get a Witness- (Joeski - Audio KoDe-s Dub).aiff",
+      "catalog_number": "MAYA075",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode -Can i Get a Witness- (Original Mix).aiff",
+      "catalog_number": "MAYA075",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Check it (J - AK-S Rework).aiff",
+      "catalog_number": "MAYA087",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode -Check it (Original mix).aiff",
+      "catalog_number": "MAYA087",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Come on (Leoesco-s Maya Dub).aiff",
+      "catalog_number": "MAYA073",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Audio kode -Come on (Original Mix).aiff",
+      "catalog_number": "MAYA073",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Flatline (Original mix).aiff",
+      "catalog_number": "MAYA083",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Infection (Original mix).aiff",
+      "catalog_number": "MAYA088",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -Inside My Mind (Audio KoDe Rmx).aiff",
+      "catalog_number": "MAYA116",
+      "position": 6
+    },
+    {
+      "file": "Joeski, Audio kode -Sangre Por Sangre (Original mix).aiff",
+      "catalog_number": "MAYA081",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -The Bounce (Original Mix).aiff",
+      "catalog_number": "MAYA074",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode -The Future (J - AK-s Rework).aiff",
+      "catalog_number": "MAYA078",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode -The Future (Original mix).aiff",
+      "catalog_number": "MAYA078",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Audio kode, J - AK -Sangre por sangre (J - Ak rmx).aiff",
+      "catalog_number": "MAYA081",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode, JM Brothers -Come on (Jm Brothers Remix).aiff",
+      "catalog_number": "MAYA073",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode, Javi Lopez -Infection (Javi Lopez rmx).aiff",
+      "catalog_number": "MAYA088",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode, Lars Behrenroth -The Bounce (Lars Behrenroth Remix).aiff",
+      "catalog_number": "MAYA074",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Audio kode, Mert Yucel -Sangre por sangre (Mert Yucel rmx).aiff",
+      "catalog_number": "MAYA081",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Audio kode, Mr Ski -Flatline (Mr Ski-s Rework).aiff",
+      "catalog_number": "MAYA083",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Benji Candelario -Time Out (Benji Candelario Dub).aiff",
+      "catalog_number": "MAYA065",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Canalón De Timbiqui -Tierra Linda.aiff",
+      "catalog_number": "MAYA188",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Canelo Rodriguez -La Rumba.aiff",
+      "catalog_number": "MAYA217",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Da Selektaa -Leg Up.aiff",
+      "catalog_number": "MAYA256",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Damian Lazurus -I Remember House Feat E Man (Damian Lazurus Re Shape).aiff",
+      "catalog_number": "MAYA166",
+      "position": 1
+    },
+    {
+      "file": "Joeski, David Herrero -Rise Up (Joeski-s Off The Truck Dub Edit).aiff",
+      "catalog_number": "MAYA136",
+      "position": 2
+    },
+    {
+      "file": "Joeski, David Herrero -Rise Up (Original Mix).aiff",
+      "catalog_number": "MAYA136",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Davincho -Pensando En Ti Feat Davincho.aiff",
+      "catalog_number": "MAYA223",
+      "position": 1
+    },
+    {
+      "file": "Joeski, De No -I Am Feat De No (Original Mix).aiff",
+      "catalog_number": "MAYA156",
+      "position": 1
+    },
+    {
+      "file": "Joeski, De No -Wakening Feat De No (Original).aiff",
+      "catalog_number": "MAYA145",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Eman -I Remember House Feat EMan (Tribute Mix).aiff",
+      "catalog_number": "MAYA144",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Franco De Mulero -Black Wire (Original mix).aiff",
+      "catalog_number": "MAYA103",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Harkati -Genuine Divine.aiff",
+      "catalog_number": "MAYA218",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Herald - Alex Davis -Inside my mind (Herald - Alex Davis).aiff",
+      "catalog_number": "MAYA084",
+      "position": 9
+    },
+    {
+      "file": "Joeski, Jackie Wells -Aruma.aiff",
+      "catalog_number": "MAYA212",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Javi Lopez -Natty Dread (Javi Lopez rmx).aiff",
+      "catalog_number": "MAYA100",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Javi Lopez, Ruben Zurita -Party Favors (Original mix).aiff",
+      "catalog_number": "MAYA097",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Jean Pierre -Inside My Mind (Jean Pierre Rmx).aiff",
+      "catalog_number": "MAYA116",
+      "position": 5
+    },
+    {
+      "file": "Joeski, Jesante -Been a while (Original).aiff",
+      "catalog_number": "MAYA106",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Jessica Colasante -In my Life (Joeski Remix).aiff",
+      "catalog_number": "MAYA084",
+      "position": 4
+    },
+    {
+      "file": "Joeski, Joeski,Joe Flores,Maya -Juawas Groove.aiff",
+      "catalog_number": "MAYA027",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Lady Life -BadBoyzz (Original mix).aiff",
+      "catalog_number": "MAYA085",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Lady Life, Mr Ski -BadBoyzz (Mr- Ski-s Head Dub).aiff",
+      "catalog_number": "MAYA085",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Le Vinyl -Kamba dance (Le Vinyl rmx).aiff",
+      "catalog_number": "MAYA071",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Liberty -Feel Your Body (Joeski-s Back To Your Body Remix).aiff",
+      "catalog_number": "MAYA063",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Liberty -Feel Your Body (Original Mix).aiff",
+      "catalog_number": "MAYA063",
+      "position": 4
+    },
+    {
+      "file": "Joeski, Liberty -Illicit Love (Original mix).aiff",
+      "catalog_number": "MAYA090",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Liberty, Alex Sosa -Illicit Love (Alex Sosa rmx).aiff",
+      "catalog_number": "MAYA090",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Liberty, Fer Ferrari -Feel Your Body (Fer Ferrari Remix).aiff",
+      "catalog_number": "MAYA063",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Liberty, Joeski,Liberty -I Want To Feel Your Body (Original Mix).aiff",
+      "catalog_number": "MAYA054",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Liberty, Joeski,Liberty -I Want To Feel Your Body (Other Body Remix).aiff",
+      "catalog_number": "MAYA054",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Liberty, Valentin -Feel Your Body (Valentin-s Zona Roja Remix).aiff",
+      "catalog_number": "MAYA063",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Manybeat -Zama (Sunrise) (Original).aiff",
+      "catalog_number": "MAYA240",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn -Stuck In A Dream (Original Mix).aiff",
+      "catalog_number": "MAYA047",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn -Stuck In A Dream (Tribal Dub Mix).aiff",
+      "catalog_number": "MAYA047",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn -Stuck in a Dub (Tribal dub mix).aiff",
+      "catalog_number": "MAYA084",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn, Jessi Colasante, Jazz -I Got News (Jazz Instrumental Mix).aiff",
+      "catalog_number": "MAYA053",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn, Jessi Colasante, Matthias Heilibronn -I Got News (Bqe-s Tech Dub).aiff",
+      "catalog_number": "MAYA053",
+      "position": 5
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn, Jessi Colasante, Matthias Heilibronn -I Got News (Bqe-s Tech Instrumental).aiff",
+      "catalog_number": "MAYA053",
+      "position": 4
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn, Jessi Colasante, Matthias Heilibronn -I Got News (Bqe-s Tech Mix).aiff",
+      "catalog_number": "MAYA053",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Matthias Heilbronn, Jessi Colasante, Matthias Heilibronn -I Got News (Original Jazz Mix).aiff",
+      "catalog_number": "MAYA053",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Max Martinez -Kamba dance (Max Martinez afrotech rmx).aiff",
+      "catalog_number": "MAYA071",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Mert Yucel -Inside My Mind (Mert Yucel Rmx).aiff",
+      "catalog_number": "MAYA116",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Mert Yucel -Mi Gente (Mert Yucel rmx).aiff",
+      "catalog_number": "MAYA080",
+      "position": 3
+    },
+    {
+      "file": "Joeski, Mihalis Safras -Babylon (Mihalis Safras Africano Rmx).aiff",
+      "catalog_number": "MAYA134",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Mr- Reo -Find A Way (Incl- DJ Sneak Remix) (Joeski-s Dub Mix).aiff",
+      "catalog_number": "MAYA025",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Mr- Reo -Find A Way (Incl- DJ Sneak Remix) (Joeski-s Original Vocal Mix).aiff",
+      "catalog_number": "MAYA020",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Mr- Reo -Find A Way (Incl- DJ Sneak Remix) (Joeski-s Original Vocal Mix).wav",
+      "duplicate_of": "Joeski, Mr- Reo -Find A Way (Incl- DJ Sneak Remix) (Joeski-s Original Vocal Mix).aiff"
+    },
+    {
+      "file": "Joeski, Mr- Reo, DJ Sneak -Find A Way (Incl- DJ Sneak Remix) (DJ Sneak-s Signature Sound Mix).aiff",
+      "catalog_number": "MAYA025",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Omar Alexander, DJ Sneak -Come Together (DJ Sneak-s Gangsta Dub Mix).aiff",
+      "catalog_number": "MAYA051",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Omar Alexander, Joeski,Omar Alexander -Come Together (Joeski-s Original Vocal Mix).aiff",
+      "catalog_number": "MAYA051",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Poncho Warwick -Move Yourself (Original).aiff",
+      "catalog_number": "MAYA118",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Rachel -A Story Of Love (Original).aiff",
+      "catalog_number": "MAYA152",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Rachel -Reach For The Stars (feat- Rachel).aiff",
+      "catalog_number": "MAYA163",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Rachel -Talk To Me Feat Rachel (Original).aiff",
+      "catalog_number": "MAYA158",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Rebeka, Joeski,Joe Flores -There For You - Pull the rain (Pull the Rain).aiff",
+      "catalog_number": "MAYA028",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Rebeka, Joeski,Joe Flores -There For You - Pull the rain (Pull the Rain).wav",
+      "duplicate_of": "Joeski, Rebeka, Joeski,Joe Flores -There For You - Pull the rain (Pull the Rain).aiff"
+    },
+    {
+      "file": "Joeski, Rebeka, Joeski,Joe Flores -There For You - Pull the rain (There for You).aiff",
+      "catalog_number": "MAYA028",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Rebeka, Joeski,Joe Flores -There For You - Pull the rain (There for You).wav",
+      "duplicate_of": "Joeski, Rebeka, Joeski,Joe Flores -There For You - Pull the rain (There for You).aiff"
+    },
+    {
+      "file": "Joeski, Rob Burns, Joeski,Rob Burns,Summer Daze -Summer Daze (Summer Daze Dub).aiff",
+      "catalog_number": "MAYA016",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Rob Burns, Joeski,Rob Burns,Summer Daze -Summer Daze (Summer Daze Dub).wav",
+      "duplicate_of": "Joeski, Rob Burns, Joeski,Rob Burns,Summer Daze -Summer Daze (Summer Daze Dub).aiff"
+    },
+    {
+      "file": "Joeski, Rob Burns, Joeski,Rob Burns,Summer Daze -Summer Daze (Summer Daze Vocal Mix).aiff",
+      "catalog_number": "MAYA016",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Rob Burns, Joeski,Rob Burns,Summer Daze -Summer Daze (Summer Daze Vocal Mix).wav",
+      "duplicate_of": "Joeski, Rob Burns, Joeski,Rob Burns,Summer Daze -Summer Daze (Summer Daze Vocal Mix).aiff"
+    },
+    {
+      "file": "Joeski, Rocco Rodamaal -Lost Drum (Rocco Twisted Mix).aiff",
+      "catalog_number": "MAYA135",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Sax Kitten -Sax Hustler Feat Sax Kitten (Original Mix).aiff",
+      "catalog_number": "MAYA169",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Tete de la Course -The Preacher man (Original mix).aiff",
+      "catalog_number": "MAYA107",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Tom Peters -Inside My Mind (Tom Peters Rmx).aiff",
+      "catalog_number": "MAYA116",
+      "position": 4
+    },
+    {
+      "file": "Joeski, Troy Dillard -Im Gonna Be Ok (Original Vocal).aiff",
+      "catalog_number": "MAYA138",
+      "position": 2
+    },
+    {
+      "file": "Joeski, Unna X -Frequencia Feat Unna X.aiff",
+      "catalog_number": "MAYA233",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Vangelis Kostoxenakis -Back In Time (Original Mix).aiff",
+      "catalog_number": "MAYA130",
+      "position": 1
+    },
+    {
+      "file": "Joeski, Vangelis Kostoxenakis -Yeah (Original Mix).aiff",
+      "catalog_number": "MAYA130",
+      "position": 2
+    },
+    {
+      "file": "Joeski,Jesante -Everybody Get Up (Original mix).aiff",
+      "catalog_number": "MAYA099",
+      "position": 1
+    },
+    {
+      "file": "Joeski,Jesante -How Do I Go On (Original mix).aiff",
+      "catalog_number": "MAYA109",
+      "position": 1
+    },
+    {
+      "file": "Joeski,Jesante, Andrew Chibale -How Do I Go On (Andrew Chibale rmx).aiff",
+      "catalog_number": "MAYA109",
+      "position": 4
+    },
+    {
+      "file": "Joeski,Jesante, Eppu -How Do I Go On (Eppu rmx).aiff",
+      "catalog_number": "MAYA109",
+      "position": 2
+    },
+    {
+      "file": "Joeski,Jesante, Joeski -Everybody Get Up (Joeski-s Off my head dub mix).aiff",
+      "catalog_number": "MAYA099",
+      "position": 2
+    },
+    {
+      "file": "Joeski,Jesante, Love - Logic -How Do I Go On (Love - Logic rmx).aiff",
+      "catalog_number": "MAYA109",
+      "position": 5
+    },
+    {
+      "file": "Joeski,Jesante, Mert Yucel -How Do I Go On (Mert Yucel rmx).aiff",
+      "catalog_number": "MAYA109",
+      "position": 3
+    },
+    {
+      "file": "Joeski,Jesante, Nick Holder -Everybody Get Up (NIck Holder Rmx).aiff",
+      "catalog_number": "MAYA099",
+      "position": 3
+    },
+    {
+      "file": "Jose M- - Tacoman, Matheo Velez -The Village (Original Mix).aiff",
+      "catalog_number": "MAYA122",
+      "position": 1
+    },
+    {
+      "file": "Juanito -Long Ride (Original).aiff",
+      "catalog_number": "MAYA157",
+      "position": 1
+    },
+    {
+      "file": "Juanito -Make A Move (Extended Mix).aiff",
+      "catalog_number": "MAYA173",
+      "position": 1
+    },
+    {
+      "file": "Juanito -Rose (Original).aiff",
+      "catalog_number": "MAYA157",
+      "position": 3
+    },
+    {
+      "file": "K-áax -Chaaman.aiff",
+      "catalog_number": "MAYA242",
+      "position": 1
+    },
+    {
+      "file": "KI Creighton, Makanan -Azuaga (Original Mix).aiff",
+      "catalog_number": "MAYA133",
+      "position": 3
+    },
+    {
+      "file": "KI Creighton, Makanan -Focus (Original Mix).aiff",
+      "catalog_number": "MAYA133",
+      "position": 1
+    },
+    {
+      "file": "KI Creighton, Makanan -Thats Right (Original Mix).aiff",
+      "catalog_number": "MAYA133",
+      "position": 2
+    },
+    {
+      "file": "Káax -Flor De Un Dia.aiff",
+      "catalog_number": "MAYA247",
+      "position": 1
+    },
+    {
+      "file": "Káax -Illuminated.aiff",
+      "catalog_number": "MAYA249",
+      "position": 1
+    },
+    {
+      "file": "Le Vinyl -Descalzo.aiff",
+      "catalog_number": "MAYA069",
+      "position": 2
+    },
+    {
+      "file": "Le Vinyl -Step By Step.aiff",
+      "catalog_number": "MAYA069",
+      "position": 1
+    },
+    {
+      "file": "Level Groove -Cardioligy (Original).aiff",
+      "catalog_number": "MAYA125",
+      "position": 2
+    },
+    {
+      "file": "Level Groove -Cocorico (Original).aiff",
+      "catalog_number": "MAYA125",
+      "position": 1
+    },
+    {
+      "file": "Los Bandidos -Las Cosas (Original Mix).aiff",
+      "catalog_number": "MAYA066",
+      "position": 1
+    },
+    {
+      "file": "Los Bandidos, Max Martinez -Las Cosas (Max Martinez Remix).aiff",
+      "catalog_number": "MAYA066",
+      "position": 2
+    },
+    {
+      "file": "Lucio Grandi -Tasty Jazz (Original).aiff",
+      "catalog_number": "MAYA108",
+      "position": 1
+    },
+    {
+      "file": "Lucio Grandi, Joeski -Tasty Jazz (Joeski rmx).aiff",
+      "catalog_number": "MAYA108",
+      "position": 2
+    },
+    {
+      "file": "M, J -Elevation (Alland Byallo Headband mix).aiff",
+      "catalog_number": "MAYA072",
+      "position": 2
+    },
+    {
+      "file": "M, J, Joeski And Matthias Heilbronn -Elevation (Original mix).aiff",
+      "catalog_number": "MAYA072",
+      "position": 1
+    },
+    {
+      "file": "Macondo -All Of Me (Sunrise Mix).aiff",
+      "catalog_number": "MAYA228",
+      "position": 1
+    },
+    {
+      "file": "Martin Aquino -Fundamentals (Dub mix).aiff",
+      "catalog_number": "MAYA079",
+      "position": 2
+    },
+    {
+      "file": "Martin Aquino -Fundamentals (Original mix).aiff",
+      "catalog_number": "MAYA079",
+      "position": 1
+    },
+    {
+      "file": "Martin Aquino, Hanfry Martinez - Javier Carballo -Fundamentals (Hanfry Martinez - Javier Carballo rmx).aiff",
+      "catalog_number": "MAYA079",
+      "position": 3
+    },
+    {
+      "file": "Martin Aquino, Joeski -Fundamentals (Joeski rmx).aiff",
+      "catalog_number": "MAYA079",
+      "position": 4
+    },
+    {
+      "file": "Max Martinez -Ritmo (Into The Deep Mix).aiff",
+      "catalog_number": "MAYA064",
+      "position": 2
+    },
+    {
+      "file": "Max Martinez -Ritmo (Original Mix).aiff",
+      "catalog_number": "MAYA064",
+      "position": 1
+    },
+    {
+      "file": "Max Martinez, Alex Sosa -Ritmo (Alex Sosa Mix).aiff",
+      "catalog_number": "MAYA064",
+      "position": 3
+    },
+    {
+      "file": "Max Martinez, Joeski -African Orchestra (Joeski Remix).aiff",
+      "catalog_number": "MAYA084",
+      "position": 5
+    },
+    {
+      "file": "Mert Yucel -Rigmarole (Joeski-s Deep Tech Remix).aiff",
+      "catalog_number": "MAYA060",
+      "position": 3
+    },
+    {
+      "file": "Mert Yucel -Rigmarole (Original).aiff",
+      "catalog_number": "MAYA060",
+      "position": 1
+    },
+    {
+      "file": "Mert Yucel, Joeski -Rigmarole (Joeski Remix).aiff",
+      "catalog_number": "MAYA060",
+      "position": 2
+    },
+    {
+      "file": "Miguel Lobo -Ajicero.aiff",
+      "catalog_number": "MAYA184",
+      "position": 1
+    },
+    {
+      "file": "Mikee (Athens) -Karma (Original mix).aiff",
+      "catalog_number": "MAYA089",
+      "position": 2
+    },
+    {
+      "file": "Mikee (Athens) -Wrong House (Original mix).aiff",
+      "catalog_number": "MAYA089",
+      "position": 1
+    },
+    {
+      "file": "Mr- Ski -Some Call It - (J - M Brothers Remix).aiff",
+      "catalog_number": "MAYA061",
+      "position": 2
+    },
+    {
+      "file": "Mr- Ski -Some Call It - (Original  Mix).aiff",
+      "catalog_number": "MAYA061",
+      "position": 1
+    },
+    {
+      "file": "Robb Swinga -Your Freak (Original).aiff",
+      "catalog_number": "MAYA192",
+      "position": 1
+    },
+    {
+      "file": "Robb Swinga, Joeski -Your Freak (Joeski-s Freak-s On Acid Mix).aiff",
+      "catalog_number": "MAYA192",
+      "position": 2
+    },
+    {
+      "file": "Robert Garcia -Caliente (Original mix).aiff",
+      "catalog_number": "MAYA093",
+      "position": 2
+    },
+    {
+      "file": "Robert Garcia -Renegado (Original mix).aiff",
+      "catalog_number": "MAYA093",
+      "position": 1
+    },
+    {
+      "file": "Ruben Zurita -X (Original mix).aiff",
+      "pending": "Catalog number needs confirmation; no catalog number embedded in the supplied audio."
+    },
+    {
+      "file": "Sama NYC -Abre Tus Ojos (Acid Dub Mix).aiff",
+      "catalog_number": "MAYA252",
+      "position": 1
+    },
+    {
+      "file": "Sama NYC -Abre Tus Ojos (Original).aiff",
+      "catalog_number": "MAYA252",
+      "position": 2
+    },
+    {
+      "file": "Serious Intention, Joeski -You Don-t Know (Joeski-s Off My Head Mix).aiff",
+      "catalog_number": "MAYA154",
+      "position": 1
+    },
+    {
+      "file": "Sydney Blu -Nanabijou (Original).aiff",
+      "catalog_number": "MAYA147",
+      "position": 1
+    },
+    {
+      "file": "Tete de la Course -Before Sunrise (Original mix).aiff",
+      "catalog_number": "MAYA098",
+      "position": 1
+    },
+    {
+      "file": "Tete de la Course -Before Sunset (Original mix).aiff",
+      "catalog_number": "MAYA098",
+      "position": 2
+    },
+    {
+      "file": "Tripio X -That-s Just How We Do It (Original).aiff",
+      "catalog_number": "MAYA117",
+      "position": 2
+    },
+    {
+      "file": "Tripio X -To The Limit (Original).aiff",
+      "catalog_number": "MAYA117",
+      "position": 1
+    },
+    {
+      "file": "Tru-York -Homage.aiff",
+      "catalog_number": "MAYA170",
+      "position": 1
+    },
+    {
+      "file": "Vangelis Kostoxenakis -Ngok (Original Mix).aiff",
+      "catalog_number": "MAYA126",
+      "position": 1
+    }
+  ],
+  "sources": {
+    "MAYA098": "https://essentialhouse.club/tag/tete-de-la-course/"
+  }
+}

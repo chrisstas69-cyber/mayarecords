@@ -12,12 +12,12 @@ export function formatDate(iso: string | null | undefined): string {
   if (!iso) return "TBA";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return iso;
-  return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 }
 
 export function formatYear(iso: string | null | undefined): string {
   if (!iso) return "";
-  return String(new Date(iso).getFullYear());
+  return String(new Date(iso).getUTCFullYear());
 }
 
 export function formatDuration(totalSeconds: number | null | undefined): string {
