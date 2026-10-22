@@ -34,7 +34,8 @@ Go to **SQL Editor → New query**. Paste in each file below, one at a time, and
 2. `supabase/migrations/0002_commerce.sql`
 3. `supabase/migrations/0003_members.sql`
 4. `supabase/migrations/0004_promoters.sql`
-5. `supabase/seed.sql` (adds the mixes and merch)
+5. `supabase/migrations/20261022215119_individual_track_purchases.sql`
+6. `supabase/seed.sql` (adds the mixes and merch)
 
 ## 3. Keys → `.env.local` (5 min)
 
@@ -103,6 +104,8 @@ This zips the WAV masters for the 20 releases you hold masters for. The **Buy** 
 ---
 
 ## Still needs a decision
+
+- **Individual tracks and full EPs.** Track prices default to $1.99, while existing full-release prices are retained. In the release editor's Audio & Links step, each track has its own price and private download ZIP (that track's MP3 + WAV only). Leave a track price blank to disable separate sales. The full release has a separate price and complete ZIP. Upload both kinds before enabling payments; checkout refuses downloads without an available private file. The cart replaces individual tracks with their complete release to avoid double charging. Purchased track IDs are preserved on edits; sold tracks cannot be deleted, so disable individual sales or archive the release instead.
 
 - **Booking and demo emails.** The site shows `bookings@armige.com` and `demos@mayarecords.com`, and both are unconfirmed (`src/lib/data/seed.ts` → `BOOKING`).
 - **Release prices** are placeholders: 1 track $1.99, 2–3 tracks $3.99, 4–6 tracks $5.99, 7+ tracks $9.99. Change them per release in the admin.

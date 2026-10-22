@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:commerce": "node --test scripts/test-track-commerce.cjs scripts/test-fulfillment-contracts.cjs scripts/test-commerce-migration.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
@@ -21,6 +22,7 @@
     "stripe": "^22.3.0"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "0.5.11",
     "@tailwindcss/postcss": "^4.1.7",
     "@types/node": "^22.15.0",
     "@types/papaparse": "^5.3.15",

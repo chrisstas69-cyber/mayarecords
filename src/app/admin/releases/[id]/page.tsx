@@ -36,10 +36,15 @@ export default async function EditReleasePage({ params }: { params: Promise<{ id
       ((release.tracks as Track[]) ?? [])
         .sort((a, b) => a.position - b.position)
         .map((t) => ({
+          id: t.id,
           title: t.title,
           bpm: t.bpm ? String(t.bpm) : "",
           musical_key: t.musical_key ?? "",
           preview_url: t.preview_url,
+          digital_price: t.digital_price_cents === null ? "" : String((t.digital_price_cents ?? 199) / 100),
+          master_url: t.master_url ?? null,
+          duration_seconds: t.duration_seconds,
+          isrc: t.isrc,
         })) || undefined,
   };
 

@@ -17,11 +17,20 @@ export interface ArtistOption {
 }
 
 export interface WizardTrack {
+  id?: string;
   title: string;
   bpm: string;
   musical_key: string;
   preview_url: string | null;
+  digital_price: string;
+  master_url: string | null;
+  duration_seconds?: number | null;
+  isrc?: string | null;
 }
+
+const EMPTY_TRACK: WizardTrack = {
+  title: "", bpm: "", musical_key: "", preview_url: null, digital_price: "1.99", master_url: null,
+};
 
 export interface WizardData {
   title: string;
@@ -56,7 +65,7 @@ const EMPTY: WizardData = {
   featured: false,
   digital_price: "",
   master_url: null,
-  tracks: [{ title: "", bpm: "", musical_key: "", preview_url: null }],
+  tracks: [{ ...EMPTY_TRACK }],
 };
 
 const STEPS = ["Basic Info", "Cover & Media", "Audio & Links", "Review & Publish"] as const;
@@ -114,11 +123,16 @@ export function ReleaseWizard({
       tracks: data.tracks
         .filter((t) => t.title.trim())
         .map((t, i) => ({
+          id: t.id,
           title: t.title,
           position: i + 1,
           bpm: t.bpm ? Number(t.bpm) : undefined,
           musical_key: t.musical_key || undefined,
           preview_url: t.preview_url ?? undefined,
+          digital_price_cents: t.digital_price.trim() ? Math.round(Number(t.digital_price) * 100) : null,
+          master_url: t.master_url,
+          duration_seconds: t.duration_seconds,
+          isrc: t.isrc,
         })),
     }),
     [data]
@@ -325,38 +339,64 @@ export function ReleaseWizard({
               {data.tracks.map((track, i) => (
                 <div key={i} className="flex items-start gap-2 border border-line bg-surface p-3">
                   <GripVertical size={15} className="mt-4 shrink-0 text-faint" aria-hidden />
-                  <div className="grid flex-1 gap-2 sm:grid-cols-[1fr_90px_90px]">
-                    <TextInput
-                      value={track.title}
-                      onChange={(e) => {
-                        const tracks = [...data.tracks];
-                        tracks[i] = { ...track, title: e.target.value };
-                        set("tracks", tracks);
-                      }}
-                      placeholder={`Track ${i + 1} title`}
-                      aria-label={`Track ${i + 1} title`}
-                    />
-                    <TextInput
-                      value={track.bpm}
-                      inputMode="numeric"
-                      onChange={(e) => {
-                        const tracks = [...data.tracks];
-                        tracks[i] = { ...track, bpm: e.target.value.replace(/\D/g, "") };
-                        set("tracks", tracks);
-                      }}
-                      placeholder="BPM"
-                      aria-label={`Track ${i + 1} BPM`}
-                    />
-                    <TextInput
-                      value={track.musical_key}
-                      onChange={(e) => {
-                        const tracks = [...data.tracks];
-                        tracks[i] = { ...track, musical_key: e.target.value };
-                        set("tracks", tracks);
-                      }}
-                      placeholder="Key"
-                      aria-label={`Track ${i + 1} key`}
-                    />
+                  <div className="min-w-0 flex-1 space-y-3">
+                    <div className="grid gap-2 sm:grid-cols-[1fr_90px_90px]">
+                      <TextInput
+                        value={track.title}
+                        onChange={(e) => {
+                          const tracks = [...data.tracks];
+                          tracks[i] = { ...track, title: e.target.value };
+                          set("tracks", tracks);
+                        }}
+                        placeholder={`Track ${i + 1} title`}
+                        aria-label={`Track ${i + 1} title`}
+                      />
+                      <TextInput
+                        value={track.bpm}
+                        inputMode="numeric"
+                        onChange={(e) => {
+                          const tracks = [...data.tracks];
+                          tracks[i] = { ...track, bpm: e.target.value.replace(/\D/g, "") };
+                          set("tracks", tracks);
+                        }}
+                        placeholder="BPM"
+                        aria-label={`Track ${i + 1} BPM`}
+                      />
+                      <TextInput
+                        value={track.musical_key}
+                        onChange={(e) => {
+                          const tracks = [...data.tracks];
+                          tracks[i] = { ...track, musical_key: e.target.value };
+                          set("tracks", tracks);
+                        }}
+                        placeholder="Key"
+                        aria-label={`Track ${i + 1} key`}
+                      />
+                    </div>
+                    <div className="grid items-end gap-3 sm:grid-cols-[110px_1fr]">
+                      <Field label="Track price (USD)" hint="Blank = not sold separately.">
+                        <TextInput
+                          inputMode="decimal"
+                          value={track.digital_price}
+                          aria-label={`Track ${i + 1} price in USD`}
+                          onChange={(e) => {
+                            const tracks = [...data.tracks];
+                            tracks[i] = { ...track, digital_price: e.target.value.replace(/[^0-9.]/g, "") };
+                            set("tracks", tracks);
+                          }}
+                        />
+                      </Field>
+                      <MasterUpload
+                        label={`Track ${i + 1} download ZIP (MP3 + WAV)`}
+                        accept="application/zip,.zip"
+                        value={track.master_url}
+                        onChange={(path) => {
+                          const tracks = [...data.tracks];
+                          tracks[i] = { ...track, master_url: path };
+                          set("tracks", tracks);
+                        }}
+                      />
+                    </div>
                   </div>
                   <button
                     type="button"
@@ -372,7 +412,7 @@ export function ReleaseWizard({
             </div>
             <button
               type="button"
-              onClick={() => set("tracks", [...data.tracks, { title: "", bpm: "", musical_key: "", preview_url: null }])}
+              onClick={() => set("tracks", [...data.tracks, { ...EMPTY_TRACK }])}
               className="mt-3 flex items-center gap-2 text-sm text-gold transition-colors hover:text-gold-bright"
             >
               <Plus size={14} /> Add track
@@ -381,13 +421,12 @@ export function ReleaseWizard({
 
           {/* Sell direct: price + private master */}
           <div className="border border-line bg-surface p-4">
-            <p className="mb-1 text-sm font-medium text-cream">Sell on the site (optional)</p>
+            <p className="mb-1 text-sm font-medium text-cream">Sell the full release (optional)</p>
             <p className="mb-4 text-xs text-stone">
-              Set a price and upload the sale master — buyers get an instant MP3 + WAV download after checkout. The
-              master file stays private.
+              Set the full-release price and upload its complete MP3 + WAV ZIP. Individual tracks use their own prices and ZIPs above.
             </p>
             <div className="grid gap-4 sm:grid-cols-[140px_1fr]">
-              <Field label="Price (USD)">
+              <Field label="Full release price (USD)">
                 <TextInput
                   inputMode="decimal"
                   value={data.digital_price}
@@ -502,14 +541,19 @@ export function ReleaseWizard({
   );
 }
 
-function MasterUpload({ value, onChange }: { value: string | null; onChange: (path: string | null) => void }) {
+function MasterUpload({ value, onChange, label = "Full release download (WAV or ZIP)", accept = "audio/wav,audio/x-wav,audio/aiff,application/zip,audio/flac" }: {
+  value: string | null;
+  onChange: (path: string | null) => void;
+  label?: string;
+  accept?: string;
+}) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [progress, setProgress] = useState<number | null>(null);
   const [uploadError, setUploadError] = useState<string | null>(null);
 
   return (
     <div>
-      <span className="mb-1.5 block text-sm font-medium text-cream">Sale master (WAV or ZIP)</span>
+      <span className="mb-1.5 block text-sm font-medium text-cream">{label}</span>
       {value ? (
         <div className="flex items-center justify-between gap-3 border border-line bg-night px-3 py-3 text-xs text-sand">
           <span className="truncate">{value.split("/").pop()}</span>
@@ -535,7 +579,7 @@ function MasterUpload({ value, onChange }: { value: string | null; onChange: (pa
       <input
         ref={inputRef}
         type="file"
-        accept="audio/wav,audio/x-wav,audio/aiff,application/zip,audio/flac"
+        accept={accept}
         className="hidden"
         onChange={async (e) => {
           const file = e.target.files?.[0];
