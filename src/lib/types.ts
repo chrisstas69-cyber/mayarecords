@@ -28,6 +28,8 @@ export interface Track {
   musical_key: string | null;
   isrc: string | null;
   preview_url: string | null;
+  digital_price_cents?: number | null;
+  master_url?: string | null;
 }
 
 export interface LinkItem {
@@ -90,6 +92,15 @@ export interface Product {
   sort: number;
 }
 
+interface DigitalCartDetails {
+  releaseId: string;
+  name: string;
+  artistName: string;
+  catalogNumber: string;
+  priceCents: number;
+  coverUrl: string | null;
+}
+
 export type CartItem =
   | {
       kind: "merch";
@@ -100,15 +111,8 @@ export type CartItem =
       quantity: number;
       imageUrl: string | null;
     }
-  | {
-      kind: "digital_release";
-      releaseId: string;
-      name: string;
-      artistName: string;
-      catalogNumber: string;
-      priceCents: number;
-      coverUrl: string | null;
-    };
+  | (DigitalCartDetails & { kind: "digital_release" })
+  | (DigitalCartDetails & { kind: "digital_track"; trackId: string; releaseTitle: string });
 
 export interface MediaAsset {
   id: string;

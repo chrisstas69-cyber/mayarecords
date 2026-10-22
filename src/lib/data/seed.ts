@@ -1,6 +1,7 @@
 import type { Artist, Mix, Product, Release } from "@/lib/types";
 import { ARCHIVE_RELEASES } from "./archive.generated";
 import { ARCHIVE_ARTISTS } from "./artists.generated";
+import { DEFAULT_TRACK_PRICE_CENTS } from "../commerce/pricing";
 
 /**
  * Seed catalog — real Joeski / Maya Records history (bio-sourced) with
@@ -135,6 +136,7 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
           isrc?: string | null;
           bpm?: number | null;
           musical_key?: string | null;
+          digital_price_cents?: number | null;
         };
         return {
           id: `${id}-${track.position}`,
@@ -144,6 +146,7 @@ export const SEED_RELEASES: Release[] = [...ARCHIVE_RELEASES]
           duration_seconds: track.duration_seconds ?? null,
           bpm: track.bpm ?? null,
           musical_key: track.musical_key ?? null,
+          digital_price_cents: track.digital_price_cents === undefined ? DEFAULT_TRACK_PRICE_CENTS : track.digital_price_cents,
           isrc: track.isrc ?? null,
           preview_url: track.preview_url ?? null,
         };

@@ -5,11 +5,11 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { PreviewButton } from "@/components/site/AudioPlayer";
 import { ReleaseCard } from "@/components/site/ReleaseCard";
-import { BuyReleaseButton } from "@/components/site/StoreFront";
+import { BuyReleaseButton, BuyTrackButton } from "@/components/site/StoreFront";
 import { getPublishedReleases, getReleaseBySlug } from "@/lib/data/catalog";
 import { formatDate, formatDuration } from "@/lib/utils";
 
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -33,6 +33,11 @@ export default async function ReleasePage({ params }: Props) {
 
   const all = await getPublishedReleases();
   const more = all.filter((r) => r.id !== release.id && r.artist_id === release.artist_id).slice(0, 4);
+  const purchaseRelease = {
+    id: release.id, title: release.title, artist_name: release.artist_name,
+    catalog_number: release.catalog_number, cover_url: release.cover_url,
+    digital_price_cents: release.digital_price_cents,
+  };
 
   return (
     <div className="mx-auto max-w-7xl px-5 pb-24 pt-28 sm:px-8 md:pt-36">
@@ -64,9 +69,9 @@ export default async function ReleasePage({ params }: Props) {
           </div>
           {release.digital_price_cents ? (
             <div className="mt-6">
-              <BuyReleaseButton release={release} />
+              <BuyReleaseButton release={purchaseRelease} />
               <p className="mt-2 text-center text-[0.65rem] text-faint">
-                Direct from the label · instant MP3 + WAV download
+                All {release.tracks.length} {release.tracks.length === 1 ? "track" : "tracks"} · MP3 + WAV
               </p>
             </div>
           ) : null}
@@ -131,10 +136,11 @@ export default async function ReleasePage({ params }: Props) {
           {/* Tracklist */}
           {release.tracks.length > 0 && (
             <div className="mt-10">
-              <p className="meta mb-4">Tracklist</p>
+              <p className="meta mb-2">Tracklist</p>
+              <p className="mb-5 text-sm text-stone">Buy individual tracks below, or choose the full release. MP3 + WAV included.</p>
               <ol className="divide-y divide-line border-y border-line">
                 {release.tracks.map((track) => (
-                  <li key={track.id} className="flex items-center gap-4 py-3.5">
+                  <li key={track.id} className="flex flex-wrap items-center gap-x-3 gap-y-3 py-3.5">
                     <span className="w-6 text-right text-sm tabular-nums text-faint">{track.position}</span>
                     {track.preview_url ? (
                       <PreviewButton
@@ -147,12 +153,15 @@ export default async function ReleasePage({ params }: Props) {
                     ) : (
                       <span className="w-[34px]" aria-hidden />
                     )}
-                    <span className="flex-1 text-[0.95rem] text-cream">{track.title}</span>
-                    {track.bpm && <span className="hidden text-xs text-stone sm:block">{track.bpm} BPM</span>}
-                    {track.musical_key && (
-                      <span className="hidden w-14 text-xs text-stone sm:block">{track.musical_key}</span>
-                    )}
-                    <span className="text-xs tabular-nums text-faint">{formatDuration(track.duration_seconds)}</span>
+                    <span className="min-w-0 flex-1 basis-40 text-[0.95rem] text-cream">{track.title}</span>
+                    <div className="ml-auto flex shrink-0 items-center gap-3">
+                      {track.bpm && <span className="hidden text-xs text-stone xl:block">{track.bpm} BPM</span>}
+                      {track.musical_key && (
+                        <span className="hidden w-12 text-xs text-stone xl:block">{track.musical_key}</span>
+                      )}
+                      <span className="text-xs tabular-nums text-faint">{formatDuration(track.duration_seconds)}</span>
+                      <BuyTrackButton release={purchaseRelease} track={{ id: track.id, title: track.title, digital_price_cents: track.digital_price_cents }} />
+                    </div>
                   </li>
                 ))}
               </ol>

@@ -23,6 +23,7 @@ import tempfile
 import re
 import sys
 import zipfile
+import uuid
 from pathlib import Path
 
 import requests
@@ -123,15 +124,19 @@ def sync_catalog() -> dict:
                      prefer="resolution=merge-duplicates,return=representation", json_body=row)[0]
         release_ids[cat] = saved["id"]
 
-        rest("DELETE", "tracks", params={"release_id": f"eq.{saved['id']}"})
+        existing_tracks = {t["position"]: t for t in rest("GET", "tracks", params={"release_id": f"eq.{saved['id']}", "select": "id,position,digital_price_cents"})}
         if tracks:
-            rest("POST", "tracks", json_body=[{
+            rest("POST", "tracks", params={"on_conflict": "id"}, prefer="resolution=merge-duplicates", json_body=[{
+                "id": existing_tracks.get(t["position"], {}).get("id") or str(uuid.uuid4()),
                 "release_id": saved["id"],
                 "position": t["position"],
                 "title": t["title"],
                 "duration_seconds": t.get("duration_seconds"),
                 "isrc": t.get("isrc"),
                 "preview_url": t.get("preview_url"),
+                "bpm": t.get("bpm"),
+                "musical_key": t.get("musical_key"),
+                "digital_price_cents": t.get("digital_price_cents", existing_tracks.get(t["position"], {}).get("digital_price_cents", 199)),
             } for t in tracks])
         print(f"  [{i}/{len(releases)}] {cat} {r['title']}")
     return release_ids

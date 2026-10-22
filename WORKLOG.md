@@ -5,6 +5,19 @@ This is what survives when a chat gets compacted or you switch tools.
 
 ---
 
+## 2026-10-22 — individual tracks and whole releases
+
+- Branch `codex/individual-track-purchases`: per-track Buy buttons throughout the catalog (default $1.99) alongside the existing full-release prices. Both purchase types include MP3 + WAV. Store cards link to individual-track selection.
+- Cart distinguishes tracks from EPs, persists existing carts, allows different tracks from the same EP and replaces overlapping tracks when the whole release is added.
+- Checkout validates IDs, ownership, published state, price, size/quantity and private master availability on the server before requesting payment. It cannot use an EP master for a missing track master.
+- Private delivery snapshots purchased file paths. New service-only `fulfill_paid_checkout` RPC commits orders/items/tokens atomically; Stripe pagination handles up to 50 items; retries reuse existing purchases. Download counters use compare-and-swap.
+- Migration: `20261022215119_individual_track_purchases.sql`. Backend remains unconfigured: no live DB migration, keys, billing setup or real Stripe transaction performed. Setup notes explain migration and separate private track ZIP uploads.
+- Admin editor has individual prices/private ZIPs and preserves track IDs (including sync script), duration and ISRC when editing. Sold tracks cannot be deleted; disable separate sales or archive instead.
+- Verified: nine cart/checkout tests, 24 mocked fulfillment/delivery contracts and 57 PostgreSQL assertions against actual migrations pass (`npm run test:commerce`, test-only PGlite 0.5.11). Build/TypeScript pass. Browser on MAYA079: two tracks = $3.98, then full release replaces them at $5.99; zero new console errors. Deployment verification recorded in the shared project record.
+
+
+---
+
 ## 2026-10-22 — supplied Maya release folder
 
 - Branch: `codex/import-maya-release-folder`. Imported 350 AIFF tracks across 210 releases from `~/Downloads/joeski maya`; verified eight WAV copies have identical decoded audio and omitted duplicates.

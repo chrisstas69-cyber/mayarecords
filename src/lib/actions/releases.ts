@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { normalizeCatalog, slugify } from "@/lib/utils";
 import type { LinkItem, PublishState, ReleaseInput } from "@/lib/types";
+import { privateMasterPath } from "@/lib/commerce/pricing";
 
 export interface ActionResult<T = undefined> {
   ok: boolean;
@@ -69,6 +70,12 @@ export async function saveRelease(
   const { supabase, user, error } = await requireStaff();
   if (error) return { ok: false, error };
 
+  for (const track of input.tracks ?? []) {
+    if (track.digital_price_cents != null && (!Number.isSafeInteger(track.digital_price_cents) || track.digital_price_cents <= 0)) {
+      return { ok: false, error: "Track prices must be positive amounts, or blank to disable individual sales." };
+    }
+    if (track.master_url && !privateMasterPath(track.master_url)) return { ok: false, error: "Upload track downloads to private master storage." };
+  }
   const issues = validateRelease(input);
   const isDraft = (input.state ?? "draft") === "draft";
   // Drafts may be incomplete except title; publishing enforces everything.
@@ -103,7 +110,8 @@ export async function saveRelease(
   if (releaseId) {
     const { error: updateError } = await supabase!.from("releases").update(payload).eq("id", releaseId);
     if (updateError) return { ok: false, error: friendlyDbError(updateError.message) };
-    await replaceTracks(supabase!, releaseId, input.tracks);
+    const trackError = await replaceTracks(supabase!, releaseId, input.tracks);
+    if (trackError) return { ok: false, error: trackError };
     revalidateCatalog();
     return { ok: true, data: { id: releaseId } };
   }
@@ -114,7 +122,8 @@ export async function saveRelease(
     .select("id")
     .single();
   if (insertError) return { ok: false, error: friendlyDbError(insertError.message) };
-  await replaceTracks(supabase!, data.id, input.tracks);
+  const trackError = await replaceTracks(supabase!, data.id, input.tracks);
+  if (trackError) return { ok: false, error: trackError };
   revalidateCatalog();
   return { ok: true, data: { id: data.id } };
 }
@@ -124,20 +133,38 @@ async function replaceTracks(
   releaseId: string,
   tracks?: ReleaseInput["tracks"]
 ) {
-  if (!tracks) return;
-  await supabase.from("tracks").delete().eq("release_id", releaseId);
+  if (!tracks) return null;
+  const { data: existing, error: readError } = await supabase.from("tracks").select("*").eq("release_id", releaseId);
+  if (readError) return friendlyDbError(readError.message);
+  const current = new Map((existing ?? []).map((track) => [track.id as string, track]));
+  if (tracks.some((track) => track.id && !current.has(track.id))) return "A track does not belong to this release. Reload the editor and try again.";
   const rows = tracks
     .filter((t) => t.title?.trim())
     .map((t, i) => ({
+      id: t.id ?? crypto.randomUUID(),
       release_id: releaseId,
       position: t.position ?? i + 1,
       title: t.title.trim(),
-      duration_seconds: t.duration_seconds ?? null,
+      duration_seconds: t.duration_seconds ?? (t.id ? current.get(t.id)?.duration_seconds : null) ?? null,
       bpm: t.bpm ?? null,
       musical_key: t.musical_key ?? null,
       preview_url: t.preview_url ?? null,
+      isrc: t.isrc ?? (t.id ? current.get(t.id)?.isrc : null) ?? null,
+      digital_price_cents: t.digital_price_cents === undefined ? (t.id ? current.get(t.id)?.digital_price_cents : 199) : t.digital_price_cents,
+      master_url: t.master_url === undefined ? (t.id ? current.get(t.id)?.master_url : null) : t.master_url,
     }));
-  if (rows.length > 0) await supabase.from("tracks").insert(rows);
+  // Stable track IDs keep existing carts and purchase references valid after edits.
+  if (rows.length > 0) {
+    const { error } = await supabase.from("tracks").upsert(rows, { onConflict: "id" });
+    if (error) return friendlyDbError(error.message);
+  }
+  const keep = new Set(rows.map((track) => track.id));
+  const removed = [...current.keys()].filter((id) => !keep.has(id));
+  if (removed.length > 0) {
+    const { error } = await supabase.from("tracks").delete().eq("release_id", releaseId).in("id", removed);
+    if (error) return friendlyDbError(error.message);
+  }
+  return null;
 }
 
 async function uniqueSlug(

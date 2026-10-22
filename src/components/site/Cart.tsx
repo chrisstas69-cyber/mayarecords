@@ -6,6 +6,7 @@ import { Minus, Plus, ShoppingBag, Trash2, X } from "lucide-react";
 import { createCheckoutSession } from "@/lib/actions/checkout";
 import { cn, formatPrice } from "@/lib/utils";
 import type { CartItem } from "@/lib/types";
+import { addCartItem, isCartItem, itemKey, normalizeCart } from "@/lib/commerce/cart";
 
 const STORAGE_KEY = "maya-cart-v1";
 
@@ -27,10 +28,6 @@ export function useCart() {
   return ctx;
 }
 
-function itemKey(item: CartItem): string {
-  return item.kind === "merch" ? `merch:${item.productId}:${item.size ?? ""}` : `digital:${item.releaseId}`;
-}
-
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
   const [open, setOpen] = useState(false);
@@ -39,7 +36,10 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     try {
       const raw = window.localStorage.getItem(STORAGE_KEY);
-      if (raw) setItems(JSON.parse(raw));
+      if (raw) {
+        const saved: unknown = JSON.parse(raw);
+        if (Array.isArray(saved)) setItems(normalizeCart(saved.filter(isCartItem)));
+      }
     } catch {
       // corrupted cart — start fresh
     }
@@ -51,19 +51,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
   }, [items, hydrated]);
 
   const addItem = useCallback((item: CartItem) => {
-    setItems((prev) => {
-      const key = itemKey(item);
-      const existing = prev.findIndex((i) => itemKey(i) === key);
-      if (existing >= 0) {
-        // digital items are one-per-order; merch bumps quantity
-        if (item.kind === "digital_release") return prev;
-        const next = [...prev];
-        const target = next[existing];
-        if (target.kind === "merch") next[existing] = { ...target, quantity: target.quantity + 1 };
-        return next;
-      }
-      return [...prev, item];
-    });
+    setItems((prev) => addCartItem(prev, item));
     setOpen(true);
   }, []);
 
@@ -159,7 +147,7 @@ function CartDrawer() {
                         alt=""
                         fill
                         sizes="64px"
-                        className={cn("object-contain", item.kind === "digital_release" && "object-cover")}
+                        className={cn("object-contain", item.kind !== "merch" && "object-cover")}
                       />
                     )}
                   </div>
@@ -184,7 +172,9 @@ function CartDrawer() {
                           </button>
                         </span>
                       ) : (
-                        <span className="text-[0.62rem] uppercase tracking-[0.18em] text-gold">Digital download</span>
+                        <span className="text-[0.62rem] uppercase tracking-[0.18em] text-gold">
+                          {item.kind === "digital_track" ? "Single track" : "Full release · all tracks"}
+                        </span>
                       )}
                       <button onClick={() => removeItem(i)} aria-label={`Remove ${item.name}`} className="text-stone transition-colors hover:text-error">
                         <Trash2 size={13} />

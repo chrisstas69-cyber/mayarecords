@@ -6,7 +6,10 @@ import Link from "next/link";
 import { Download, ShoppingBag } from "lucide-react";
 import { useCart } from "./Cart";
 import { cn, formatPrice, formatYear } from "@/lib/utils";
-import type { Product, Release } from "@/lib/types";
+import type { Product, Release, Track } from "@/lib/types";
+import { trackPrice } from "@/lib/commerce/pricing";
+
+type PurchaseRelease = Pick<Release, "id" | "title" | "artist_name" | "catalog_number" | "cover_url" | "digital_price_cents">;
 
 /** The store: merch grid + digital catalog. Client-side for cart interactions. */
 export function StoreFront({ products, releases }: { products: Product[]; releases: Release[] }) {
@@ -33,7 +36,7 @@ export function StoreFront({ products, releases }: { products: Product[]; releas
           <p className="eyebrow mb-3">Lossless & MP3</p>
           <h2 className="display-md text-cream">Digital Releases</h2>
           <p className="mt-3 max-w-xl text-sm text-sand">
-            Buy any Maya release direct from the label — every purchase includes MP3 and WAV, delivered instantly.
+            Buy a complete release or pick individual tracks. MP3 + WAV downloads, direct from the label.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 lg:grid-cols-4">
@@ -152,22 +155,26 @@ function DigitalCard({ release }: { release: Release }) {
           }
           className="mt-4 flex items-center justify-center gap-2 border border-gold/50 px-4 py-3 text-[0.7rem] uppercase tracking-[0.18em] text-gold transition-all hover:bg-gold hover:text-night"
         >
-          <Download size={13} /> Buy MP3 + WAV
+          <Download size={13} /> Buy full release
         </button>
+        <Link href={`/releases/${release.slug}`} className="mt-3 py-1 text-center text-xs text-sand underline decoration-line underline-offset-4 hover:text-gold">
+          Choose individual tracks
+        </Link>
       </div>
     </div>
   );
 }
 
 /** Buy block for the release detail page. */
-export function BuyReleaseButton({ release }: { release: Release }) {
-  const { addItem } = useCart();
+export function BuyReleaseButton({ release }: { release: PurchaseRelease }) {
+  const { addItem, items, setOpen } = useCart();
   const priceCents = release.digital_price_cents;
+  const inCart = items.some((item) => item.kind === "digital_release" && item.releaseId === release.id);
   if (!priceCents) return null;
   return (
     <button
       onClick={() =>
-        addItem({
+        inCart ? setOpen(true) : addItem({
           kind: "digital_release",
           releaseId: release.id,
           name: release.title,
@@ -179,7 +186,36 @@ export function BuyReleaseButton({ release }: { release: Release }) {
       }
       className="flex w-full items-center justify-center gap-3 bg-gold px-6 py-4 text-[0.78rem] font-medium uppercase tracking-[0.2em] text-night transition-colors hover:bg-gold-bright"
     >
-      <Download size={15} /> Buy MP3 + WAV · {formatPrice(priceCents)}
+      <Download size={15} /> {inCart ? "Full release in cart" : "Buy full release"} · {formatPrice(priceCents)}
+    </button>
+  );
+}
+
+export function BuyTrackButton({ release, track }: {
+  release: PurchaseRelease;
+  track: Pick<Track, "id" | "title" | "digital_price_cents">;
+}) {
+  const { items, addItem, setOpen } = useCart();
+  const price = trackPrice(track);
+  if (!price || price <= 0) return null;
+  const fullRelease = items.some((i) => i.kind === "digital_release" && i.releaseId === release.id);
+  const inCart = items.some((i) => i.kind === "digital_track" && i.releaseId === release.id && i.trackId === track.id);
+  return (
+    <button
+      type="button"
+      aria-label={fullRelease ? `${track.title} is included in the full release in your cart` : inCart ? `Open cart for ${track.title}` : `Buy ${track.title} for ${formatPrice(price)}`}
+      onClick={() => {
+        if (fullRelease || inCart) setOpen(true);
+        else addItem({
+          kind: "digital_track", releaseId: release.id, trackId: track.id,
+          releaseTitle: release.title, name: track.title, artistName: release.artist_name ?? "",
+          catalogNumber: release.catalog_number, priceCents: price, coverUrl: release.cover_url,
+        });
+      }}
+      className="inline-flex min-h-10 min-w-28 shrink-0 items-center justify-center gap-2 border border-gold/50 px-3 py-2 text-[0.68rem] uppercase tracking-wider text-gold transition-colors hover:bg-gold hover:text-night"
+    >
+      <ShoppingBag size={12} aria-hidden />
+      {fullRelease ? "EP in cart" : inCart ? "In cart" : `Buy · ${formatPrice(price)}`}
     </button>
   );
 }
