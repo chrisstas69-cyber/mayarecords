@@ -2,12 +2,13 @@ import type { MetadataRoute } from "next";
 import { getArtists, getPublishedReleases } from "@/lib/data/catalog";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+  const base = process.env.NEXT_PUBLIC_SITE_URL ?? "https://joeski-platform.vercel.app";
   const [releases, artists] = await Promise.all([getPublishedReleases(), getArtists()]);
 
   return [
     { url: base, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/releases`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/remixes`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/mixes`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/store`, changeFrequency: "weekly", priority: 0.8 },
     { url: `${base}/artists`, changeFrequency: "monthly", priority: 0.7 },

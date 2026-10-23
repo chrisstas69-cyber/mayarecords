@@ -74,6 +74,11 @@ export function Footer() {
                 DJ mixes & radio
               </Link>
             </li>
+            <li>
+              <Link href="/remixes" className="transition-colors hover:text-gold">
+                Joeski remixes — other labels
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

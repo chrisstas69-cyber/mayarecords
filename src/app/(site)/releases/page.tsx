@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { CatalogBrowser } from "@/components/site/CatalogBrowser";
+import { DiscographyTabs } from "@/components/site/DiscographyTabs";
 import { getPublishedReleases } from "@/lib/data/catalog";
 
 export const revalidate = 300;
@@ -21,6 +22,7 @@ export default async function ReleasesPage() {
           Every release, from MAYA001 forward. Tribal, deep and tech house — released on its own terms since 2001.
         </p>
       </header>
+      <DiscographyTabs active="releases" />
       <CatalogBrowser releases={releases} />
     </div>
   );
