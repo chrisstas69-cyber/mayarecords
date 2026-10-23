@@ -148,6 +148,7 @@ export function PlayerProvider({ children }: { children: React.ReactNode }) {
               {nowPlaying.coverUrl && (
                 <Image
                   src={nowPlaying.coverUrl}
+                  unoptimized={nowPlaying.coverUrl.startsWith("https://")}
                   alt=""
                   width={44}
                   height={44}
