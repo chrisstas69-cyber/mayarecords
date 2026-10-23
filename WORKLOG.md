@@ -5,6 +5,14 @@ This is what survives when a chat gets compacted or you switch tools.
 
 ---
 
+
+## 2026-10-23 — supplied DJ mixes and artwork (in progress)
+
+- Branch `codex/dj-mixes-library`. Chris supplied a WeTransfer “DJ Mixes & Art” archive, 17.7 GB. Explicit approval received to accept WeTransfer’s Terms for this download. Chrome download is running in ~/Downloads; full recordings remain local/outside Git.
+- Inspect the supplied files, import real titles/dates/durations/artwork, and replace the current placeholder Mixes section with the actual archive. Playback choice pending: existing SoundCloud streams versus separately hosted full recordings. Do not provision paid storage or publish a nonfunctional audio catalog as complete.
+- Files likely touched: Mixes page/browser, catalog data fallback, media/import scripts and tests; preserve the current releases, Remixes, shop/cart and catalog homepage.
+- Safe streaming extraction validates arriving ZIP members and ignores Mac metadata; no scripts from the archive are run. Importer `scripts/import-dj-mixes.py` reads actual ffprobe durations/tagged titles, preserves filename dates as archive dates (not a claimed recording date), pairs artwork and rejects incomplete publication. Four importer regression tests pass. Current inspected subset: 14 mixes, 14 covers; the complete archive is still downloading. No website changes or deployment yet.
+
 ## 2026-10-23 — promotion player artwork follow-up
 
 - Guard custom public HTTPS promo artwork in the persistent player as well as the spotlight. Loading a preview must not crash when an admin chooses artwork outside the Next image-optimization allowlist; no remote-host allowlist is widened. Local browser verified both external artwork images loaded while playing, with zero console errors; restored bundled default after the test.
