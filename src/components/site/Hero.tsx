@@ -99,6 +99,12 @@ export function Hero({
             <Play size={14} /> Explore the Catalog
           </Link>
           <Link
+            href="/remixes"
+            className="flex items-center gap-3 border border-gold/50 px-8 py-4 text-[0.78rem] uppercase tracking-[0.22em] text-gold transition-colors hover:bg-gold hover:text-night"
+          >
+            Joeski Remixes <ArrowRight size={14} />
+          </Link>
+          <Link
             href="/contact"
             className="flex items-center gap-3 border border-cream/25 px-8 py-4 text-[0.78rem] uppercase tracking-[0.22em] text-cream transition-colors hover:border-cream/60"
           >

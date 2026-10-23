@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
   { href: "/releases", label: "Releases" },
+  { href: "/remixes", label: "Remixes" },
   { href: "/members", label: "Members" },
   { href: "/mixes", label: "Mixes" },
   { href: "/artists", label: "Artists" },
@@ -51,16 +52,17 @@ export function NavBar() {
             priority
             className="h-8 w-auto mix-blend-screen"
           />
-          <span className="hidden text-[0.6rem] uppercase tracking-[0.35em] text-stone sm:block">
+          <span className="hidden text-[0.6rem] uppercase tracking-[0.35em] text-stone sm:block xl:hidden 2xl:block">
             Maya Records
           </span>
         </Link>
 
-        <div className="hidden items-center gap-6 lg:gap-8 md:flex">
+        <div className="hidden items-center gap-5 xl:flex 2xl:gap-7">
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.href}
               href={item.href}
+              aria-current={pathname.startsWith(item.href) ? "page" : undefined}
               className={cn(
                 "whitespace-nowrap text-[0.72rem] uppercase tracking-[0.24em] transition-colors",
                 pathname.startsWith(item.href) ? "text-gold" : "text-sand hover:text-cream"
@@ -72,7 +74,7 @@ export function NavBar() {
           <CartButton />
         </div>
 
-        <div className="flex items-center gap-1 md:hidden">
+        <div className="flex items-center gap-1 xl:hidden">
           <CartButton />
           <button
             className="p-2 text-cream"
@@ -86,12 +88,13 @@ export function NavBar() {
       </nav>
 
       {open && (
-        <div className="border-t border-line bg-night px-5 pb-8 pt-4 md:hidden">
+        <div className="max-h-[calc(100svh-4rem)] overflow-y-auto border-t border-line bg-night px-5 pb-8 pt-4 xl:hidden">
           <div className="flex flex-col gap-5">
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
+                aria-current={pathname.startsWith(item.href) ? "page" : undefined}
                 className={cn(
                   "text-sm uppercase tracking-[0.24em]",
                   pathname.startsWith(item.href) ? "text-gold" : "text-sand"

@@ -5,15 +5,13 @@ This is what survives when a chat gets compacted or you switch tools.
 
 ---
 
-## 2026-10-22 — individual tracks and whole releases
+## 2026-10-23 — Joeski remix catalog
 
-- Branch `codex/individual-track-purchases`: per-track Buy buttons throughout the catalog (default $1.99) alongside the existing full-release prices. Both purchase types include MP3 + WAV. Store cards link to individual-track selection.
-- Cart distinguishes tracks from EPs, persists existing carts, allows different tracks from the same EP and replaces overlapping tracks when the whole release is added.
-- Checkout validates IDs, ownership, published state, price, size/quantity and private master availability on the server before requesting payment. It cannot use an EP master for a missing track master.
-- Private delivery snapshots purchased file paths. New service-only `fulfill_paid_checkout` RPC commits orders/items/tokens atomically; Stripe pagination handles up to 50 items; retries reuse existing purchases. Download counters use compare-and-swap.
-- Migration: `20261022215119_individual_track_purchases.sql`. Backend remains unconfigured: no live DB migration, keys, billing setup or real Stripe transaction performed. Setup notes explain migration and separate private track ZIP uploads.
-- Admin editor has individual prices/private ZIPs and preserves track IDs (including sync script), duration and ISRC when editing. Sold tracks cannot be deleted; disable separate sales or archive instead.
-- Verified: nine cart/checkout tests, 24 mocked fulfillment/delivery contracts and 57 PostgreSQL assertions against actual migrations pass (`npm run test:commerce`, test-only PGlite 0.5.11). Build/TypeScript pass. Browser on MAYA079: two tracks = $3.98, then full release replaces them at $5.99; zero new console errors. Deployment verification recorded in the shared project record.
+- Branch `codex/joeski-remixes`: separate static `/remixes` catalog with all 114 supplied remix entries, 81 labels and 2001–2026 range; source JSON preserved byte-for-byte. Search across artist/title/mix/label/release, label filter, four sorts, live count and reset/empty state.
+- All 114 covers sourced from exact store/retailer pages and shipped locally (2.3 MB total). Reusable importer and reviewed provenance manifests under `scripts/enrich-remix-artwork.py` and `data/`; no catalog APIs or external-image dependency at runtime. Confirmed row 106's missing title as Sundowna through Boomkat; correction is separate from the unchanged original archive.
+- Preserved all supplied purchase URLs: 114 Traxsource buttons, 102 Beatport buttons; 12 Traxsource-only entries, no guessed Beatport links. External-label remixes stay out of the Maya cart and members vault.
+- Added Remixes navigation, homepage CTA, footer link and Maya/Remixes catalog tabs; moved full navigation to xl to avoid tablet overflow and made the mobile menu scrollable. Added sitemap/metadata/canonical. Metadata/sitemap now default to the live domain rather than localhost when the existing site-URL variable is absent.
+- Verified: all six remix regression tests, existing commerce tests (nine cart/checkout, 24 fulfillment and 57 PostgreSQL checks), TypeScript and production build pass. `/remixes` prerenders statically, 3.65 kB route JS. Browser: 114 cards/covers, exact link counts, accent-insensitive search, label intersection, oldest sort, empty-state recovery, 390px phone layout with both buttons reachable/no horizontal overflow, navigation away/back and no console errors. No dependencies, environment variables, database migrations or paid services added. GitHub/Vercel verification follows below when complete.
 
 
 ---
