@@ -9,7 +9,8 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test:commerce": "node --test scripts/test-track-commerce.cjs scripts/test-fulfillment-contracts.cjs scripts/test-commerce-migration.mjs",
-    "test:remixes": "node --test scripts/test-remixes.cjs"
+    "test:remixes": "node --test scripts/test-remixes.cjs",
+    "test:catalog": "node --test scripts/test-catalog-frontpage.cjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",

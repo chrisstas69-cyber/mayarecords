@@ -4,6 +4,9 @@ import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
 import type { Artist, Mix, Product, Release } from "@/lib/types";
 import { SEED_ARTISTS, SEED_MIXES, SEED_PRODUCTS, SEED_RELEASES } from "./seed";
+import promotionDefaults from "../../../data/site-promotion.json";
+import { readPromotion } from "../promotion";
+import type { PromotionConfig } from "../promotion";
 
 /**
  * Public-site data layer.
@@ -37,7 +40,8 @@ export async function getPublishedReleases(): Promise<Release[]> {
       .select(RELEASE_SELECT)
       .eq("state", "published")
       .order("release_date", { ascending: false, nullsFirst: false });
-    if (!error && data && data.length > 0) return (data as unknown as ReleaseRow[]).map(shapeRelease);
+    if (!error && data && data.length > 0)
+      return (data as unknown as ReleaseRow[]).map(shapeRelease);
   }
   return SEED_RELEASES;
 }
@@ -83,7 +87,10 @@ export async function getActiveProducts(): Promise<Product[]> {
       .eq("active", true)
       .order("sort");
     if (!error && data && data.length > 0)
-      return data.map((p) => ({ ...(p as unknown as Product), sizes: (p.sizes as string[]) ?? [] }));
+      return data.map((p) => ({
+        ...(p as unknown as Product),
+        sizes: (p.sizes as string[]) ?? [],
+      }));
   }
   return SEED_PRODUCTS;
 }
@@ -92,23 +99,31 @@ export interface SiteSettings {
   hero_headline: string;
   hero_subline: string;
   hero_media_url: string | null;
+  promotion: PromotionConfig;
 }
 
 const DEFAULT_SETTINGS: SiteSettings = {
   hero_headline: "Music for the floor.",
-  hero_subline: "Three decades of New York house lineage. Colombian roots. Maya Records. Resident at Stereo Montréal.",
+  hero_subline:
+    "Three decades of New York house lineage. Colombian roots. Maya Records. Resident at Stereo Montréal.",
   hero_media_url: null,
+  promotion: readPromotion(promotionDefaults),
 };
 
 export async function getSiteSettings(): Promise<SiteSettings> {
   if (isSupabaseConfigured()) {
     const supabase = await createClient();
-    const { data } = await supabase!.from("site_settings").select("*").eq("id", 1).maybeSingle();
+    const { data } = await supabase!
+      .from("site_settings")
+      .select("*")
+      .eq("id", 1)
+      .maybeSingle();
     if (data) {
       return {
         hero_headline: data.hero_headline ?? DEFAULT_SETTINGS.hero_headline,
         hero_subline: data.hero_subline ?? DEFAULT_SETTINGS.hero_subline,
         hero_media_url: data.hero_media_url ?? null,
+        promotion: readPromotion(data.promotion, DEFAULT_SETTINGS.promotion),
       };
     }
   }
@@ -127,7 +142,8 @@ export async function getArtists(): Promise<Artist[]> {
         .map((a) => ({
           ...(a as unknown as Artist),
           links: (a.links as Artist["links"]) ?? [],
-          release_count: (a.releases as Array<{ count: number }> | null)?.[0]?.count ?? 0,
+          release_count:
+            (a.releases as Array<{ count: number }> | null)?.[0]?.count ?? 0,
         }))
         .filter((a) => a.release_count > 0);
     }
@@ -138,22 +154,37 @@ export async function getArtists(): Promise<Artist[]> {
   })).filter((a) => a.release_count > 0);
 }
 
-export async function getArtistBySlug(slug: string): Promise<{ artist: Artist; releases: Release[] } | null> {
+export async function getArtistBySlug(
+  slug: string,
+): Promise<{ artist: Artist; releases: Release[] } | null> {
   if (isSupabaseConfigured()) {
     const supabase = await createClient();
-    const { data } = await supabase!.from("artists").select("*").eq("slug", slug).maybeSingle();
+    const { data } = await supabase!
+      .from("artists")
+      .select("*")
+      .eq("slug", slug)
+      .maybeSingle();
     if (data) {
-      const artist = { ...(data as unknown as Artist), links: (data.links as Artist["links"]) ?? [] };
+      const artist = {
+        ...(data as unknown as Artist),
+        links: (data.links as Artist["links"]) ?? [],
+      };
       const { data: rel } = await supabase!
         .from("releases")
         .select(RELEASE_SELECT)
         .eq("artist_id", artist.id)
         .eq("state", "published")
         .order("release_date", { ascending: false });
-      return { artist, releases: ((rel ?? []) as unknown as ReleaseRow[]).map(shapeRelease) };
+      return {
+        artist,
+        releases: ((rel ?? []) as unknown as ReleaseRow[]).map(shapeRelease),
+      };
     }
   }
   const artist = SEED_ARTISTS.find((a) => a.slug === slug);
   if (!artist) return null;
-  return { artist, releases: SEED_RELEASES.filter((r) => r.artist_id === artist.id) };
+  return {
+    artist,
+    releases: SEED_RELEASES.filter((r) => r.artist_id === artist.id),
+  };
 }
