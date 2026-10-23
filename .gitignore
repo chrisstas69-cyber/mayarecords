@@ -21,3 +21,6 @@ next-env.d.ts
 /catalog/labelworx-audio/
 /catalog/masters.json
 /catalog/missing-masters.txt
+
+# Supabase CLI local cache
+/supabase/.temp/

@@ -112,3 +112,13 @@ This zips the WAV masters for the 20 releases you hold masters for. The **Buy** 
 - **Masters.** Only 20 releases have full WAVs on hand, from the archive folder. Labelworx only gives preview clips. For the rest you'd need masters from Joeski's drives. Drop them in `~/Downloads/Maya Records Archive/01 Releases by Catalog Number/MAYAxxx/WAV/`, then rerun `merge-labelworx.py` and `sync-to-supabase.py --masters`.
 - **Members on a new device.** Access is tied to the browser the member paid on. Next step: a "restore access" link emailed to members.
 - **Copyright on the edits.** Charging for access to unlicensed edits is a DMCA risk, and could get the Stripe account shut down.
+
+## Catalog front page / top-right promotion
+
+- Both `/` and `/releases` use the same catalog-first layout. The bundled default in `data/site-promotion.json` chooses the nearest upcoming **published** release, otherwise the latest published release. No upcoming release is invented; drafts/scheduled records are not exposed.
+- Until Supabase is connected, change `data/site-promotion.json` through a normal PR/deploy to update or hide the slot. `enabled: false` hides it. Fields: `kind` (`release`, `presale`, `merch`, `campaign`), optional `release_slug`, `badge`, `title`, `description`, `image_url`, `primary_label`, `primary_url`, optional `secondary_label` + `secondary_url`.
+- Once the backend is connected, apply `supabase/migrations/20261023200826_catalog_promotions.sql` after the existing migrations. Then use **Label Portal → Settings → Featured Promotion** as an admin. Database settings override the bundled default; missing/invalid config falls back safely. A failed or zero-row write never reports success.
+- Merch/campaign promotions require a title, main button label and destination. Presale campaigns also require a real destination; linking a published release slug adds that release's artwork/preview. Use public site paths or HTTPS URLs only. Public artwork must be approved for use; never paste credentials/private signed URLs.
+- This slot is promotional, **not a new preorder payment/fulfillment system**. Only link a presale destination that is already operational. The existing Supabase/Stripe/private-master setup remains necessary for direct sales and manual CMS editing. No backend or payments were activated by this redesign.
+- Saved hearts are browser-local favorites, not account collections. Individual tracks remain available through each release’s **Tracks / Choose tracks** link; compact prices buy the complete release.
+- Regression checks: `npm run test:catalog`, `npm run test:remixes`, `npm run test:commerce`, `npm run typecheck`, `npm run build`.

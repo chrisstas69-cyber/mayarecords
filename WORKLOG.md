@@ -5,6 +5,15 @@ This is what survives when a chat gets compacted or you switch tools.
 
 ---
 
+## 2026-10-23 — Figma catalog-first front page
+
+- Branch `codex/catalog-frontpage`: adapting the Figma Make catalog layout to the real 257-release catalog on home and /releases. Flexible top-right campaign slot, dense discovery cards and grid/table browser.
+- Shared homepage/releases layout, real six-card discovery row, paginated full catalog table/grid, accent-insensitive multiword/track search, genre/artist/availability filters, removable chips and browser-local saved hearts. Real MP3/WAV prices, individual-track links, TBC retained for X. No fake vinyl availability, counts, dates or metadata from the prototype.
+- Top-right promotion supports a real published release, explicit presale destination, merch or another campaign; blank release selection picks nearest upcoming published release then latest. Safe public URLs and validated copy; automatic fallback in `data/site-promotion.json`. Decorative playback bars reflect actual progress; persistent player adds volume and guarded seek without rerendering every catalog play button on time updates.
+- Added Label Portal → Settings → Featured Promotion plus migration `20261023200826_catalog_promotions.sql`. Existing backend remains unconfigured; no remote migration, account, credentials or payments activated. Manual admin controls require Supabase activation and migration. A promo does not create preorder checkout/fulfillment. Details in SETUP-TOMORROW.md.
+- Local verification: eight catalog/promotion/auth/fallback tests, six remix tests, nine commerce/cart cases, 24 fulfillment contracts and 63 actual-migration PostgreSQL assertions pass. TypeScript and production build pass. Browser: real 257 rows with All, X/TBC artist filter, search/page reset, empty-state recovery, grid/list, persisted favorites, full-EP cart price, individual track links, preview playback/seek/volume/pause/close and player persistence through Remixes navigation. 390px phone and 1024px tablet have no horizontal overflow; card controls fit and remain accessible. Temporary merch/presale config rendered with correct destinations and no unrelated audio, restored default before build. Zero console errors in local checks. Git/Vercel release verification follows after preview.
+
+
 ## 2026-10-23 — Joeski remix catalog
 
 - Branch `codex/joeski-remixes`: separate static `/remixes` catalog with all 114 supplied remix entries, 81 labels and 2001–2026 range; source JSON preserved byte-for-byte. Search across artist/title/mix/label/release, label filter, four sorts, live count and reset/empty state.
