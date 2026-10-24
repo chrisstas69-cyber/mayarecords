@@ -35,6 +35,8 @@ const source = require("../data/joeski-press.json");
 const items = coverage.parsePressItems(source);
 const { PressBrowser } = load("src/components/site/PressBrowser.tsx", {
   "@/lib/coverage": coverage,
+  "../../../data/joeski-press-artwork.json": { default: require("../data/joeski-press-artwork.json") },
+  "next/image": { default: ({ src, alt }) => React.createElement("img", { src, alt }) },
   "lucide-react": { Search: () => null, ArrowUpRight: () => null },
 });
 const render = (rows = items) =>
@@ -242,4 +244,20 @@ test("new route/nav/sitemap stay separate from the unchanged gated press kit and
   );
   assert.doesNotMatch(page, /supabase|fetch\(/i);
   assert.match(page, /JOESKI_PRESS/);
+});
+
+
+test("responsive image cards retain all articles, approved cover and honest branded fallbacks", () => {
+  const html = render();
+  assert.ok(html.includes("sm:grid-cols-2 lg:grid-cols-3"));
+  assert.ok(html.includes('/press/joeski-mixmag-80-2024-cover.png'));
+  assert.ok(html.includes('branded press artwork'));
+  assert.equal((html.match(/<article /g) || []).length, source.length);
+  const map = require("../data/joeski-press-artwork.json");
+  for (const [url, image] of Object.entries(map)) {
+    assert.ok(source.some(item => item.url === url));
+    assert.ok(image.src.startsWith("/press/") && !image.src.includes(".."));
+    assert.ok(fs.existsSync(path.join(root, "public", image.src)));
+    assert.ok(image.alt && image.source);
+  }
 });

@@ -6,6 +6,12 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-24 — press image cards
+
+- Branch `codex/press-image-cards`: Chris requested starting the image-card redesign now despite low remaining usage. Responsive 1/2/3-column cards retain all34 records, year groups, search/type/sorts/exact READ links and status/date precision. Promoter `/press` unchanged.
+- Use approved actual Mixmag Issue80 cover. Remaining entries get explicitly branded outlet/type/date artwork, not unrelated photos or fabricated interview screenshots. Optional URL-keyed local artwork manifest keeps original source JSON unchanged; future actual article images require correct-story/rights verification. Failed image loads fall back gracefully. No scraping, dependencies, backend or service changes.
+- Local production build/TypeScript and coverage10/homepage6/mixes6 + Python8 tests pass. Local browser:34 cards, actual Mixmag cover loads, search3/type intersection1/reset34;390px all READ targets>=44px/reachable and no horizontal overflow; zero console errors. PR preview/production results tracked in shared project record after deployment.
+
 ## 2026-10-24 — public press archive
 
 - Branch `codex/public-press-archive`. Add static `/coverage`, matching existing Remixes page tokens, typography, controls and container; main nav gets separate Press and unchanged Press Kit destinations. Do not edit `/press`, promoter APIs/private EPK assets, shared footer or existing homepage design.
