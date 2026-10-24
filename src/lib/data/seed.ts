@@ -1,3 +1,4 @@
+import MIX_ARCHIVE from "../../../data/joeski-mixes.json";
 import type { Artist, Mix, Product, Release } from "@/lib/types";
 import { ARCHIVE_RELEASES } from "./archive.generated";
 import { ARCHIVE_ARTISTS } from "./artists.generated";
@@ -174,58 +175,7 @@ export const SEED_FILM_PHOTOS = Array.from({ length: 16 }, (_, i) => ({
   portrait: ![0, 1, 5].includes(i),
 }));
 
-/**
- * Seed mixes — real series from the bio/blueprint (Maya Sessions on Pioneer DJ
- * Radio; the "Stereo 4am" depth proof; the Latin/tribal spearhead set).
- * audio_url stays null until recordings are uploaded via admin → Mixes.
- */
-export const SEED_MIXES: Mix[] = [
-  {
-    id: "seed-mix-1",
-    title: "Latin Tribal Spearhead — Summer Session",
-    slug: "latin-tribal-spearhead",
-    recorded_on: "2026-06-01",
-    duration_seconds: 4980,
-    description:
-      "The definitive Latin/tribal set — drums up front, built for terraces and open-air floors from Barcelona to Medellín.",
-    cover_url: "/images/live/hero-crowd-2.jpg",
-    audio_url: null,
-    external_url: "https://soundcloud.com/mayarecordings",
-    tracklist: null,
-    state: "published",
-    featured: true,
-  },
-  {
-    id: "seed-mix-2",
-    title: "Stereo Montréal — 4AM Journey",
-    slug: "stereo-montreal-4am",
-    recorded_on: "2026-04-18",
-    duration_seconds: 7620,
-    description:
-      "Recorded live during the Stereo residency. The deep end of the range — patient, hypnotic, after-hours music for a room that never wants to leave.",
-    cover_url: "/images/live/hero-crowd-1.jpg",
-    audio_url: null,
-    external_url: "https://soundcloud.com/mayarecordings",
-    tracklist: null,
-    state: "published",
-    featured: false,
-  },
-  {
-    id: "seed-mix-3",
-    title: "Maya Sessions 014 — Pioneer DJ Radio",
-    slug: "maya-sessions-014",
-    recorded_on: "2026-01-15",
-    duration_seconds: 3600,
-    description:
-      "The long-running Maya Sessions podcast — new label material, unreleased edits, and the records shaping the next quarter of the catalog.",
-    cover_url: "/images/press/joeski-3.jpg",
-    audio_url: null,
-    external_url: "https://soundcloud.com/mayarecordings",
-    tracklist: null,
-    state: "published",
-    featured: false,
-  },
-];
+export const SEED_MIXES: Mix[] = MIX_ARCHIVE.map<Mix>(mix => ({ ...mix, state: "published" }));
 
 /** Seed merch — carried over from the original site concept. TODO: product photography. */
 export const SEED_PRODUCTS: Product[] = [

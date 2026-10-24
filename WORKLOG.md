@@ -6,6 +6,15 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-23 — real DJ mix library / SoundCloud playback
+
+- Branch `codex/dj-mixes-library`. Chris chose SoundCloud playback. Completed authorized WeTransfer download/extraction: 452 ZIP entries, 19,793,370,973 validated bytes, 113 audio files with 113 paired covers, zero inspection errors. All full audio stays in `~/Downloads/Joeski DJ Mixes 2026-10-23`, outside Git; no new storage, account, paid resource, env var, database or Stripe activation.
+- Published dataset has 108 distinct recordings/artworks, 2012–2026, over 135 hours. Five byte-identical duplicates represented once, aliases and SHA-256 proof in `data/joeski-mixes-import.json`. Removed the original three illustrative seed sets. Source filenames/metadata and reviewed ID3 corrections are preserved separately; no invented recording dates.
+- 75 exact public SoundCloud links verified against original Joeski/publisher pages and official oEmbed. 33 missing/private/unverified sources remain explicitly “SoundCloud link pending”; do not imply all recordings can stream. Link-research handoff saved in chat outputs/dj-mixes-links-needed.md. Do not guess slugs, substitute other episodes, or use the deleted Flow Podcast URL.
+- Responsive `/mixes`: supplied artwork, full titles, honest recorded/published/archive date labels, measured runtimes, search, year and length filters, four sorts, paginated grid and derived counts. Latest verified stream in spotlight. Full-length official SoundCloud widget loads only after Listen, persists across site navigation, external source fallback and close. SoundCloud/native Maya previews are mutually exclusive; no fake “playing” status. Long mobile titles and 390px controls fit without horizontal overflow.
+- Repeatable safe importer/publisher, exact source manifest and audited verified-link input in `data/`; full audio never copied into public or Git. Supabase guards/fallback unchanged; before future backend activation import the complete archive before publishing the first database mix. Notes in `data/README.md`.
+- Verification: six JS mix tests plus four importer/four publisher tests pass, including incomplete-publication refusal, duplicates, unsafe/unknown links, date semantics, filters/sorts/pages and configured/unconfigured/empty/error backend. Existing eight catalog, six remix and commerce/fulfillment/PostgreSQL tests pass. TypeScript passes. Local browser verified actual official-widget Play→Pause, route persistence, native/SC exclusivity, search/empty reset/pagination and phone layout. Production build and PR/preview/live deployment checks follow below.
+
 ## 2026-10-23 — supplied DJ mixes and artwork (in progress)
 
 - Branch `codex/dj-mixes-library`. Chris supplied a WeTransfer “DJ Mixes & Art” archive, 17.7 GB. Explicit approval received to accept WeTransfer’s Terms for this download. Chrome download is running in ~/Downloads; full recordings remain local/outside Git.

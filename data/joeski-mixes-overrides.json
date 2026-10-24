@@ -1,0 +1,49 @@
+{
+  "mix-df20dd10124634ad": {
+    "url": "https://soundcloud.com/djjoeski/deeper-rythms-vol-9",
+    "note": "ID3 misspells Ryhtms; supplied filename and original account both identify DEEPER RYTHMS VOL 9.",
+    "title": "DEEPER RYTHMS VOL 9"
+  },
+  "mix-3833d7802c9fd0c0": {
+    "url": "https://soundcloud.com/djjoeski/joeski-live-at-friedas-buxe-zurich-switzerland",
+    "note": "Same Friedas Buxe Zurich set; source page includes the event date 2/18/2017."
+  },
+  "mix-58f1ca292f5ef7a9": {
+    "url": "https://soundcloud.com/djjoeski/maya-records-podcast-episode-2-joeski",
+    "note": "Same Maya Records Podcast Episode 2; archive ID3 omits the artist suffix."
+  },
+  "mix-61a566abec9025d7": {
+    "url": "https://soundcloud.com/djjoeski/joeski-into-the-deepness-vol-2",
+    "title": "INTO THE DEEPNESS VOL 2",
+    "note": "ID3 incorrectly says Deeper Rythms vol 2. Supplied filename identifies INTO THE DEEPNESS VOL 2; published date agrees with the verified original account."
+  },
+  "mix-bb7ed18040c9e159": {
+    "title": "INTO THE DEEPNESS VOL 3",
+    "note": "Use supplied descriptive filename instead of incomplete or machine-generated ID3 title."
+  },
+  "mix-7a6a10bb7a811aa5": {
+    "title": "HARRY ROMERO & JOESKI - DEFECTED PODCAST",
+    "note": "Use supplied descriptive filename instead of incomplete or machine-generated ID3 title."
+  },
+  "mix-5d33058636347526": {
+    "title": "Data Transmission Guest Mix Joeski - Let The Drums Speak",
+    "note": "Use supplied descriptive filename instead of incomplete or machine-generated ID3 title."
+  },
+  "mix-a89f7828c792270f": {
+    "url": "https://soundcloud.com/adessomusic/joeski-podcast-for-adesso-music",
+    "note": "Original Adesso Music account identifies Joeski DJ Mix January 2021. Official widget runtime1:00:05 agrees with supplied3605-second recording."
+  },
+  "mix-46adf407ded7e196": {
+    "url": "https://soundcloud.com/5magazine/joeski-a-5-mag-mix-44",
+    "note": "Official 5 Magazine feature identifies Joeski A 5 Mag Mix44; verified public5magazine player uses the same Joeski portrait and series."
+  },
+  "mix-a53f3938d0a49508": {
+    "title": "Deep Afro Vol 1",
+    "note": "Remove literal .mp3 text from ID3; supplied filename identifies Deep Afro Vol1."
+  },
+  "mix-96dafc765706b96a": {
+    "url": "https://soundcloud.com/djjoeski/joeski-live-stream-tba-brooklyn-armige-presents-stayhomefestival-dance-television-05212020",
+    "title": "Joeski Live Stream @ TBA Brooklyn \u00b7 Stayhomefestival",
+    "note": "The April22 filename and May22 Stayhomefestival file have identical SHA-256 audio bytes. Keep one entry, use the verified original-account May22 source, retain both filenames in the duplicate audit."
+  }
+}

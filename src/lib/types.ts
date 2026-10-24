@@ -68,6 +68,8 @@ export interface Mix {
   title: string;
   slug: string;
   recorded_on: string | null;
+  published_on?: string | null;
+  archive_date?: string | null;
   duration_seconds: number | null;
   description: string | null;
   cover_url: string | null;

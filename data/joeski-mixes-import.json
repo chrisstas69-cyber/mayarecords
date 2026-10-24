@@ -1,0 +1,35 @@
+{
+  "archive_complete": true,
+  "source_mix_count": 113,
+  "published_mix_count": 108,
+  "verified_soundcloud_count": 75,
+  "pending_soundcloud_count": 33,
+  "artwork_count": 108,
+  "duplicates": [
+    {
+      "source_file": "2018-05-05 - Together - Joeski Back In the Day Mix.mp3",
+      "same_as": "2017-03-17 - Joeski In The 90s Mix Kaltblut Magazine.mp3",
+      "sha256": "ef2f177c217814b547af1e71c5f3a3da9fc0ed284014a7914536c22f2a5df002"
+    },
+    {
+      "source_file": "2020-05-22 - Joeski Live Stream @ TBA Brooklyn Armigé presents #Stayhomefestival Dance Television 05-21-2020.mp3",
+      "same_as": "2020-04-22 - Joeski Live Stream Mix @ TBA Brooklyn NY.mp3",
+      "sha256": "e5a39b7c5d19a8a9b8433d9803b49c0f77ea2a8e078dcaec1a8f89f68a76657e"
+    },
+    {
+      "source_file": "2024-11-07 - Bespoke Musik Presents. Joeski Mix.mp3",
+      "same_as": "2024-11-07 - Bespoke Musik Presents Joeski Dj Mix.mp3",
+      "sha256": "2551b2a6a4f5f8c10b1729f71a8c5d86bb25913cc7bdcdbc4f53cc4cc1b0736b"
+    },
+    {
+      "source_file": "2025-07-18 - Joeski's Brentwood Pool Vibes Mix.mp3",
+      "same_as": "2025-07-18 - Joeski's Beach Vibes Mix.mp3",
+      "sha256": "7f7ba17d234cc64dd070ab79e082f4dd679b454e47936d98123cb9c79e07f138"
+    },
+    {
+      "source_file": "2017-01-24 - Pioneer Dj Radio Maya Sessions Episode 15 (2).mp3",
+      "same_as": "2017-01-24 - Pioneer Dj Radio Maya Sessions Episode 15.mp3",
+      "sha256": "573ab335d2b59e54a5b2a820c1a9a4a670b21b817ce0cdb9e9a76e7b40a95166"
+    }
+  ]
+}
