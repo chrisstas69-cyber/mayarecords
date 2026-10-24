@@ -1,0 +1,32 @@
+{
+  "source_design": "https://www.figma.com/make/rEeCvHa87kHtwCs2XoLv9X/Maya-Records-Catalog-Redesign",
+  "imported_on": "2026-10-24",
+  "source": "Exact WebP assets from the selected Direction A Figma Make code export. Cover rendered from the supplied PDF. Full original PDF publication explicitly approved by Chris on 2026-10-24.",
+  "assets": [
+    {
+      "path": "public/images/portraits/joeski-iconic.webp",
+      "bytes": 166176,
+      "sha256": "4568dc453da48a8f788940e0d6c1b4a85b418869b053f6790358b05040cffd25"
+    },
+    {
+      "path": "public/images/portraits/joeski-underground.webp",
+      "bytes": 119662,
+      "sha256": "95da27a5b0285d8e9a3fc71b9ede7b642b6abc2fc6e47808ea06df724fdf455c"
+    },
+    {
+      "path": "public/images/portraits/joeski-analog.webp",
+      "bytes": 236268,
+      "sha256": "9daff2dffe148a3d69818d645d993da842f7737a93110347154eeb97149596bd"
+    },
+    {
+      "path": "public/press/joeski-mixmag-80-2024-cover.png",
+      "bytes": 1596440,
+      "sha256": "84a5da491330210222554ab0767df7974b42b2ec39d0e6aef3d428f0f08e752f"
+    },
+    {
+      "path": "public/press/joeski-mixmag-80-2024.pdf",
+      "bytes": 13417204,
+      "sha256": "71fe12dfc962895bf49d0b6aba546a4f713ae4a13d5db64abe8d8762505c3006"
+    }
+  ]
+}
