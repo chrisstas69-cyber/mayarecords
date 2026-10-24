@@ -1,3 +1,5 @@
+import mayaFocusUrls from "../../data/joeski-press-maya-focus.json";
+
 export interface PressItem {
   date: string;
   outlet: string;
@@ -123,17 +125,25 @@ const normalize = (value: string) =>
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
 
+const mayaFocus = new Set<string>(mayaFocusUrls);
+
+export function isMayaPress(item: PressItem): boolean {
+  return mayaFocus.has(item.url);
+}
+
 export function selectPress(
   items: readonly PressItem[],
   query: string,
   type: string,
   sort: PressSort,
+  mayaOnly = false,
 ) {
   const words = normalize(query.trim()).split(/\s+/).filter(Boolean);
   return items
     .filter((item) => {
       const text = normalize(`${item.outlet} ${item.headline} ${item.summary}`);
       return (
+        (!mayaOnly || isMayaPress(item)) &&
         (!type || item.type === type) &&
         words.every((word) => text.includes(word))
       );

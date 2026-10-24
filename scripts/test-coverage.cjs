@@ -30,7 +30,8 @@ function load(file, imports = {}) {
   );
   return mod.exports;
 }
-const coverage = load("src/lib/coverage.ts");
+const mayaUrls = require("../data/joeski-press-maya-focus.json");
+const coverage = load("src/lib/coverage.ts", { "../../data/joeski-press-maya-focus.json": { default: mayaUrls } });
 const source = require("../data/joeski-press.json");
 const items = coverage.parsePressItems(source);
 const { PressBrowser } = load("src/components/site/PressBrowser.tsx", {
@@ -179,7 +180,7 @@ test("rendered archive includes every row and exact supplied link, plus safe new
   assert.deepEqual(
     hrefs.sort(),
     source
-      .filter((x) => x.url)
+      .filter((x) => x.url && x.status === "Live")
       .map((x) => x.url)
       .sort(),
   );
@@ -188,7 +189,7 @@ test("rendered archive includes every row and exact supplied link, plus safe new
   assert.match(html, /Undated/);
   assert.match(html, /n\/a \(living profile\)/);
 });
-test("empty URLs have no READ button, archived URLs remain exact, empty archive has a reset state", () => {
+test("empty and non-Live URLs have no READ button, empty archive has a reset state", () => {
   const rows = [
     entry("2002", { status: "Snippet only" }),
     entry("2001-02", {
@@ -198,9 +199,9 @@ test("empty URLs have no READ button, archived URLs remain exact, empty archive 
   ];
   const html = render(rows);
   assert.equal((html.match(/<article\b/g) || []).length, 2);
-  assert.equal((html.match(/<a /g) || []).length, 1);
+  assert.equal((html.match(/<a /g) || []).length, 0);
   assert.match(html, /Snippet only/);
-  assert.match(html, /web\.archive\.org\/web\/200102/);
+  assert.doesNotMatch(html, /href="https:\/\/web\.archive/);
   assert.match(html, /Feb 2001/);
   assert.match(render([]), /No press items found/);
   assert.match(render([]), /Showing 0 of 0 items/);
@@ -260,4 +261,30 @@ test("responsive image cards retain all articles, approved cover and honest bran
     assert.ok(fs.existsSync(path.join(root, "public", image.src)));
     assert.ok(image.alt && image.source);
   }
+});
+
+
+test("Maya focus matches exactly Joe's eight URL picks and composes with all filters", () => {
+  assert.equal(new Set(mayaUrls).size, 8);
+  assert.ok(mayaUrls.every(url => source.some(item => item.url === url)));
+  const selected = coverage.selectPress(items, "", "", "newest", true);
+  assert.deepEqual(selected.map(item => item.url).sort(), [...mayaUrls].sort());
+  const interviews = coverage.selectPress(items, "maya", "Interview", "oldest", true);
+  assert.ok(interviews.length > 0);
+  assert.ok(interviews.every(item => mayaUrls.includes(item.url) && item.type === "Interview"));
+  assert.equal(coverage.selectPress(items, "no-such-press-zzzz", "", "newest", true).length, 0);
+  assert.ok(!coverage.isMayaPress(entry("2026", { summary: "Maya Records", url: "https://example.org" })));
+});
+test("offline original never renders as a link and canonical Night Bazaar item is unique", () => {
+  const offline = items.filter(item => item.status.startsWith("Offline"));
+  assert.equal(offline.length, 1);
+  const html = render(offline);
+  assert.match(html, /Original page offline/);
+  assert.doesNotMatch(html, /<a /);
+  assert.doesNotMatch(html, /href=.*internationaldjmag/);
+  const playlist = items.filter(item => item.url.includes("thenightbazaar.co.uk/joeski-i-had"));
+  assert.equal(playlist.length, 1);
+  assert.equal(playlist[0].date, "2023-09-08");
+  assert.ok(!items.some(item => item.url.includes("myhouseradio.fm")));
+  assert.ok(items.every(item => Object.keys(item).length === 7));
 });

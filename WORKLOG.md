@@ -6,6 +6,13 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-24 — reconcile complete press handoff
+
+- Existing PR8 (public archive) and PR9 (image cards) both merged; extend existing /coverage rather than duplicate. Keep all card design/tokens, actual Mixmag cover/branded fallbacks, existing header/footer and promoter-only /press byte-identical.
+- Reconcile supplied Section4 data: replace the sole MyHouseRadio playlist with canonical Night Bazaar Sep8,2023 record (updated outlet/headline/summary/URL/date); all other source records unchanged,34 total. Counts remain data-derived (28 outlets after consolidating the Night Bazaar outlet).
+- Add Maya Records focus checkbox using an external exact-URL shortlist of all eight explicit Section5 links (six Maya picks plus two broader craft/career pieces); no fields added to records and no inferred album duplicates. Filter composes with search/type/year sorting and clear/reset.
+- READ now only for exact Live/nonempty URL; offline iDJ entry retained with Original page offline note and no link. Coverage12 regressions/build/TypeScript/homepage6/remix6 pass. Local browser:34 cards/33 links, Maya8→Interview6→Electronic Groove1, reset, ascending years/within-year descending dates, offline search1/no link,390px reachable READ/no overflow/zero errors. Gated page/private assets/nav/footer git diff unchanged. Acceptance and deployment verification tracked in shared record after checks.
+
 ## 2026-10-24 — press image cards
 
 - Branch `codex/press-image-cards`: Chris requested starting the image-card redesign now despite low remaining usage. Responsive 1/2/3-column cards retain all34 records, year groups, search/type/sorts/exact READ links and status/date precision. Promoter `/press` unchanged.
