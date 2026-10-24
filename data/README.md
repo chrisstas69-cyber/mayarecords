@@ -37,3 +37,21 @@ links / 81 labels. Update these expectations deliberately when the archive
 genuinely expands. The site itself computes counts and year range from data.
 No Supabase migration, environment variable, checkout change or new dependency
 is required for this feature.
+
+## DJ mix archive
+
+`joeski-mixes.json` replaces the original three illustrative seed mixes with supplied recordings and artwork. Full audio and the ZIP stay outside Git. `joeski-mixes-sources.json` retains relative source filenames, SHA-256 hashes, measured duration, exact public SoundCloud title/URL/published date and match method. Reviewed ID3/filename corrections live in `joeski-mixes-overrides.json`. No upload-date inference is labeled a recording date. Exact duplicate audio files are retained locally but represented once on the site, with aliases recorded in `joeski-mixes-import.json`.
+
+To rebuild after the safe extractor finishes:
+
+```sh
+python3 scripts/import-dj-mixes.py --source '/path/to/extracted-folder' --manifest /tmp/mixes-inventory.json
+python3 scripts/publish-dj-mixes.py --source '/path/to/extracted-folder' --verified-tracks /path/to/verified-public-soundcloud-tracks.json
+npm run test:mixes
+```
+
+The extractor must have written `IMPORT-COMPLETE.json`. The publisher refuses incomplete archives; do not bypass this to deploy. Verified track input is an array of `{title, url, date}` read from actual public track pages/listings (date is ISO publication time). Exact normalized titles match automatically; mismatches need a reviewed override pointing to one of those observed URLs. Never derive a SoundCloud slug from a filename. Duplicate stream assignments are rejected for review. Recheck embedded playback, and leave missing/unverifiable sources null: those cards clearly say “SoundCloud link pending”.
+
+SoundCloud uses the official public widget, created only after Listen is clicked; one persistent widget survives site navigation. Selecting a Maya preview closes the widget and vice versa. The widget itself controls play/pause/seek; “Player open” is not an assertion that audio is playing. External SoundCloud links remain available for regional/embed restrictions. No credentials, new hosting service or paid storage are required.
+
+The bundled archive is the fallback while Supabase is unconfigured. The existing admin/backend has **not** been activated. If enabling Supabase later, import this full catalog before adding the first published database mix: existing data-layer behavior switches to published database rows when any exist (it intentionally does not resurrect draft/archived rows from static data). Native hosted audio needs approved durable storage; never put private full-length masters into Git/public assets.

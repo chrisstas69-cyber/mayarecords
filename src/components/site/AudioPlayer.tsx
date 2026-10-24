@@ -9,9 +9,10 @@ import {
   useRef,
   useState,
 } from "react";
-import { Pause, Play, Volume2, X } from "lucide-react";
+import { ExternalLink, Pause, Play, Volume2, X } from "lucide-react";
 import Image from "next/image";
 import { formatDuration } from "@/lib/utils";
+import { canonicalSoundCloudTrack, soundCloudEmbedUrl } from "@/lib/soundcloud";
 
 interface NowPlaying {
   url: string;
@@ -25,6 +26,8 @@ interface PlayerContextValue {
   isPlaying: boolean;
   play: (track: NowPlaying) => void;
   toggle: () => void;
+  soundCloudTrack: NowPlaying | null;
+  openSoundCloud: (track: NowPlaying) => void;
 }
 
 interface PlayerTimelineValue {
@@ -54,6 +57,10 @@ export function usePlayer() {
 /** Site-wide audio preview player: context + persistent bottom bar. */
 export function PlayerProvider({ children }: { children: React.ReactNode }) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const requestRef = useRef(0);
+  const [soundCloudTrack, setSoundCloudTrack] = useState<NowPlaying | null>(
+    null,
+  );
   const [nowPlaying, setNowPlaying] = useState<NowPlaying | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
@@ -81,6 +88,8 @@ export function PlayerProvider({ children }: { children: React.ReactNode }) {
   const play = useCallback((track: NowPlaying) => {
     const audio = audioRef.current;
     if (!audio) return;
+    const request = ++requestRef.current;
+    setSoundCloudTrack(null);
     if (audio.src !== new URL(track.url, window.location.href).href) {
       audio.src = track.url;
       setProgress(0);
@@ -88,26 +97,46 @@ export function PlayerProvider({ children }: { children: React.ReactNode }) {
     }
     audio
       .play()
-      .then(() => setIsPlaying(true))
-      .catch(() => setIsPlaying(false));
+      .then(() => {
+        if (requestRef.current === request) setIsPlaying(true);
+      })
+      .catch(() => {
+        if (requestRef.current === request) setIsPlaying(false);
+      });
     setNowPlaying(track);
+  }, []);
+
+  const openSoundCloud = useCallback((track: NowPlaying) => {
+    const url = canonicalSoundCloudTrack(track.url);
+    if (!url) return;
+    ++requestRef.current;
+    audioRef.current?.pause();
+    setIsPlaying(false);
+    setNowPlaying(null);
+    setSoundCloudTrack({ ...track, url });
   }, []);
 
   const toggle = useCallback(() => {
     const audio = audioRef.current;
     if (!audio || !nowPlaying) return;
     if (audio.paused) {
+      const request = ++requestRef.current;
       audio
         .play()
-        .then(() => setIsPlaying(true))
+        .then(() => {
+          if (requestRef.current === request) setIsPlaying(true);
+        })
         .catch(() => undefined);
     } else {
+      ++requestRef.current;
       audio.pause();
       setIsPlaying(false);
     }
   }, [nowPlaying]);
 
   const close = useCallback(() => {
+    ++requestRef.current;
+    setSoundCloudTrack(null);
     audioRef.current?.pause();
     setIsPlaying(false);
     setNowPlaying(null);
@@ -130,8 +159,15 @@ export function PlayerProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const controls = useMemo(
-    () => ({ nowPlaying, isPlaying, play, toggle }),
-    [nowPlaying, isPlaying, play, toggle],
+    () => ({
+      nowPlaying,
+      isPlaying,
+      play,
+      toggle,
+      soundCloudTrack,
+      openSoundCloud,
+    }),
+    [nowPlaying, isPlaying, play, toggle, soundCloudTrack, openSoundCloud],
   );
   const timeline = useMemo(
     () => ({ progress, duration, volume, seek, setVolume }),
@@ -142,6 +178,7 @@ export function PlayerProvider({ children }: { children: React.ReactNode }) {
     <PlayerContext.Provider value={controls}>
       <PlayerTimelineContext.Provider value={timeline}>
         {children}
+        {soundCloudTrack && <div className="h-[290px]" aria-hidden="true" />}
         {nowPlaying && (
           <div className="fixed bottom-0 inset-x-0 z-50 border-t border-line bg-night-2/95 backdrop-blur-md">
             <div className="mx-auto flex max-w-[1600px] items-center gap-4 px-4 py-3 sm:px-6">
@@ -228,6 +265,54 @@ export function PlayerProvider({ children }: { children: React.ReactNode }) {
               </button>
             </div>
           </div>
+        )}
+        {soundCloudTrack && (
+          <section
+            className="fixed inset-x-0 bottom-0 z-50 border-t border-gold/30 bg-night-2 shadow-[0_-15px_50px_rgba(0,0,0,0.4)]"
+            aria-label="SoundCloud mix player"
+          >
+            <div className="mx-auto max-w-[1600px] px-4 pb-[env(safe-area-inset-bottom)] sm:px-6">
+              <div className="flex min-h-14 items-center gap-3 py-2">
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm text-cream">
+                    {soundCloudTrack.title}
+                  </p>
+                  <p className="text-xs text-sand">Full mix · SoundCloud</p>
+                </div>
+                <a
+                  href={soundCloudTrack.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="catalog-action text-sand"
+                  aria-label="Open this mix on SoundCloud"
+                >
+                  <ExternalLink size={15} />
+                  <span className="hidden sm:inline">SoundCloud</span>
+                </a>
+                <button
+                  type="button"
+                  onClick={close}
+                  className="catalog-action text-sand"
+                  aria-label="Close SoundCloud player"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+              <iframe
+                key={soundCloudTrack.url}
+                src={soundCloudEmbedUrl(soundCloudTrack.url)!}
+                title={`SoundCloud player: ${soundCloudTrack.title}`}
+                width="100%"
+                height="166"
+                allow="autoplay"
+                className="mb-3 block w-full border-0"
+              />
+              <p className="pb-3 text-[0.65rem] text-sand">
+                Press play in the SoundCloud player. If playback is unavailable,
+                open the mix on SoundCloud.
+              </p>
+            </div>
+          </section>
         )}
       </PlayerTimelineContext.Provider>
     </PlayerContext.Provider>
