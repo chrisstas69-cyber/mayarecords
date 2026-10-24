@@ -6,6 +6,14 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-24 — selected Figma artist homepage
+
+- Branch `codex/artist-homepage`. Chris selected the finished Direction A in the existing Figma Make file. Official context enumerated source/resources; downloaded exact code/assets via Figma Files → Download code after resource reads failed. Export preserved outside Git; no Make scripts executed. Using the three exact local WebP portraits in their intended hero/mix/story slots.
+- Replace only `/` with the artist-first landing page and clickable six-destination index. Keep `/releases`, 257 releases, 114 remixes, 108 mixes, persistent cart/player and gated member/EPK flows. Wire real latest content and existing validated promotion configuration instead of prototype placeholders.
+- Chris explicitly approved publishing the supplied full Mixmag PDF; public press feature is separate from the promoter-only `/press` EPK. Preserve original PDF bytes and photographer credits. No backend/payment activation or new services.
+- Implemented the exact seated portrait hero, original Cormorant Garamond/DM Sans typography, subtle CSS push-in/static reduced-motion alternative, six numbered working destinations, real latest released records, public edit names with member links, latest verified SoundCloud mix, warm artist portrait, full Mixmag feature/read/download and Remixes CTA. Homepage-specific header/footer retain existing site cart/menu/player; interior pages keep their current chrome. Promo uses existing validated release/presale/merch/campaign settings, including mobile; no invented forthcoming item or checkout.
+- Verification: production build/TypeScript and six new homepage render/data/asset tests pass; existing catalog8, remix6, mix6 + Python8, commerce9/fulfillment24/PostgreSQL63 checks pass. Exact three portrait hashes and approved PDF provenance recorded in data/homepage-assets.json. PDF HTTP200/application/pdf matches original SHA256 byte-for-byte. Local 1280 desktop,390/320 mobile: no horizontal overflow, all six destinations confirmed after navigation, press anchor aligns below header, real SoundCloud widget opens and persists home→catalog→home, menu closes on navigation, all photos load in intended slots and zero console errors. Production deploy pending PR/preview verification.
+
 ## 2026-10-23 — real DJ mix library / SoundCloud playback
 
 - Branch `codex/dj-mixes-library`. Chris chose SoundCloud playback. Completed authorized WeTransfer download/extraction: 452 ZIP entries, 19,793,370,973 validated bytes, 113 audio files with 113 paired covers, zero inspection errors. All full audio stays in `~/Downloads/Joeski DJ Mixes 2026-10-23`, outside Git; no new storage, account, paid resource, env var, database or Stripe activation.

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { CartButton } from "./Cart";
+import { homeSerif, homeSans } from "@/lib/home-fonts";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
@@ -33,6 +34,57 @@ export function NavBar() {
   }, []);
 
   useEffect(() => setOpen(false), [pathname]);
+
+  if (pathname === "/")
+    return (
+      <header
+        className={`home-header ${homeSerif.variable} ${homeSans.variable}`}
+      >
+        <Link className="home-mark" href="/" aria-label="Joeski home">
+          <strong>JOESKI</strong>
+          <span>Maya Records</span>
+        </Link>
+        <nav className="home-nav" aria-label="Homepage navigation">
+          <Link href="/releases">Releases</Link>
+          <Link href="/members">Members’ Edits</Link>
+          <Link href="/mixes">DJ Mixes</Link>
+          <Link href="/about">About</Link>
+        </nav>
+        <div className="home-header__actions">
+          <Link className="home-header__catalog" href="/releases">
+            Enter catalog <span>↗</span>
+          </Link>
+          <CartButton />
+          <button
+            type="button"
+            className="home-menu-button"
+            aria-expanded={open}
+            aria-controls="home-site-menu"
+            aria-label={open ? "Close menu" : "Open menu"}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X size={22} /> : <Menu size={22} />}
+          </button>
+        </div>
+        {open ? (
+          <nav
+            id="home-site-menu"
+            className="home-site-menu"
+            aria-label="All pages"
+          >
+            {NAV_ITEMS.map((item) => (
+              <Link
+                href={item.href}
+                key={item.href}
+                onClick={() => setOpen(false)}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </nav>
+        ) : null}
+      </header>
+    );
 
   return (
     <header

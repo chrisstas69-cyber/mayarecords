@@ -1,82 +1,49 @@
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
-import { CatalogLanding } from "@/components/site/CatalogLanding";
-import { getPublishedReleases, getSiteSettings } from "@/lib/data/catalog";
-import { JOESKI_BIO_SHORT } from "@/lib/data/seed";
-
+import type { Metadata } from "next";
+import { homeSerif as serif, homeSans as sans } from "@/lib/home-fonts";
+import { HomePageLanding } from "@/components/site/HomePageLanding";
+import {
+  getPublishedMixes,
+  getPublishedReleases,
+  getSiteSettings,
+} from "@/lib/data/catalog";
+import { getReleasedEdits } from "@/lib/members";
+import { latestHomeReleases } from "@/lib/homepage";
+import { selectMixes } from "@/lib/mixes";
+import { canonicalSoundCloudTrack } from "@/lib/soundcloud";
+import { resolvePromotion } from "@/lib/promotion";
+import "../homepage.css";
 export const dynamic = "force-dynamic";
-
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: { images: ["/images/portraits/joeski-iconic.webp"] },
+};
 export default async function HomePage() {
-  const [releases, settings] = await Promise.all([
+  const [releases, settings, mixes] = await Promise.all([
     getPublishedReleases(),
     getSiteSettings(),
+    getPublishedMixes(),
   ]);
+  const today = new Date().toISOString().slice(0, 10);
+  const latest = latestHomeReleases(releases, today);
+  const mix =
+    selectMixes(mixes).find((item) =>
+      canonicalSoundCloudTrack(item.external_url),
+    ) ?? null;
+  const edits = getReleasedEdits()
+    .slice(0, 3)
+    .map(({ slug, title, original_artist }) => ({
+      slug,
+      title,
+      original_artist,
+    }));
   return (
-    <>
-      <CatalogLanding releases={releases} promotion={settings.promotion} />
-      <section
-        className="border-y border-line bg-night-2"
-        aria-label="Explore Joeski"
-      >
-        <div className="mx-auto grid max-w-[1600px] gap-8 px-5 py-14 sm:px-8 md:grid-cols-3 lg:px-10">
-          {[
-            {
-              href: "/remixes",
-              title: "Joeski Remixes",
-              text: "Beyond Maya. Explore Joeski’s remixes for other labels, with artwork and direct store links.",
-            },
-            {
-              href: "/members",
-              title: "Members Vault",
-              text: "Joeski edits, DJ tools and the members community — a different side of the studio.",
-            },
-            {
-              href: "/mixes",
-              title: "DJ Mixes & Radio",
-              text: "Long-form journeys, late-night selections and the sound behind the records.",
-            },
-          ].map((item) => (
-            <div key={item.href}>
-              <h2 className="font-display text-2xl text-cream">{item.title}</h2>
-              <p className="mt-3 max-w-sm text-sm leading-relaxed text-sand">
-                {item.text}
-              </p>
-              <Link href={item.href} className="catalog-action mt-5 text-gold">
-                Explore <ArrowUpRight size={13} />
-              </Link>
-            </div>
-          ))}
-        </div>
-      </section>
-      <section
-        className="mx-auto grid max-w-[1600px] items-center gap-8 px-5 py-14 sm:px-8 md:grid-cols-2 lg:px-10"
-        aria-label="About Joeski"
-      >
-        <div>
-          <p className="eyebrow mb-4">The story</p>
-          <h2 className="display-md text-cream">
-            Change is inevitable.
-            <br />
-            <span className="text-gold">The groove is not.</span>
-          </h2>
-          <p className="mt-5 max-w-xl text-sm leading-relaxed text-sand">
-            {JOESKI_BIO_SHORT}
-          </p>
-          <Link href="/about" className="catalog-action mt-6 text-gold">
-            About Joeski <ArrowUpRight size={13} />
-          </Link>
-        </div>
-        <div className="relative aspect-[16/9] overflow-hidden border border-line">
-          <Image
-            src="/images/live/hero-crowd-2.jpg"
-            alt="Joeski projected above a packed dancefloor"
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover"
-          />
-        </div>
-      </section>
-    </>
+    <div className={`${serif.variable} ${sans.variable} home-fonts`}>
+      <HomePageLanding
+        releases={latest}
+        edits={edits}
+        mix={mix}
+        promotion={resolvePromotion(settings.promotion, releases, today)}
+      />
+    </div>
   );
 }

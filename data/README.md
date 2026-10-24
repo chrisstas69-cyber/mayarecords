@@ -55,3 +55,9 @@ The extractor must have written `IMPORT-COMPLETE.json`. The publisher refuses in
 SoundCloud uses the official public widget, created only after Listen is clicked; one persistent widget survives site navigation. Selecting a Maya preview closes the widget and vice versa. The widget itself controls play/pause/seek; “Player open” is not an assertion that audio is playing. External SoundCloud links remain available for regional/embed restrictions. No credentials, new hosting service or paid storage are required.
 
 The bundled archive is the fallback while Supabase is unconfigured. The existing admin/backend has **not** been activated. If enabling Supabase later, import this full catalog before adding the first published database mix: existing data-layer behavior switches to published database rows when any exist (it intentionally does not resurrect draft/archived rows from static data). Native hosted audio needs approved durable storage; never put private full-length masters into Git/public assets.
+
+## Artist homepage
+
+`src/app/(site)/page.tsx` renders the selected artist-first Figma landing page. The full catalog remains at `/releases`. Latest releases and the featured verified SoundCloud mix come from the existing guarded catalog functions; edit cards expose names only and link to `/members`. `data/site-promotion.json` and the existing Settings promotion control also drive the hero card (CMS still needs Supabase activation). Six numbered destinations are in `src/lib/homepage.ts`.
+
+The three exported portraits stay in their hero/mix/story slots under `public/images/portraits/`. Asset hashes/provenance: `data/homepage-assets.json`. The full, explicitly approved Mixmag issue80 feature is public at `/press/joeski-mixmag-80-2024.pdf`; this does not change the promoter-only `/press` page or private EPK APIs. Test with `npm run test:homepage`.
