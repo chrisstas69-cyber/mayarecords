@@ -6,6 +6,13 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-24 — public press archive
+
+- Branch `codex/public-press-archive`. Add static `/coverage`, matching existing Remixes page tokens, typography, controls and container; main nav gets separate Press and unchanged Press Kit destinations. Do not edit `/press`, promoter APIs/private EPK assets, shared footer or existing homepage design.
+- Supplied JSON actually has34 records (not prompt's28), an undated living profile and an additional offline status. Copy source bytes unchanged into data/joeski-press.json; no research assertions or guessed replacement URLs. Group undated items separately after dated years; show original status for non-live sources. Counts/types/year range derived only from JSON; partial dates retain their precision. Oldest sort changes year-group order, never reverses within-year newest-first order.
+- Implemented static JSON boundary validation, accent-insensitive multiword search, data-derived type filter/stats/year range, grouped date sorting, live result count, reset/empty state and exact safe new-tab READ links.9 tests cover growing/replacement data, all record/URL preservation, empty URLs, partial/invalid/undated dates, both sorts and safe rendering. 34 pieces,29 outlets,dated2001–2024. No claim of independent article verification; supplied offline status is visible.
+- Production build and TypeScript pass; /coverage statically prerenders (3.09kB). Homepage6/remix6/catalog8/mix6 + Python8 and commerce9/fulfillment24/PostgreSQL63 pass. Local desktop1280:34 rows/34 exact READ links, Electronic Groove search3→Interview intersection1→empty0/reset34, ascending year groups with within-year descending dates and Undated last. Mobile390: all READ targets>=44px/reachable, no overflow, distinct Press/Press Kit menu URLs, unchanged gated /press shows Get access, navigation back works, zero browser errors. Supplied JSON copied byte-for-byte, promoter page/private EPK/shared footer unchanged. No backend, dependencies, env vars, fonts/colors or services added. PR/preview and final production verification recorded separately after deploy.
+
 ## 2026-10-24 — selected Figma artist homepage
 
 - Branch `codex/artist-homepage`. Chris selected the finished Direction A in the existing Figma Make file. Official context enumerated source/resources; downloaded exact code/assets via Figma Files → Download code after resource reads failed. Export preserved outside Git; no Make scripts executed. Using the three exact local WebP portraits in their intended hero/mix/story slots.

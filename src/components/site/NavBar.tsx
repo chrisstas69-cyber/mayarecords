@@ -17,6 +17,7 @@ const NAV_ITEMS = [
   { href: "/artists", label: "Artists" },
   { href: "/store", label: "Store" },
   { href: "/about", label: "About" },
+  { href: "/coverage", label: "Press" },
   { href: "/press", label: "Press Kit" },
   { href: "/contact", label: "Contact" },
 ];
