@@ -12,7 +12,8 @@
     "test:remixes": "node --test scripts/test-remixes.cjs",
     "test:catalog": "node --test scripts/test-catalog-frontpage.cjs",
     "test:mixes": "node --test scripts/test-mixes.cjs && python3 scripts/test-mix-import.py && python3 scripts/test-mix-publish.py",
-    "test:homepage": "node --test scripts/test-homepage.cjs"
+    "test:homepage": "node --test scripts/test-homepage.cjs",
+    "test:coverage": "node --test scripts/test-coverage.cjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
