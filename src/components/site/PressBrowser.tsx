@@ -63,7 +63,7 @@ function PressEntry({ item }: { item: PressItem }) {
           {item.status !== "Live" && <span> · {item.status}</span>}
         </p>
         <div className="mt-auto pt-5">
-          {item.url ? (
+          {item.status === "Live" && item.url ? (
             <a
               href={item.url}
               target="_blank"
@@ -73,6 +73,10 @@ function PressEntry({ item }: { item: PressItem }) {
             >
               Read <ArrowUpRight size={12} aria-hidden="true" />
             </a>
+          ) : item.status.startsWith("Offline") ? (
+            <p className="text-[0.65rem] uppercase tracking-[0.1em] text-sand">
+              Original page offline
+            </p>
           ) : null}
         </div>
       </div>
@@ -83,18 +87,20 @@ function PressEntry({ item }: { item: PressItem }) {
 export function PressBrowser({ items }: { items: PressItem[] }) {
   const [query, setQuery] = useState("");
   const [type, setType] = useState("");
+  const [mayaOnly, setMayaOnly] = useState(false);
   const [sort, setSort] = useState<PressSort>("newest");
   const types = useMemo(() => pressTypes(items), [items]);
   const visible = useMemo(
-    () => selectPress(items, query, type, sort),
-    [items, query, type, sort],
+    () => selectPress(items, query, type, sort, mayaOnly),
+    [items, query, type, sort, mayaOnly],
   );
   const groups = useMemo(() => groupPressByYear(visible), [visible]);
-  const hasFilters = Boolean(query || type || sort !== "newest");
+  const hasFilters = Boolean(query || type || mayaOnly || sort !== "newest");
   const clear = () => {
     setQuery("");
     setType("");
     setSort("newest");
+    setMayaOnly(false);
   };
   const selectClass =
     "min-h-12 w-full border border-line bg-surface px-4 py-3 text-sm text-cream outline-none focus:border-gold sm:w-auto";
@@ -154,6 +160,16 @@ export function PressBrowser({ items }: { items: PressItem[] }) {
           </select>
         </label>
       </div>
+      <label className="mb-6 inline-flex min-h-11 cursor-pointer items-center gap-3 text-sm text-sand">
+        <input
+          type="checkbox"
+          checked={mayaOnly}
+          onChange={(event) => setMayaOnly(event.target.checked)}
+          aria-controls="press-results"
+          className="h-4 w-4 accent-gold focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gold"
+        />
+        Maya Records focus
+      </label>
       <div className="mb-8 flex min-h-8 flex-wrap items-center justify-between gap-3">
         <p
           role="status"

@@ -71,3 +71,7 @@ Dates retain supplied precision (year, month or full day). Non-date values such 
 ### Press card artwork
 
 `joeski-press-artwork.json` optionally maps an exact article URL to `src`, `alt`, and `source` (provenance/approval). Keep approved local card images in `public/press/`. The original seven-field press JSON stays unchanged. Unmapped articles (or failed images) display original typographic outlet artwork, not an invented article cover. Currently only the supplied, publication-approved Mixmag Issue80 cover is mapped. Add actual article images only after confirming the correct story and usable rights/permission. No runtime scraping or remote hotlinking.
+
+### Joe’s Maya focus shortlist
+
+`joeski-press-maya-focus.json` contains the eight exact URLs explicitly listed in Section5 of Chris’s2026-10-24 handoff: six Maya-focused picks plus the two broader craft/career pieces with Maya material. The album items remain in the full archive but are not inferred into this URL shortlist. The filter intersects search/type/sort, resets with Clear filters, and adds no fields to the seven-field source records. Only records with status exactly `Live` and a nonempty URL expose READ; offline originals remain visible with `Original page offline` and no link. The canonical Sep8,2023 Night Bazaar playlist replaces the old MyHouseRadio repost; do not add both.
