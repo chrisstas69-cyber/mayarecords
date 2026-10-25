@@ -170,3 +170,7 @@ export function groupPressByYear(items: readonly PressItem[]) {
   }
   return [...groups].map(([year, entries]) => ({ year, entries }));
 }
+
+export function pressActionLabel(item: PressItem): "Read" | "Listen" {
+  return /^https:\/\/(?:www\.)?(?:soundcloud\.com|mixcloud\.com)\//.test(item.url) ? "Listen" : "Read";
+}

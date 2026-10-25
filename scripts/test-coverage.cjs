@@ -265,8 +265,9 @@ test("thumbnail-first archive rows retain all articles, approved cover and hones
 });
 
 
-test("Maya focus matches exactly Joe's eight URL picks and composes with all filters", () => {
-  assert.equal(new Set(mayaUrls).size, 8);
+test("Maya focus matches the maintained URL shortlist and composes with all filters", () => {
+  assert.equal(new Set(mayaUrls).size, mayaUrls.length);
+  assert.ok(mayaUrls.length >= 8);
   assert.ok(mayaUrls.every(url => source.some(item => item.url === url)));
   const selected = coverage.selectPress(items, "", "", "newest", true);
   assert.deepEqual(selected.map(item => item.url).sort(), [...mayaUrls].sort());
@@ -312,4 +313,24 @@ test("editorial highlights link to existing Live entries, disappear safely with 
   assert.match(html,/cover.webp/);
   assert.equal(renderToStaticMarkup(React.createElement(PressHighlights,{items:[]})),"");
   assert.equal(renderToStaticMarkup(React.createElement(PressHighlights,{items:items.map(item=>({...item,status:"Offline"}))})),"");
+});
+
+
+test("verified radio recordings use Listen actions without duplicating Hall of Fame", () => {
+  const hof = items.filter(item => item.headline === "Pete Tong's Hall of Fame: Joeski");
+  assert.equal(hof.length, 1);
+  assert.equal(hof[0].date, "2014-04-25");
+  assert.equal(hof[0].url, "https://soundcloud.com/djjoeski/pete-tongs-hall-of-fame-joeski");
+  const radio = items.filter(item => item.url === "https://www.mixcloud.com/CarlCox/carl-cox-global-572/");
+  assert.equal(radio.length, 1);
+  assert.equal(radio[0].type, "Radio");
+  assert.equal(radio[0].date, "2014-03-10");
+  assert.ok(coverage.isMayaPress(radio[0]));
+  assert.match(radio[0].summary, /Joseph Capriati, not Joeski/);
+  for (const item of [hof[0],radio[0]]) {
+    assert.equal(coverage.pressActionLabel(item), "Listen");
+    assert.match(render([item]), /Listen/);
+  }
+  assert.equal(coverage.pressActionLabel(entry("2024",{url:"https://soundcloud.com.evil.example/story"})),"Read");
+  assert.equal(coverage.selectPress(items,"","Radio","newest").length, radio.length);
 });

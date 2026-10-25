@@ -58,8 +58,8 @@
   "outlet": "BBC Radio 1 — Pete Tong (Essential Selection)",
   "headline": "Pete Tong's Hall of Fame: Joeski",
   "type": "Interview",
-  "summary": "Broadcast 25 Apr 2014: Joeski was the featured artist in Pete Tong's 'Hall Of Fame' segment (phone interview; his track 'All By Myself' played in the segment) — the episode tracklist states 'Joeski is in the Hall of Fame'. Verified via the episode's MixesDB tracklist page; the original BBC programme page is no longer indexed.",
-  "url": "https://mixesdb.com/w/2014-04-25_-_Pete_Tong,_Joeski_Hall,_Balcazar_%26_Sordo_-_Essential_Selection",
+  "summary": "Pete Tong's Hall of Fame interview with Joeski, broadcast on BBC Radio 1 Essential Selection on Apr 25, 2014. Listen to the recording on Joeski's own SoundCloud account; the episode tracklist also includes 'All By Myself'.",
+  "url": "https://soundcloud.com/djjoeski/pete-tongs-hall-of-fame-joeski",
   "status": "Live"
  },
  {
@@ -303,6 +303,15 @@
   "type": "Profile",
   "summary": "Resident Advisor artist biography page for DJ Joeski (the same bio text RA carries on his event pages).",
   "url": "https://nl.ra.co/dj/djjoeski/biography",
+  "status": "Live"
+ },
+ {
+  "date": "2014-03-10",
+  "outlet": "Carl Cox — Global / Mixcloud",
+  "headline": "Carl Cox Global 572 — The Global Lowdown: Maya Records, NYC",
+  "type": "Radio",
+  "summary": "Maya Records, NYC is the featured Global Lowdown on Carl Cox Global 572, with tracks by Joeski and collaborators. Published on Carl Cox's Mixcloud on Mar 10, 2014. The separate Global Alliance guest mix is Joseph Capriati, not Joeski.",
+  "url": "https://www.mixcloud.com/CarlCox/carl-cox-global-572/",
   "status": "Live"
  }
 ]

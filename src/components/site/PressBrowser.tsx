@@ -3,7 +3,7 @@ import { useMemo, useState } from "react";
 import Image from "next/image";
 import { ArrowUpRight, Search } from "lucide-react";
 import artworkSource from "../../../data/joeski-press-artwork.json";
-import { groupPressByYear, PRESS_SORTS, pressDateLabel, pressTypes, pressYear, selectPress } from "@/lib/coverage";
+import { groupPressByYear, PRESS_SORTS, pressDateLabel, pressActionLabel, pressTypes, pressYear, selectPress } from "@/lib/coverage";
 import type { PressItem, PressSort } from "@/lib/coverage";
 const artwork: Record<string, {
     src: string;
@@ -26,7 +26,7 @@ function PressEntry({ item }: {
       <p className="sr-only">{item.summary}</p>
       {item.status !== "Live" && <p className="press-row-status">{item.status}</p>}
     </div>
-    {item.status === "Live" && item.url ? <a href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`Read ${item.headline} (opens in a new tab)`} className="press-read">Read <ArrowUpRight size={14} aria-hidden="true"/></a> : item.status.startsWith("Offline") ? <p className="press-offline">Original page offline</p> : null}
+    {item.status === "Live" && item.url ? <a href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`${pressActionLabel(item)} ${item.headline} (opens in a new tab)`} className="press-read">{pressActionLabel(item)} <ArrowUpRight size={14} aria-hidden="true"/></a> : item.status.startsWith("Offline") ? <p className="press-offline">Original page offline</p> : null}
   </article>;
 }
 export function PressBrowser({ items }: {
