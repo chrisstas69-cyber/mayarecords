@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { homeSerif, homeSans } from "@/lib/home-fonts";
+import { PressHighlights } from "@/components/site/PressHighlights";
+import "./coverage.css";
 import { PressBrowser } from "@/components/site/PressBrowser";
 import { JOESKI_PRESS } from "@/lib/data/coverage";
 import { pressStats } from "@/lib/coverage";
@@ -15,22 +18,13 @@ export const metadata: Metadata = {
 
 export default function CoveragePage() {
   return (
-    <div className="mx-auto max-w-7xl px-5 pb-24 pt-32 sm:px-8 md:pt-40">
-      <header className="mb-10 border-b border-line pb-10">
-        <p className="eyebrow mb-3">In the press</p>
-        <div className="flex flex-wrap items-end justify-between gap-6">
-          <div>
-            <h1 className="display-lg text-cream">Press</h1>
-            <p className="mt-4 max-w-xl leading-relaxed text-sand">
-              Two decades of interviews, reviews and chart history.
-            </p>
-          </div>
-          <p className="text-sm text-sand">
-            {stats.total} pieces · {stats.outlets} outlets
-            {stats.years ? ` · ${stats.years}` : ""}
-          </p>
-        </div>
+    <div className={`${homeSerif.variable} ${homeSans.variable} press-editorial`}>
+      <header className="press-intro">
+        <div><p className="press-kicker">In the press</p><h1>Press</h1></div>
+        <p className="press-intro-copy">Selected features, interviews and broadcast moments from across the years.</p>
+        <p className="press-intro-stats">{stats.total} pieces · {stats.outlets} outlets{stats.years ? ` · ${stats.years}` : ""}</p>
       </header>
+      <PressHighlights items={JOESKI_PRESS} />
       <PressBrowser items={JOESKI_PRESS} />
     </div>
   );

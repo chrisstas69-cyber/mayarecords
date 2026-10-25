@@ -340,6 +340,7 @@ export function HomePageLanding({
             >
               Download PDF · 13 MB ↓
             </a>
+            <Link className="final-text-link" href="/coverage">Explore all press →</Link>
             <small>
               Cover photograph: Andreas Hofweber · Original supplied edition, 11
               pages

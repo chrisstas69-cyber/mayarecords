@@ -1,0 +1,11 @@
+{
+  "source": "https://www.figma.com/make/rEeCvHa87kHtwCs2XoLv9X/Maya-Records-Catalog-Redesign",
+  "published": "https://crab-crisp-68980815.figma.site/coverage",
+  "imported": "2026-10-25",
+  "export_sha256": "58175480540b45ddd6188dd57b1f06ee82256f40a924d244111f9b67093cea1a",
+  "asset": {
+    "path": "public/press/joeski-mixmag-80-2024-cover.webp",
+    "sha256": "611f565e8c7323fcfdb706bac3ce9364e171e21961e5b7304386cbe6ec7433e6"
+  },
+  "adaptation": "Selected PressCoverage layout only. Preserve real shared navigation/footer/cart/player, existing exact press dataset, URL Maya shortlist, precise dates and within-year ordering. Export comparison screens, fake cart badge, hash-only nav links, malformed TypeScript and sample dates are not imported."
+}

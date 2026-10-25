@@ -248,10 +248,11 @@ test("new route/nav/sitemap stay separate from the unchanged gated press kit and
 });
 
 
-test("responsive image cards retain all articles, approved cover and honest branded fallbacks", () => {
+test("thumbnail-first archive rows retain all articles, approved cover and honest fallbacks", () => {
   const html = render();
-  assert.ok(html.includes("sm:grid-cols-2 lg:grid-cols-3"));
-  assert.ok(html.includes('/press/joeski-mixmag-80-2024-cover.png'));
+  assert.ok(html.includes("press-archive-row"));
+  assert.ok(html.indexOf("press-row-thumbnail") < html.indexOf("press-row-copy"));
+  assert.ok(html.includes('/press/joeski-mixmag-80-2024-cover.webp'));
   assert.ok(html.includes('branded press artwork'));
   assert.equal((html.match(/<article /g) || []).length, source.length);
   const map = require("../data/joeski-press-artwork.json");
@@ -287,4 +288,28 @@ test("offline original never renders as a link and canonical Night Bazaar item i
   assert.equal(playlist[0].date, "2023-09-08");
   assert.ok(!items.some(item => item.url.includes("myhouseradio.fm")));
   assert.ok(items.every(item => Object.keys(item).length === 7));
+});
+
+
+test("year filtering intersects Maya, query and type while preserving unknown dates", () => {
+  const rows = coverage.selectPress(items, "", "", "newest", true, "2022");
+  assert.equal(rows.length, 2);
+  assert.ok(rows.every(item => coverage.pressYear(item.date) === "2022" && mayaUrls.includes(item.url)));
+  assert.equal(coverage.selectPress(items,"Groove","Interview","newest",true,"2022").length,1);
+  assert.equal(coverage.selectPress(items,"","","newest",false,"Undated").length,1);
+  assert.equal(coverage.selectPress(items,"","","newest",false,"2099").length,0);
+});
+test("editorial highlights link to existing Live entries, disappear safely with missing data", () => {
+  const { PressHighlights } = load("src/components/site/PressHighlights.tsx", {
+    "@/lib/coverage": coverage,
+    "next/image": { default: ({ src, alt }) => React.createElement("img", { src, alt }) },
+    "lucide-react": { ArrowUpRight: () => null },
+  });
+  const html = renderToStaticMarkup(React.createElement(PressHighlights, {items}));
+  assert.equal((html.match(/<a /g)||[]).length,3);
+  assert.match(html,/Pete Tong/);
+  assert.match(html,/Ten Maya Records/);
+  assert.match(html,/cover.webp/);
+  assert.equal(renderToStaticMarkup(React.createElement(PressHighlights,{items:[]})),"");
+  assert.equal(renderToStaticMarkup(React.createElement(PressHighlights,{items:items.map(item=>({...item,status:"Offline"}))})),"");
 });
