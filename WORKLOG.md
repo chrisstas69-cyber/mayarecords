@@ -6,6 +6,12 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-25 — verified Hall of Fame recording and Carl Cox radio coverage
+
+- Branch `codex/press-radio-recordings`: user supplied SoundCloud Hall of Fame and Carl Cox Global572 links for Press. Agent Reach/Jina + public publisher API verify metadata; short SoundCloud link resolved in browser to exact recording on verified djjoeski profile.
+- Update existing BBC Hall of Fame entry to actual canonical SoundCloud listening destination (retain broadcast date Apr25,2014 and previous MixesDB corroboration in source audit). Do not duplicate. Add one Radio record for Carl Cox Global572 featuring Global Lowdown: Maya Records,NYC. Use verified Mixcloud publication date Mar10,2014; do not call it the broadcast date or a Joeski guest mix (guest is Joseph Capriati).
+- Dynamic Listen action on SoundCloud/Mixcloud destinations, including featured BBC shortcut. New Radio filter and35 total records derived from JSON; exact Maya focus shortlist grows to9 with the verified label spotlight. Original seven-field schema maintained, no playback downloads/autoplay/SDK/hosting changes. Source provenance in data/joeski-press-radio-sources.json. Gated Press Kit/layout unchanged. Build/TypeScript/coverage15/homepage6/remix6/catalog8 pass. Local Radio1/35 and Radio+Maya1/35, exact platform hrefs, one BBC record (Hall of Fame search also correctly matches Mixmag summary),390px reachable Listen/no overflow, zero errors. Preview/live deployment verification tracked in shared record.
+
 ## 2026-10-25 — selected Figma editorial press layout
 
 - Branch `codex/editorial-press-layout`: use user-supplied current Figma Make ZIP after official resource reads failed. Inspect only source/assets; do not execute its scripts or import its AGENTS instructions. Target is published /coverage with large Mixmag feature, two stacked highlights and thumbnail-first horizontal archive rows. No comparison/mockup screens imported.

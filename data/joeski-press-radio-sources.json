@@ -1,0 +1,24 @@
+{
+  "verified_on": "2026-10-25",
+  "sources": [
+    {
+      "url": "https://soundcloud.com/djjoeski/pete-tongs-hall-of-fame-joeski",
+      "supplied_url": "https://on.soundcloud.com/rplJXUSTmsuRrKcPVD",
+      "title": "PETE TONGS HALL OF FAME JOESKI",
+      "account": "Joeski / djjoeski (verified SoundCloud profile)",
+      "verification": "Supplied short link resolved in browser to this exact track on Joeski’s account; canonical track page corroborated via Jina Reader. Existing broadcast date retained from prior verified record; no upload date inferred.",
+      "previous_tracklist_url": "https://mixesdb.com/w/2014-04-25_-_Pete_Tong,_Joeski_Hall,_Balcazar_%26_Sordo_-_Essential_Selection",
+      "action": "Update existing Hall of Fame record, do not duplicate."
+    },
+    {
+      "url": "https://www.mixcloud.com/CarlCox/carl-cox-global-572/",
+      "metadata_url": "https://api.mixcloud.com/CarlCox/carl-cox-global-572/",
+      "published_at": "2014-03-10T08:57:02Z",
+      "date_basis": "Mixcloud publication date, not inferred original broadcast date.",
+      "description_excerpt": "The Global Lowdown : Maya Records, NYC; The Global Alliance Guest Mix: Joseph Capriati",
+      "duration_seconds": 6721,
+      "verification": "Publisher Mixcloud page and official public API. Maya label spotlight, not a Joeski guest mix.",
+      "action": "One new Radio record; include in Maya focus."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { PressItem } from "@/lib/coverage";
-import { pressDateLabel } from "@/lib/coverage";
+import { pressDateLabel, pressActionLabel } from "@/lib/coverage";
 import { ArrowUpRight } from "lucide-react";
 export function PressHighlights({ items }: {
     items: PressItem[];
@@ -11,7 +11,7 @@ export function PressHighlights({ items }: {
     const maya = live.find(item => item.url.includes("thenightbazaar.co.uk/joeski-i-had"));
     if (!mixmag && !bbc && !maya)
         return null;
-    const action = (item: PressItem) => <a className="press-read" href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`Read featured ${item.headline} (opens in a new tab)`}>Read <ArrowUpRight size={14} aria-hidden="true"/></a>;
+    const action = (item: PressItem) => <a className="press-read" href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`${pressActionLabel(item)} featured ${item.headline} (opens in a new tab)`}>{pressActionLabel(item)} <ArrowUpRight size={14} aria-hidden="true"/></a>;
     return <section className="press-highlights" aria-label="Selected press highlights">
     {mixmag && <>
       <div className="press-feature-cover"><Image src="/press/joeski-mixmag-80-2024-cover.webp" alt="Joeski on the full Mixmag Brazil Issue 80 cover" width={1280} height={1600} sizes="(max-width: 760px) 42vw, 28vw" priority/></div>

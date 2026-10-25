@@ -79,3 +79,7 @@ Dates retain supplied precision (year, month or full day). Non-date values such 
 ### Editorial Press layout (2026-10-25)
 
 Selected Figma Make export provenance is in `press-editorial-design.json`. Featured stories are three shortcuts to existing Live records, not extra archive records. Exact exported Mixmag WebP is used in feature/thumbnail slots. The original PNG and approved full PDF remain unchanged for existing homepage/download links. Data-derived year filtering includes Undated and intersects search/type/Maya/sort. Shared site navigation/footer/player/cart are not replaced by prototype mockups.
+
+### Radio and broadcast recordings
+
+Use the same seven-field press records for verified broadcast coverage. `Radio` is a data-derived type, not a separate page. Canonical SoundCloud/Mixcloud URLs display Listen instead of Read (safe new-tab link; no auto-playing embeds or media downloads). Enrich existing coverage rather than duplicating it when an actual recording is found. Preserve provenance and original corroborating links in `joeski-press-radio-sources.json`. Dates must state their basis: Global572 uses its Mixcloud publication date, not an assumed broadcast date. Maya focus now includes Joe’s eight original picks plus this verified Maya label spotlight.
