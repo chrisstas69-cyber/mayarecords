@@ -75,3 +75,7 @@ Dates retain supplied precision (year, month or full day). Non-date values such 
 ### Joe’s Maya focus shortlist
 
 `joeski-press-maya-focus.json` contains the eight exact URLs explicitly listed in Section5 of Chris’s2026-10-24 handoff: six Maya-focused picks plus the two broader craft/career pieces with Maya material. The album items remain in the full archive but are not inferred into this URL shortlist. The filter intersects search/type/sort, resets with Clear filters, and adds no fields to the seven-field source records. Only records with status exactly `Live` and a nonempty URL expose READ; offline originals remain visible with `Original page offline` and no link. The canonical Sep8,2023 Night Bazaar playlist replaces the old MyHouseRadio repost; do not add both.
+
+### Editorial Press layout (2026-10-25)
+
+Selected Figma Make export provenance is in `press-editorial-design.json`. Featured stories are three shortcuts to existing Live records, not extra archive records. Exact exported Mixmag WebP is used in feature/thumbnail slots. The original PNG and approved full PDF remain unchanged for existing homepage/download links. Data-derived year filtering includes Undated and intersects search/type/Maya/sort. Shared site navigation/footer/player/cart are not replaced by prototype mockups.

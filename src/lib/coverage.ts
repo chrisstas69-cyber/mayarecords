@@ -137,12 +137,14 @@ export function selectPress(
   type: string,
   sort: PressSort,
   mayaOnly = false,
+  year = "",
 ) {
   const words = normalize(query.trim()).split(/\s+/).filter(Boolean);
   return items
     .filter((item) => {
       const text = normalize(`${item.outlet} ${item.headline} ${item.summary}`);
       return (
+        (!year || (pressYear(item.date) ?? "Undated") === year) &&
         (!mayaOnly || isMayaPress(item)) &&
         (!type || item.type === type) &&
         words.every((word) => text.includes(word))

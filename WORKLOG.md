@@ -6,6 +6,13 @@ This is what survives when a chat gets compacted or you switch tools.
 ---
 
 
+## 2026-10-25 — selected Figma editorial press layout
+
+- Branch `codex/editorial-press-layout`: use user-supplied current Figma Make ZIP after official resource reads failed. Inspect only source/assets; do not execute its scripts or import its AGENTS instructions. Target is published /coverage with large Mixmag feature, two stacked highlights and thumbnail-first horizontal archive rows. No comparison/mockup screens imported.
+- Exact exported WebP cover imported with hash provenance. Reuse existing homepage Cormorant/DM Sans fonts and real shared header/footer/cart/player; no fake badge/hash navigation or prototype-only dates/sort bugs. Preserve source34 records/33 Live links and offline iDJ behavior. Add data-derived year filter (including Undated) to existing search/type/Maya/sort/reset controls.
+- Highlights are shortcuts from the actual Live dataset (not duplicate archive records) and degrade safely if source records disappear. Desktop landscape thumbnails precede text; on phone thumbnail stays beside headline with READ underneath. Preserve actual magazine cover proportions. Homepage section05 retains full PDF/download and gains Explore all press link; other homepage sections untouched.
+- Production build/TypeScript/coverage14/homepage6/remix6/catalog8 pass. Local desktop1440: all three featured READ actions above900px,34 archive rows; exact cover loads. Phone390: no overflow, all READ targets>=44px/reachable,34 thumbnails precede text; Maya+2022 returns2, adding Interview+ElectronicGroove returns1/reset34; zero errors. No press dataset, gated page, shared header/footer or private EPK changes. Final preview/live verification tracked separately.
+
 ## 2026-10-24 — reconcile complete press handoff
 
 - Existing PR8 (public archive) and PR9 (image cards) both merged; extend existing /coverage rather than duplicate. Keep all card design/tokens, actual Mixmag cover/branded fallbacks, existing header/footer and promoter-only /press byte-identical.
