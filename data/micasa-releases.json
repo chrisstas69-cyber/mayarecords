@@ -1,0 +1,793 @@
+[
+  {
+    "catalogNumber": "MICASA001",
+    "originalCatalogNumber": "Micasa001",
+    "artist": "SoulMates",
+    "title": "Percaboom",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House",
+      "Techno",
+      "Latin"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 128599,
+    "discogsUrl": "https://www.discogs.com/release/128599-SoulMates-Percaboom",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Percaboom",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Percaboom (Joeski's Dark Dub)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa001-sideb_info.webp",
+        "alt": "MICASA001 — Percaboom: Printed label / track information",
+        "sourceFilename": "MICASA001_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa001-sidea_logo.webp",
+        "alt": "MICASA001 — Percaboom: Logo side",
+        "sourceFilename": "MICASA001_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 128599,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/128599"
+      },
+      {
+        "id": 3881403,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/3881403"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA002",
+    "originalCatalogNumber": "MiCasa002",
+    "artist": "Onionz",
+    "title": "Getting Thru It",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House",
+      "Latin",
+      "Tribal House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 165764,
+    "discogsUrl": "https://www.discogs.com/release/165764-Onionz-Getting-Thru-It",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Getting Thru It",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Dubbing Thru It",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Beats Thru It",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa002-sideb_info.webp",
+        "alt": "MICASA002 — Getting Thru It: Printed label / track information",
+        "sourceFilename": "MICASA002_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa002-sidea_logo.webp",
+        "alt": "MICASA002 — Getting Thru It: Logo side",
+        "sourceFilename": "MICASA002_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 165764,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/165764"
+      },
+      {
+        "id": 7605329,
+        "format": "12\", W/Lbl",
+        "url": "https://www.discogs.com/release/7605329"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA003",
+    "originalCatalogNumber": "MiCasa003",
+    "artist": "Alex Trax & DJ Thanno",
+    "title": "Needin More / Rain Forest Beats",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 112112,
+    "discogsUrl": "https://www.discogs.com/release/112112-Alex-Trax-DJ-Thanno-Needin-More-Rain-Forest-Beats",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Needin More",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Rain Forest Beats",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa003-sideb_info.webp",
+        "alt": "MICASA003 — Needin More / Rain Forest Beats: Printed label / track information",
+        "sourceFilename": "MICASA003_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa003-sidea_logo.webp",
+        "alt": "MICASA003 — Needin More / Rain Forest Beats: Logo side",
+        "sourceFilename": "MICASA003_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 112112,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/112112"
+      },
+      {
+        "id": 1699182,
+        "format": "12\", Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/1699182"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA004",
+    "originalCatalogNumber": "MiCasa004",
+    "artist": "Eli Nissan / Joeski",
+    "title": "Come And Go / Matador",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Latin"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 145194,
+    "discogsUrl": "https://www.discogs.com/release/145194-Eli-Nissan-Joeski-Come-And-Go-Matador",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Come & Go",
+        "duration": "",
+        "artist": "Eli Nissan"
+      },
+      {
+        "position": "B",
+        "title": "Matador",
+        "duration": "",
+        "artist": "Joeski"
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa004-sideb_info.webp",
+        "alt": "MICASA004 — Come And Go / Matador: Printed label / track information",
+        "sourceFilename": "MICASA004_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa004-sidea_logo.webp",
+        "alt": "MICASA004 — Come And Go / Matador: Logo side",
+        "sourceFilename": "MICASA004_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 145194,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/145194"
+      },
+      {
+        "id": 5134733,
+        "format": "12\", W/Lbl",
+        "url": "https://www.discogs.com/release/5134733"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA005",
+    "originalCatalogNumber": "MiCasa005",
+    "artist": "DJ Lima vs. Evanz D",
+    "title": "Take U",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 131793,
+    "discogsUrl": "https://www.discogs.com/release/131793-DJ-Lima-vs-Evanz-D-Take-U",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Take U (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Take U (Rob Salmon Dub Remix)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa005-sideb_info.webp",
+        "alt": "MICASA005 — Take U: Printed label / track information",
+        "sourceFilename": "MICASA005_SideB_Info-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 131793,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/131793"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA006",
+    "originalCatalogNumber": "MiCasa006",
+    "artist": "Chief Rocker",
+    "title": "It's Your Love",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 366480,
+    "discogsUrl": "https://www.discogs.com/release/366480-Chief-Rocker-Its-Your-Love",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "It's Your Love",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "It's Your Love (Your Love Dub Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Bonus Beats",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa006-sideb_info.webp",
+        "alt": "MICASA006 — It's Your Love: Printed label / track information",
+        "sourceFilename": "MICASA006_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa006-sidea_logo.webp",
+        "alt": "MICASA006 — It's Your Love: Logo side",
+        "sourceFilename": "MICASA006_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 366480,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/366480"
+      },
+      {
+        "id": 1322703,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/1322703"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA007",
+    "originalCatalogNumber": "MiCasa007",
+    "artist": "Joeski",
+    "title": "Come And Go",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Disco"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 298951,
+    "discogsUrl": "https://www.discogs.com/release/298951-Joeski-Come-And-Go",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Come And Go",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Come And Go (Alex Trax & Thanno's Mix)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa007-sideb_info.webp",
+        "alt": "MICASA007 — Come And Go: Printed label / track information",
+        "sourceFilename": "MICASA007_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa007-sidea_sleevecutout.webp",
+        "alt": "MICASA007 — Come And Go: Sleeve / logo side",
+        "sourceFilename": "MICASA007_SideA_SleeveCutout-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 25390789,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/25390789"
+      },
+      {
+        "id": 298951,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/298951"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA008",
+    "originalCatalogNumber": "MiCasa008",
+    "artist": "Mijangos Presents Donno Drum",
+    "title": "El Ritual",
+    "year": 2003,
+    "country": "Mexico",
+    "styles": [
+      "House",
+      "Tribal House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 266699,
+    "discogsUrl": "https://www.discogs.com/release/266699-Mijangos-Presents-Donno-Drum-El-Ritual",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "El Ritual (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "El Ritual (Acapella)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "El Ritual (Progresso Hills Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Onlu Drums",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa008-sideb_info.webp",
+        "alt": "MICASA008 — El Ritual: Printed label / track information",
+        "sourceFilename": "MICASA009_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa008-sidea_sleevecutout.webp",
+        "alt": "MICASA008 — El Ritual: Sleeve / logo side",
+        "sourceFilename": "MICASA009_SideA_SleeveCutout-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 266699,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/266699"
+      },
+      {
+        "id": 12228943,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/12228943"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA010",
+    "originalCatalogNumber": "MiCasa010",
+    "artist": "Louis Botella",
+    "title": "I Can't Stand It",
+    "year": 2004,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tribal House",
+      "Disco"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 280747,
+    "discogsUrl": "https://www.discogs.com/release/280747-Louis-Botella-I-Cant-Stand-It",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "I Can't Stand It (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "I Can't Stand It (Alex Traxx & Thanno Remix Drums)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa010-sideb_info.webp",
+        "alt": "MICASA010 — I Can't Stand It: Printed label / track information",
+        "sourceFilename": "MICASA010_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa010-sidea_logo.webp",
+        "alt": "MICASA010 — I Can't Stand It: Logo side",
+        "sourceFilename": "MICASA010_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 280747,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/280747"
+      },
+      {
+        "id": 2562551,
+        "format": "12\", W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/2562551"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA011",
+    "originalCatalogNumber": "MiCasa011",
+    "artist": "Marino Berardi",
+    "title": "Tool Time",
+    "year": 2004,
+    "country": "US",
+    "styles": [
+      "House",
+      "Deep House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 319506,
+    "discogsUrl": "https://www.discogs.com/release/319506-Marino-Berardi-Tool-Time",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Tool Time",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Tool Time (Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Tool Time (Two Phunk D-Lux Rmx)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa011-sideb_info.webp",
+        "alt": "MICASA011 — Tool Time: Printed label / track information",
+        "sourceFilename": "MICASA011_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa011-sidea_logo.webp",
+        "alt": "MICASA011 — Tool Time: Logo side",
+        "sourceFilename": "MICASA011_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 319506,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/319506"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA012",
+    "originalCatalogNumber": "MICASA012",
+    "artist": "Spettro , Thomas Sahs & Trinidad",
+    "title": "Texas Toast",
+    "year": 2004,
+    "country": "US",
+    "styles": [
+      "Deep House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 427886,
+    "discogsUrl": "https://www.discogs.com/release/427886-Spettro-Thomas-Sahs-Trinidad-2-Texas-Toast",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Balance",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Balance (Vocal Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Busta",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa012-sideb_info.webp",
+        "alt": "MICASA012 — Texas Toast: Printed label / track information",
+        "sourceFilename": "MICASA012_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa012-sidea_logo.webp",
+        "alt": "MICASA012 — Texas Toast: Logo side",
+        "sourceFilename": "MICASA012_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 427886,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/427886"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA013",
+    "originalCatalogNumber": "MiCasa013",
+    "artist": "Louis Botella",
+    "title": "GMB",
+    "year": 2005,
+    "country": "US",
+    "styles": [
+      "Deep House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 404364,
+    "discogsUrl": "https://www.discogs.com/release/404364-Louis-Botella-GMB",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "GMB",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Cool Air",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa013-sideb_info.webp",
+        "alt": "MICASA013 — GMB: Printed label / track information",
+        "sourceFilename": "MICASA013_SideB_Info-restored.png"
+      },
+      {
+        "src": "/images/labels/micasa/micasa013-sidea_logo.webp",
+        "alt": "MICASA013 — GMB: Logo side",
+        "sourceFilename": "MICASA013_SideA_Logo-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 7611016,
+        "format": "12\", Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/7611016"
+      },
+      {
+        "id": 404364,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/404364"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA014",
+    "originalCatalogNumber": "MiCasa014",
+    "artist": "Mijangos",
+    "title": "Musica De Casa",
+    "year": 2005,
+    "country": "US",
+    "styles": [
+      "House",
+      "Deep House",
+      "Tribal House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 441011,
+    "discogsUrl": "https://www.discogs.com/release/441011-Mijangos-Musica-De-Casa",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Musica De Casa (Mijangos Vocal)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Musica De Casa (Mijangos Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Musica De Casa (Nick & Danny Chatelain Remix)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/micasa/micasa014-sideb_info.webp",
+        "alt": "MICASA014 — Musica De Casa: Printed label / track information",
+        "sourceFilename": "MICASA014_SideB_Info-restored.png"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 4445314,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/4445314"
+      },
+      {
+        "id": 441011,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/441011"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA015",
+    "originalCatalogNumber": "MiCasa015",
+    "artist": "Onionz",
+    "title": "Give To Live / Sydneys Groove",
+    "year": 2005,
+    "country": "US",
+    "styles": [
+      "Acid House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 494606,
+    "discogsUrl": "https://www.discogs.com/release/494606-Onionz-Give-To-Live-Sydneys-Groove",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Give To Live",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Sydneys Groove",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Sydneys Groove (Dub)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [],
+    "pressings": [
+      {
+        "id": 3361591,
+        "format": "12\", W/Lbl",
+        "url": "https://www.discogs.com/release/3361591"
+      },
+      {
+        "id": 494606,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/494606"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "MICASA016",
+    "originalCatalogNumber": "MiCasa016",
+    "artist": "Alex Trax & DJ Thanno",
+    "title": "Suntribe EP",
+    "year": 2005,
+    "country": "US",
+    "styles": [
+      "House",
+      "Deep House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 523181,
+    "discogsUrl": "https://www.discogs.com/release/523181-Alex-Trax-DJ-Thanno-Suntribe-EP",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Suntribe",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Salsin",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [],
+    "pressings": [
+      {
+        "id": 523181,
+        "format": "12\", EP",
+        "url": "https://www.discogs.com/release/523181"
+      }
+    ]
+  }
+]

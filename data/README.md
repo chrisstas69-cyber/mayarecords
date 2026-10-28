@@ -83,3 +83,24 @@ Selected Figma Make export provenance is in `press-editorial-design.json`. Featu
 ### Radio and broadcast recordings
 
 Use the same seven-field press records for verified broadcast coverage. `Radio` is a data-derived type, not a separate page. Canonical SoundCloud/Mixcloud URLs display Listen instead of Read (safe new-tab link; no auto-playing embeds or media downloads). Enrich existing coverage rather than duplicating it when an actual recording is found. Preserve provenance and original corroborating links in `joeski-press-radio-sources.json`. Dates must state their basis: Global572 uses its Mixcloud publication date, not an assumed broadcast date. Maya focus now includes Joe’s eight original picks plus this verified Maya label spotlight.
+
+## Micasa vinyl archive
+
+`micasa-releases.json` is the static, informational catalog at `/labels/micasa`.
+Data was retrieved from Discogs label 13754 and individual public release API
+records on 2026-10-28; provenance and reconciliation decisions are in
+`micasa-sources.json`. One entry per catalog number; promos/alternate pressings
+are secondary links, not duplicate catalog cards. Preserve the exact primary
+Discogs URL. Do not connect these historical records to Maya checkout or imply
+digital audio exists. Future monthly releases require separate supplied data.
+
+Restored artwork is supplied by Chris, optimized as local WebP derivatives in
+`public/images/labels/micasa/`. Originals remain on his Desktop. The images
+originally named MICASA009 show *El Ritual*, matching Discogs MICASA008; only
+website derivative names were corrected. No MICASA009 record is invented.
+015 and 016 intentionally have an honest missing-artwork state. The original
+photographed side is not inferred from the folder's SideA/SideB naming; controls
+say Printed label / Other side. The reconstructed emblem uses Chris's approved
+outline; emerald is a selected web color, not an authenticated print standard.
+
+Regression: `node --test scripts/test-micasa.cjs`.

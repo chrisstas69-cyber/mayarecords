@@ -1,0 +1,39 @@
+{
+  "labelUrl": "https://www.discogs.com/label/13754-Mi-Casa",
+  "labelApi": "https://api.discogs.com/labels/13754",
+  "releasesApi": "https://api.discogs.com/labels/13754/releases?per_page=100&page=1",
+  "retrieved": "2026-10-28",
+  "labelName": "Mi Casa",
+  "parentLabel": {
+    "id": 463,
+    "name": "Maya",
+    "resource_url": "https://api.discogs.com/labels/463"
+  },
+  "releaseApiUrls": [
+    "https://api.discogs.com/releases/128599",
+    "https://api.discogs.com/releases/165764",
+    "https://api.discogs.com/releases/112112",
+    "https://api.discogs.com/releases/145194",
+    "https://api.discogs.com/releases/131793",
+    "https://api.discogs.com/releases/366480",
+    "https://api.discogs.com/releases/298951",
+    "https://api.discogs.com/releases/266699",
+    "https://api.discogs.com/releases/280747",
+    "https://api.discogs.com/releases/319506",
+    "https://api.discogs.com/releases/427886",
+    "https://api.discogs.com/releases/404364",
+    "https://api.discogs.com/releases/441011",
+    "https://api.discogs.com/releases/494606",
+    "https://api.discogs.com/releases/523181"
+  ],
+  "decisions": [
+    "One record per catalog number; alternate pressings linked separately, duplicate IDs collapsed.",
+    "Source filenames MICASA009 depict El Ritual; matched to Discogs MICASA008 based on printed artist/title/tracklist. Original files untouched.",
+    "No MICASA009 catalog entry in fetched label listing; no record invented.",
+    "MICASA015 and MICASA016 have metadata but no supplied artwork.",
+    "Release years used instead of implying complete precision for partial Discogs dates.",
+    "Public contact phone numbers and long profile/notes not republished.",
+    "Artist asterisks and numeric Discogs disambiguation suffixes removed for display.",
+    "Founder history and parent operation confirmed by Chris; monthly new-release plans not presented as a dated release announcement."
+  ]
+}

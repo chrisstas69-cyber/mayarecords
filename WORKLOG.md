@@ -1,3 +1,14 @@
+
+## 2026-10-28 — Micasa vinyl archive (preview review pending)
+
+- Added `/labels/micasa`, discovered through the existing discography tabs on Releases and Remixes; no main navigation overcrowding or parent-site redesign.
+- Source: Discogs label13754 public API (web reader was challenged); 15 distinct catalogs, 2002–2005. Exact per-release URLs, tracks, artists, years and separate alternate pressing references. No fabricated 009.
+- Matched supplied MICASA009 artwork to actual MICASA008 El Ritual from printed artist/title/tracks; originals unchanged. 24 local WebP side images across13 releases;015/016 metadata retained with honest missing-artwork states. Approved Micasa logo reused.
+- Informational only: no prices, cart/audio/download/payment integration. Monthly future-release plans separately labeled, not fake release listings. Founders/parent operation from Chris's own explanation.
+- Search across artist/title/tracks/catalog, year filter, catalog/newest sorts, clear/empty states, alternate artwork controls and expandable tracklists. Gated Press Kit and all existing catalog source files untouched.
+- Build and typecheck pass; Micasa6/catalog8/remix6/coverage15/homepage6 tests pass. Design detector empty. Browser tool unavailable in this session: desktop/mobile interactive and visual QA, production readiness remain unverified. PR preview is for review, do not claim production complete.
+- Existing untracked docs/LABEL-ARCHITECTURE.md belongs to other work and remains excluded. No Supabase/Stripe setup or migrations.
+
 # joeski-platform — worklog
 
 Newest entry at the top. Whichever tool you're in, append here before you stop.
