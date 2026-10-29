@@ -22,6 +22,7 @@ export default function MicasaPage() {
         <div className="micasa-intro"><p>Founded by Joeski &amp; Stas. Born on vinyl. Part of the Maya Records family.</p><p>Explore the original records, their artwork and the tracks that tell the label’s story.</p><a href="#vinyl-archive">Explore the archive <ArrowDown size={16} aria-hidden="true" /></a></div>
       </header>
       <DiscographyTabs active="micasa" />
+      <div className="micasa-next" style={{ marginTop: 0, marginBottom: 32 }}><div><h2>New music, next.</h2><p>See a design preview of how future Micasa releases will look. Historical artwork is used for this example—not a new release announcement.</p></div><Link href="/showcase/micasa-getting-thru-it">View sample release <ArrowUpRight size={18} aria-hidden="true" /></Link></div>
       <MicasaArchive />
       <section className="micasa-next" aria-labelledby="next-heading"><div><h2 id="next-heading">The next chapter</h2><p>We’re bringing Micasa back, with new releases planned monthly. This is the original vinyl archive; new music will have its own place here when it’s announced.</p></div><Link href="/contact">Stay in touch <ArrowUpRight size={18} aria-hidden="true" /></Link></section>
     </div>

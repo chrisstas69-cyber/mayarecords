@@ -1,3 +1,16 @@
+## 2026-10-28 — Big Chief emblem and fixed lettering
+
+Added supplied Big Chief emblem alongside the label heading, and a matching Big Chief badge in both release-showcase views. Full artwork is converted to WebP and displayed through a centered CSS crop; no AI redraw or change to original file. Reconstructed fixed BIG CHIEF lettering as gold/white SVG from supplied artwork, with source hash/region recorded in data/big-chief-brand.json. This is not font identification or a reusable typeface; no font name guessed. Black/white/gold SVG+PNG wordmark copies in Desktop/Big Chief Logo Assets. Archives, track data, demo safeguards and checkout remain unchanged. Same PR14 preview branch; production remains unchanged. Browser visual QA still unavailable.
+
+## 2026-10-28 — Big Chief archive + release-first showcase (preview review pending)
+
+- Branch codex/big-chief-release-showcase builds on PR13 Micasa branch; keep both unmerged until browser review. Existing untracked docs/ untouched/excluded.
+- Discogs label5300 public API: 54 rows including duplicates/promos; selected25 BC001–BC025 vinyl releases,2001–2004. Individual APIs provide titles/artists/tracks/year/format/exactURI. LastAPI hit429, retried only after a pause and succeeded. CB-1 outside supplied BC-numbered archive is recorded as excluded pending owner confirmation, not asserted to be wrong.
+-40 local1200pxWebP derivatives from supplied restored folder, all25 releases represented; no original overwrite. Shared archive handles both labels, dynamic counts/year/search/sort, arbitrary artwork sides with accurate captions and preserved2x12formats. Founded by Joeski & Stas credit per user's explicit instruction.
+- /new-releases hub, /showcase/big-chief-peeping-tom and /showcase/micasa-getting-thru-it show release-first design using clearly labeled historical sampledata. Fullrelease/individualtrack illustrativeprices, disabledpurchasecontrols, no fakeaudio/video/date/support/stock. Sample+hubnoindex/excludedsitemap; sourcearchivesnotmutated. Real latestMaya entry remains distinct, selected via existing guarded layer with force-dynamic. No backend/payment/auth provisioning or schema changes.
+- Homepage primaryCTA/homeheader/mainReleases now reach release-first hub; existing numbered MayaCatalog destination and all real catalog/commerce remain. Labels reachable via hubanddiscographytabs; PressKit/privateEPK untouched.
+- Build/TypeScript pass; newshowcase7+Micasa6/homepage6/catalog8/coverage15/remix6 tests pass; detector[]. No browser/CUA tool available thissession: visual, interactive, mobile, console QA not performed. LocalHTTP/previewREADY checks to follow; not production complete.
+
 ## 2026-10-28 — Founder credit wording
 
 Micasa page and metadata now say Founded by Joeski & Stas, per explicit user correction. Same public credit requested for future Big Chief page; no Big Chief page exists yet. Recorded in data provenance/shared project record. PR13 remains unmerged pending browser review.
@@ -171,3 +184,9 @@ Moved here from the old-Mac migration. `node_modules` was deliberately not copie
 ## 2026-10-29 — Publish Micasa archive
 - User explicitly approved publishing Micasa and Big Chief after the artist update. Reconciled PR13 with current main so artist enrichment and YouTube links remain intact.
 - Publishing the existing informational vinyl archives, not enabling digital sales for historical vinyl. Founder credit remains Joeski & Stas. Generator repository and original-vinyl Figma proof remain separate.
+
+## 2026-10-29 — Publish Big Chief and label-family browsing
+- Reconciled stacked PR14 with the updated Micasa branch and current production artist/YouTube changes. Publishing was explicitly approved by the user.
+- Retain informational vinyl/Discogs archives, Joeski & Stas founder credit, and clearly labeled non-purchasable campaign demos. No real preorder, payment, audio or reissue announcement is introduced.
+- Generator and its separate saved vector work are untouched. Existing website-brand assets remain as reviewed; this release does not substitute the separate original-vinyl Figma lettering proof.
+- Combined release checks pass: lint/typecheck/build, 61 label/artist/catalog/homepage/remix/press/mix tests and commerce suite. Isolated Chrome at1440/390 verified both label counts, exact safe Discogs URLs, search/year/reset/sort, art-side switching, tracklist expansion, demo purchase controls disabled/no audio/video/noindex, homepage→family hub and catalog tabs→both labels. Existing64 artist profiles retained;64 archive artwork assets HTTP200/imageMIME/SHA256-match. No new console errors; known baseline favicon404 only. Local3194 isolated server, receipt /tmp/label-browser-results.json.

@@ -1,0 +1,1642 @@
+[
+  {
+    "catalogNumber": "BC001",
+    "originalCatalogNumber": "BC001",
+    "artist": "Chief Rocker",
+    "title": "Fathead",
+    "year": 2001,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 76815,
+    "discogsUrl": "https://www.discogs.com/release/76815-Chief-Rocker-Fathead",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Fathead",
+        "duration": "7:49",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Gonnamakeachange",
+        "duration": "6:27",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc001-sidea_info.webp",
+        "alt": "BC001 — Fathead: Printed label",
+        "sourceFilename": "BC001_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc001-sideb_pictorial.webp",
+        "alt": "BC001 — Fathead: Illustrated label",
+        "sourceFilename": "BC001_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 76815,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/76815"
+      },
+      {
+        "id": 6035092,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/6035092"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC002",
+    "originalCatalogNumber": "BC002",
+    "artist": "DJ Foxx & DJ Sensé",
+    "title": "Hill Street Blues",
+    "year": 2001,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 76809,
+    "discogsUrl": "https://www.discogs.com/release/76809-DJ-Foxx-DJ-Sensé-Hill-Street-Blues",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Hill Street Blues (Original Mix)",
+        "duration": "9:03",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Hill Street Blues (Master D's Casa Mix)",
+        "duration": "7:34",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Hill Street Blues (Master D's Beat Mix)",
+        "duration": "4:11",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc002-sidea_info.webp",
+        "alt": "BC002 — Hill Street Blues: Printed label",
+        "sourceFilename": "BC002_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc002-sideb_pictorial.webp",
+        "alt": "BC002 — Hill Street Blues: Illustrated label",
+        "sourceFilename": "BC002_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 2444163,
+        "format": "12\", W/Lbl",
+        "url": "https://www.discogs.com/release/2444163"
+      },
+      {
+        "id": 76809,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/76809"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC003",
+    "originalCatalogNumber": "BC 003",
+    "artist": "Blakhook Project",
+    "title": "Tropical Feedback",
+    "year": 2001,
+    "country": "US",
+    "styles": [
+      "Deep House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 76819,
+    "discogsUrl": "https://www.discogs.com/release/76819-Blakhook-Project-Tropical-Feedback",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Tropical Feedback (Original Transmission)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Tropical Feedback (Blakkat Re-Scan)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc003-sidea_info.webp",
+        "alt": "BC003 — Tropical Feedback: Printed label",
+        "sourceFilename": "BC003_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc003-sideb_pictorial.webp",
+        "alt": "BC003 — Tropical Feedback: Illustrated label",
+        "sourceFilename": "BC003_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 76819,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/76819"
+      },
+      {
+        "id": 8110002,
+        "format": "12\", Promo, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/8110002"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC004",
+    "originalCatalogNumber": "BC 004",
+    "artist": "J & S Productions",
+    "title": "Unasaxomas",
+    "year": 2001,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 76814,
+    "discogsUrl": "https://www.discogs.com/release/76814-J-S-Productions-Unasaxomas",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Unasaxomas (Joeski Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Unasaxomas (ADNY Remix)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc004-sidea_info.webp",
+        "alt": "BC004 — Unasaxomas: Printed label",
+        "sourceFilename": "BC004_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc004-sideb_pictorial.webp",
+        "alt": "BC004 — Unasaxomas: Illustrated label",
+        "sourceFilename": "BC004_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 76814,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/76814"
+      },
+      {
+        "id": 26095714,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/26095714"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC005",
+    "originalCatalogNumber": "BC005",
+    "artist": "Jay Tripwire",
+    "title": "Beware Of The Chupacabra EP",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "Tribal House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 55395,
+    "discogsUrl": "https://www.discogs.com/release/55395-Jay-Tripwire-Beware-Of-The-Chupacabra-EP",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "What Kind Of Voodoo?",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Voodoo Outro",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Smoothin' It Out",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Voodoo Beats",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc005-sidea_info.webp",
+        "alt": "BC005 — Beware Of The Chupacabra EP: Printed label",
+        "sourceFilename": "BC005_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc005-sideb_pictorial.webp",
+        "alt": "BC005 — Beware Of The Chupacabra EP: Illustrated label",
+        "sourceFilename": "BC005_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 2728213,
+        "format": "12\", EP, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/2728213"
+      },
+      {
+        "id": 55395,
+        "format": "12\", EP",
+        "url": "https://www.discogs.com/release/55395"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC006",
+    "originalCatalogNumber": "BC 006",
+    "artist": "Grant Dell & Gareth Oxby Present Tribalation",
+    "title": "Don't Make Me Wait / I Don't Care",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 57525,
+    "discogsUrl": "https://www.discogs.com/release/57525-Grant-Dell-Gareth-Oxby-Present-Tribalation-Dont-Make-Me-Wait-I-Dont-Care",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Don't Make Me Wait",
+        "duration": "6:54",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "I Don't Care",
+        "duration": "7:02",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc006-sidea_info.webp",
+        "alt": "BC006 — Don't Make Me Wait / I Don't Care: Printed label",
+        "sourceFilename": "BC006_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 57525,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/57525"
+      },
+      {
+        "id": 1702236,
+        "format": "12\", Promo, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/1702236"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC007",
+    "originalCatalogNumber": "BC 007",
+    "artist": "Jay Tripwire",
+    "title": "Peeping Tom",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House",
+      "Techno",
+      "Tribal House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 68834,
+    "discogsUrl": "https://www.discogs.com/release/68834-Jay-Tripwire-Peeping-Tom",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Peeping Tom (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Peeping Dub",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Peeping Tom (Omni A.M.'s Hidden Camera Remix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Peeping Beats",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc007-sidea_info.webp",
+        "alt": "BC007 — Peeping Tom: Printed label",
+        "sourceFilename": "BC007_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc007-sideb_pictorial.webp",
+        "alt": "BC007 — Peeping Tom: Illustrated label",
+        "sourceFilename": "BC007_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 68834,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/68834"
+      },
+      {
+        "id": 3818321,
+        "format": "12\", W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/3818321"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC008",
+    "originalCatalogNumber": "BC 008",
+    "artist": "Chris Simmonds",
+    "title": "In My Soul",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 76817,
+    "discogsUrl": "https://www.discogs.com/release/76817-Chris-Simmonds-In-My-Soul",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "In My Soul",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Carnival Beats",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "In My Soul (Onionz Chief Rocker Dub)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc008-sidea_info.webp",
+        "alt": "BC008 — In My Soul: Printed label",
+        "sourceFilename": "BC008_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 76817,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/76817"
+      },
+      {
+        "id": 1421316,
+        "format": "12\", Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/1421316"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC009",
+    "originalCatalogNumber": "BC 009",
+    "artist": "Marky Star",
+    "title": "Disco Freak EP",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House",
+      "Acid House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 76812,
+    "discogsUrl": "https://www.discogs.com/release/76812-Marky-Star-Disco-Freak-EP",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Disco Freak",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Disco Freak (Jay's Freaky Beats)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Disco Freak (Jay's Acid Re-Rub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Caveman",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc009-sidea_info.webp",
+        "alt": "BC009 — Disco Freak EP: Printed label",
+        "sourceFilename": "BC009_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc009-sideb_pictorial.webp",
+        "alt": "BC009 — Disco Freak EP: Illustrated label",
+        "sourceFilename": "BC009_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 1547683,
+        "format": "12\", Promo, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/1547683"
+      },
+      {
+        "id": 76812,
+        "format": "12\", EP",
+        "url": "https://www.discogs.com/release/76812"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC010",
+    "originalCatalogNumber": "BC010",
+    "artist": "Sen-Sei & David Coleman",
+    "title": "Geronimo!",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "Progressive House",
+      "Tribal House",
+      "Deep House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 59914,
+    "discogsUrl": "https://www.discogs.com/release/59914-Sen-Sei-David-Coleman-Geronimo",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Geronimo! Kinetic Grooves West Coast Mix",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Geronimo! F-X",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Geronimo! Red Moon's Raindance Mix",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Geronimo! Red Moon Beats",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc010-sidea_info.webp",
+        "alt": "BC010 — Geronimo!: Printed label",
+        "sourceFilename": "BC010_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 3938427,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/3938427"
+      },
+      {
+        "id": 59914,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/59914"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC011",
+    "originalCatalogNumber": "BC011",
+    "artist": "Dancing HQ",
+    "title": "All 4 Love EP",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tribal House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 68837,
+    "discogsUrl": "https://www.discogs.com/release/68837-Dancing-HQ-All-4-Love-EP",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "All 4 Love",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "All 4 Love (Bonus Beats)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "History Never Repeats Itself",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "History Never Remixes Itself",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc011-sidea_info.webp",
+        "alt": "BC011 — All 4 Love EP: Printed label",
+        "sourceFilename": "BC011_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc011-sideb_pictorial.webp",
+        "alt": "BC011 — All 4 Love EP: Illustrated label",
+        "sourceFilename": "BC011_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 26068954,
+        "format": "12\", EP, Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/26068954"
+      },
+      {
+        "id": 68837,
+        "format": "12\", EP",
+        "url": "https://www.discogs.com/release/68837"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC012",
+    "originalCatalogNumber": "BC012",
+    "artist": "Cutlab",
+    "title": "Loudkissin'",
+    "year": 2002,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 77123,
+    "discogsUrl": "https://www.discogs.com/release/77123-Cutlab-Loudkissin",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Loudkissin' (Asad's Silverlining Smooch)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Loudkissin' (Asad's Kiss Of Death F-X)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Loudkissin' (Original Cutlab Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Right Now",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc012-sidea_info.webp",
+        "alt": "BC012 — Loudkissin': Printed label",
+        "sourceFilename": "BC012_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc012-sideb_pictorial.webp",
+        "alt": "BC012 — Loudkissin': Illustrated label",
+        "sourceFilename": "BC012_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 8453311,
+        "format": "12\", W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/8453311"
+      },
+      {
+        "id": 77123,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/77123"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC013",
+    "originalCatalogNumber": "BC013",
+    "artist": "Grant Dell And Gareth Oxby Present Tribalation",
+    "title": "Do It To The Music / Look Behind Your Eyes",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tribal House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 69844,
+    "discogsUrl": "https://www.discogs.com/release/69844-Grant-Dell-And-Gareth-Oxby-Present-Tribalation-Do-It-To-The-Music-Look-Behind-Your-Eyes",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Do It To The Music",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Look Behind Your Eyes",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc013-sidea_info.webp",
+        "alt": "BC013 — Do It To The Music / Look Behind Your Eyes: Printed label",
+        "sourceFilename": "BC013_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc013-sideb_pictorial.webp",
+        "alt": "BC013 — Do It To The Music / Look Behind Your Eyes: Illustrated label",
+        "sourceFilename": "BC013_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 16552716,
+        "format": "12\", W/Lbl",
+        "url": "https://www.discogs.com/release/16552716"
+      },
+      {
+        "id": 69844,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/69844"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC014",
+    "originalCatalogNumber": "BC014",
+    "artist": "Adam Collins",
+    "title": "Good Times",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "Tribal House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 127296,
+    "discogsUrl": "https://www.discogs.com/release/127296-Adam-Collins-Good-Times",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Good Times",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Good Times (Spettro's Ganja Fever Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Good Times (Spettro's Latin Fever Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Sensation Vibration",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc014-sidea_info.webp",
+        "alt": "BC014 — Good Times: Printed label",
+        "sourceFilename": "BC014_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 5811422,
+        "format": "12\", TP",
+        "url": "https://www.discogs.com/release/5811422"
+      },
+      {
+        "id": 3938436,
+        "format": "12\", Promo",
+        "url": "https://www.discogs.com/release/3938436"
+      },
+      {
+        "id": 127296,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/127296"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC015",
+    "originalCatalogNumber": "BC015",
+    "artist": "Aaron Ochoa",
+    "title": "Kingdom Caller EP",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Deep House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 97799,
+    "discogsUrl": "https://www.discogs.com/release/97799-Aaron-Ochoa-Kingdom-Caller-EP",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Kingdom Caller (Espiritu Edit)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Latin Action (Tiko Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Kingdom Caller (DJ Hal's Converted Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Latin Action (Tiko Vox)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc015-sideb_pictorial.webp",
+        "alt": "BC015 — Kingdom Caller EP: Illustrated label",
+        "sourceFilename": "BC015_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 97799,
+        "format": "12\", EP",
+        "url": "https://www.discogs.com/release/97799"
+      },
+      {
+        "id": 2288961,
+        "format": "12\", EP, Promo, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/2288961"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC016",
+    "originalCatalogNumber": "BC016",
+    "artist": "Spettro",
+    "title": "T-Shorty",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tech House"
+    ],
+    "format": "2 × 12-inch vinyl",
+    "discogsId": 136048,
+    "discogsUrl": "https://www.discogs.com/release/136048-Spettro-T-Shorty",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "T Shorty (Spettro's Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "T Shorty (So High FX)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "T Shorty (Sifters Mota Beats Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "T Shorty (Sifters Extended Remix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C1",
+        "title": "T Shorty (David Duriez Rouge Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C2",
+        "title": "Shorty Tool",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D1",
+        "title": "T  Shorty (Duriez Rouge Beats)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D2",
+        "title": "T Shorty (Spettro Green Beats)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc016-sidea_info.webp",
+        "alt": "BC016 — T-Shorty: Printed label",
+        "sourceFilename": "BC016_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc016-sideb_pictorial.webp",
+        "alt": "BC016 — T-Shorty: Illustrated label",
+        "sourceFilename": "BC016_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc016-sidec_info.webp",
+        "alt": "BC016 — T-Shorty: Additional label",
+        "sourceFilename": "BC016_SideC_Info-restored.png",
+        "caption": "Additional label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 136048,
+        "format": "2x12\"",
+        "url": "https://www.discogs.com/release/136048"
+      },
+      {
+        "id": 3599527,
+        "format": "2x12\", Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/3599527"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC017",
+    "originalCatalogNumber": "BC017",
+    "artist": "Marky Star",
+    "title": "Rattlesnake",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 149188,
+    "discogsUrl": "https://www.discogs.com/release/149188-Marky-Star-Rattlesnake",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Rattlesnake (Get Fucked E-ranged Remix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Rattlesnake (Collins & Harris Rattlesnacks Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Rattlesnake (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Rattlesnake (Donkapella)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc017-sidea_info.webp",
+        "alt": "BC017 — Rattlesnake: Printed label",
+        "sourceFilename": "BC017_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc017-sideb_pictorial.webp",
+        "alt": "BC017 — Rattlesnake: Illustrated label",
+        "sourceFilename": "BC017_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 149188,
+        "format": "12\", Single",
+        "url": "https://www.discogs.com/release/149188"
+      },
+      {
+        "id": 5501307,
+        "format": "12\", Promo, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/5501307"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC018",
+    "originalCatalogNumber": "BC018",
+    "artist": "Panic",
+    "title": "Big Bellied Psycho",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "Breaks",
+      "House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 154649,
+    "discogsUrl": "https://www.discogs.com/release/154649-Panic-4-Big-Bellied-Psycho",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Big Bellied Psycho (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Tribal Enchantment",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "This Time I Feel It (CGT Regroove)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Acid Daze (CGT Regroove)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc018-sidea_info.webp",
+        "alt": "BC018 — Big Bellied Psycho: Printed label",
+        "sourceFilename": "BC018_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc018-sideb_pictorial.webp",
+        "alt": "BC018 — Big Bellied Psycho: Illustrated label",
+        "sourceFilename": "BC018_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 154649,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/154649"
+      },
+      {
+        "id": 1714270,
+        "format": "12\", Promo, W/Lbl, Sti",
+        "url": "https://www.discogs.com/release/1714270"
+      },
+      {
+        "id": 27867585,
+        "format": "12\", TP",
+        "url": "https://www.discogs.com/release/27867585"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC019",
+    "originalCatalogNumber": "BC019",
+    "artist": "Kut Goldcard",
+    "title": "R.I.C.H.",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "Tribal House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 468852,
+    "discogsUrl": "https://www.discogs.com/release/468852-Kut-Goldcard-RICH",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "R.I.C.H. (Maetrik Remix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "R.I.C.H. (Original Goldcard Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Cheeba Trader",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "R.I.C.H. (Giovani & Molser Mix)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc019-sidea_info.webp",
+        "alt": "BC019 — R.I.C.H.: Printed label",
+        "sourceFilename": "BC019_SideA_Info-restored.png",
+        "caption": "Printed label"
+      },
+      {
+        "src": "/images/labels/big-chief/bc019-sideb_pictorial.webp",
+        "alt": "BC019 — R.I.C.H.: Illustrated label",
+        "sourceFilename": "BC019_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 468852,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/468852"
+      },
+      {
+        "id": 154884,
+        "format": "12\", Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/154884"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC020",
+    "originalCatalogNumber": "BC020",
+    "artist": "Cutlab",
+    "title": "Alpha",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tech House"
+    ],
+    "format": "2 × 12-inch vinyl",
+    "discogsId": 1745540,
+    "discogsUrl": "https://www.discogs.com/release/1745540-Cutlab-Alpha",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Alpha (Original Cutlab Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Alpha (Buenos Aires Club Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Alpha (Chatelain Remix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Alpha (All  You Need Are Drums)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C1",
+        "title": "Alpha (Go! Dimaggio's This Is Not A Toy Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C2",
+        "title": "Alpha (Touched By The Hand Of Boaca Beats)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D1",
+        "title": "Alpha (Chatelain Aquatic Dip)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D2",
+        "title": "Alpha (Speedtek Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D3",
+        "title": "Alpha Bytes / FX",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc020-sidea_info.webp",
+        "alt": "BC020 — Alpha: Printed label",
+        "sourceFilename": "BC020_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 1745540,
+        "format": "2x12\"",
+        "url": "https://www.discogs.com/release/1745540"
+      },
+      {
+        "id": 171054,
+        "format": "2x12\", W/Lbl",
+        "url": "https://www.discogs.com/release/171054"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC021",
+    "originalCatalogNumber": "BC021",
+    "artist": "Joshua Collins",
+    "title": "Place 2 Place EP",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "House",
+      "Tech House"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 180335,
+    "discogsUrl": "https://www.discogs.com/release/180335-Joshua-Collins-Place-2-Place-EP",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Foster & Broadway (Cutlab Heart & Soul Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Foster & Broadway (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B1",
+        "title": "Hollywood & Vine (Cutlab Body Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B2",
+        "title": "Hollywood & Vine (Original Mix)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc021-sidea_info.webp",
+        "alt": "BC021 — Place 2 Place EP: Printed label",
+        "sourceFilename": "BC021_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 180335,
+        "format": "12\", EP",
+        "url": "https://www.discogs.com/release/180335"
+      },
+      {
+        "id": 3013885,
+        "format": "12\", EP, Promo",
+        "url": "https://www.discogs.com/release/3013885"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC022",
+    "originalCatalogNumber": "BC022",
+    "artist": "Maetrik",
+    "title": "Freaky Flow",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "Deep House",
+      "Tech House",
+      "Electro"
+    ],
+    "format": "2 × 12-inch vinyl",
+    "discogsId": 193489,
+    "discogsUrl": "https://www.discogs.com/release/193489-Maetrik-Freaky-Flow",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Freaky Flow (Random Factor Main Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Freaky Flow (JV & Maetrik's Vision)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C1",
+        "title": "Freaky Flow (Original Mix)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C2",
+        "title": "Freak Flow (Electro Intention)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D1",
+        "title": "Freaky Flow (Random Factor Main Dub)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D2",
+        "title": "Freaky Flow (Fabricated Beats)",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc022-sidea_info.webp",
+        "alt": "BC022 — Freaky Flow: Printed label",
+        "sourceFilename": "BC022_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 1679131,
+        "format": "2x12\", Promo, W/Lbl",
+        "url": "https://www.discogs.com/release/1679131"
+      },
+      {
+        "id": 193489,
+        "format": "2x12\"",
+        "url": "https://www.discogs.com/release/193489"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC023",
+    "originalCatalogNumber": "BC023",
+    "artist": "Francis Harris & Sean Cusick",
+    "title": "Etc.",
+    "year": 2003,
+    "country": "US",
+    "styles": [
+      "Progressive House",
+      "Tech House",
+      "Tribal"
+    ],
+    "format": "12-inch vinyl",
+    "discogsId": 205959,
+    "discogsUrl": "https://www.discogs.com/release/205959-Francis-Harris-Sean-Cusick-Etc",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Etc.",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "And So On",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "And So Forth",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc023-sidea_info.webp",
+        "alt": "BC023 — Etc.: Printed label",
+        "sourceFilename": "BC023_SideA_Info-restored.png",
+        "caption": "Printed label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 205959,
+        "format": "12\"",
+        "url": "https://www.discogs.com/release/205959"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC024",
+    "originalCatalogNumber": "BC024",
+    "artist": "Various",
+    "title": "Deputy Chief Vol 1",
+    "year": 2004,
+    "country": "US",
+    "styles": [
+      "Tribal House",
+      "Deep House",
+      "Tech House"
+    ],
+    "format": "2 × 12-inch vinyl",
+    "discogsId": 263960,
+    "discogsUrl": "https://www.discogs.com/release/263960-Various-Deputy-Chief-Vol-1",
+    "tracks": [
+      {
+        "position": "A",
+        "title": "Milkshake In A Snowstorm",
+        "duration": "6:20",
+        "artist": "Com.munikation"
+      },
+      {
+        "position": "B1",
+        "title": "Deep Mist",
+        "duration": "8:23",
+        "artist": "Alex Trax & DJ Thanno"
+      },
+      {
+        "position": "B2",
+        "title": "Tribal Milkshake",
+        "duration": "6:15",
+        "artist": "Vinyl Assassins"
+      },
+      {
+        "position": "C1",
+        "title": "Futuristic Puma",
+        "duration": "7:19",
+        "artist": "Buddysystem"
+      },
+      {
+        "position": "C2",
+        "title": "Smoothin It Out",
+        "duration": "8:37",
+        "artist": "Jay Tripwire"
+      },
+      {
+        "position": "D1",
+        "title": "Rash",
+        "duration": "7:54",
+        "artist": "Richard Summerhayes"
+      },
+      {
+        "position": "D2",
+        "title": "Basslift",
+        "duration": "7:26",
+        "artist": "Derek Marin"
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc024-sideb_pictorial.webp",
+        "alt": "BC024 — Deputy Chief Vol 1: Illustrated label",
+        "sourceFilename": "BC024_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 263960,
+        "format": "2x12\"",
+        "url": "https://www.discogs.com/release/263960"
+      },
+      {
+        "id": 6492276,
+        "format": "2x12\", W/Lbl",
+        "url": "https://www.discogs.com/release/6492276"
+      }
+    ]
+  },
+  {
+    "catalogNumber": "BC025",
+    "originalCatalogNumber": "BC025",
+    "artist": "Marky Star",
+    "title": "Nice Kiss",
+    "year": 2004,
+    "country": "US",
+    "styles": [
+      "Acid",
+      "Tech House"
+    ],
+    "format": "2 × 12-inch vinyl",
+    "discogsId": 261299,
+    "discogsUrl": "https://www.discogs.com/release/261299-Marky-Star-Nice-Kiss",
+    "tracks": [
+      {
+        "position": "A1",
+        "title": "Nice Kiss (Original Version)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "A2",
+        "title": "Nice Kiss (Coco Machete Radio Stomp Edit)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "B",
+        "title": "Gene Simmons Loves Abba",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "C",
+        "title": "Nice Kiss (DJ F.E.X's Le Funk Electro-xperience)",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D1",
+        "title": "Droppin Beats Not Bombs",
+        "duration": "",
+        "artist": ""
+      },
+      {
+        "position": "D2",
+        "title": "Throw Like A Girl",
+        "duration": "",
+        "artist": ""
+      }
+    ],
+    "artwork": [
+      {
+        "src": "/images/labels/big-chief/bc025-sideb_pictorial.webp",
+        "alt": "BC025 — Nice Kiss: Illustrated label",
+        "sourceFilename": "BC025_SideB_Pictorial-restored.png",
+        "caption": "Illustrated label"
+      }
+    ],
+    "pressings": [
+      {
+        "id": 261299,
+        "format": "2x12\"",
+        "url": "https://www.discogs.com/release/261299"
+      },
+      {
+        "id": 10787052,
+        "format": "12\", W/Lbl",
+        "url": "https://www.discogs.com/release/10787052"
+      }
+    ]
+  }
+]

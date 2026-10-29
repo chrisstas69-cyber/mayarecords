@@ -103,8 +103,8 @@ export function HomePageLanding({
             Joeski and Maya Records.
           </p>
           <div className="home-actions">
-            <Link className="home-button home-button--primary" href="/releases">
-              Explore Maya Records
+            <Link className="home-button home-button--primary" href="/new-releases">
+              New from Maya
             </Link>
             <Link className="home-button" href="/members">
               Members’ Edits

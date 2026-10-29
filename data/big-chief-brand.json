@@ -1,0 +1,21 @@
+{
+  "sourceFilename": "Big Chief Tribal Mask Emblem.png",
+  "sha256": "23583ed83faae1d40d98617eebe0dee468816f1d55cd28acd47c5c2547826016",
+  "emblem": "Full supplied artwork converted to WebP; centered CSS display crop, no AI redrawing.",
+  "wordmark": "Fixed vector trace from lettering region of supplied artwork, not an identified or reusable font.",
+  "traceRegion": {
+    "x": 830,
+    "y": 195,
+    "width": 400,
+    "height": 95
+  },
+  "sourceDimensions": [
+    2055,
+    765
+  ],
+  "colors": {
+    "gold": "#c89b5a",
+    "white": "#FFFFFF"
+  },
+  "approval": "Supplied artwork requested by user; vector wordmark is a new proof derived from it."
+}
