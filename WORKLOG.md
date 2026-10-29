@@ -184,3 +184,9 @@ Moved here from the old-Mac migration. `node_modules` was deliberately not copie
 ## 2026-10-29 — Publish Micasa archive
 - User explicitly approved publishing Micasa and Big Chief after the artist update. Reconciled PR13 with current main so artist enrichment and YouTube links remain intact.
 - Publishing the existing informational vinyl archives, not enabling digital sales for historical vinyl. Founder credit remains Joeski & Stas. Generator repository and original-vinyl Figma proof remain separate.
+
+## 2026-10-29 — Publish Big Chief and label-family browsing
+- Reconciled stacked PR14 with the updated Micasa branch and current production artist/YouTube changes. Publishing was explicitly approved by the user.
+- Retain informational vinyl/Discogs archives, Joeski & Stas founder credit, and clearly labeled non-purchasable campaign demos. No real preorder, payment, audio or reissue announcement is introduced.
+- Generator and its separate saved vector work are untouched. Existing website-brand assets remain as reviewed; this release does not substitute the separate original-vinyl Figma lettering proof.
+- Combined release checks pass: lint/typecheck/build, 61 label/artist/catalog/homepage/remix/press/mix tests and commerce suite. Isolated Chrome at1440/390 verified both label counts, exact safe Discogs URLs, search/year/reset/sort, art-side switching, tracklist expansion, demo purchase controls disabled/no audio/video/noindex, homepage→family hub and catalog tabs→both labels. Existing64 artist profiles retained;64 archive artwork assets HTTP200/imageMIME/SHA256-match. No new console errors; known baseline favicon404 only. Local3194 isolated server, receipt /tmp/label-browser-results.json.
