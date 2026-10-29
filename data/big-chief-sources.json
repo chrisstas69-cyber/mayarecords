@@ -1,0 +1,42 @@
+{
+  "labelUrl": "https://www.discogs.com/label/5300-Big-Chief",
+  "labelApi": "https://api.discogs.com/labels/5300",
+  "releasesApi": "https://api.discogs.com/labels/5300/releases?per_page=100&page=1",
+  "retrieved": "2026-10-28",
+  "releaseApiUrls": [
+    "https://api.discogs.com/releases/76819",
+    "https://api.discogs.com/releases/76814",
+    "https://api.discogs.com/releases/57525",
+    "https://api.discogs.com/releases/68834",
+    "https://api.discogs.com/releases/76817",
+    "https://api.discogs.com/releases/76812",
+    "https://api.discogs.com/releases/76815",
+    "https://api.discogs.com/releases/76809",
+    "https://api.discogs.com/releases/55395",
+    "https://api.discogs.com/releases/59914",
+    "https://api.discogs.com/releases/68837",
+    "https://api.discogs.com/releases/77123",
+    "https://api.discogs.com/releases/69844",
+    "https://api.discogs.com/releases/127296",
+    "https://api.discogs.com/releases/97799",
+    "https://api.discogs.com/releases/136048",
+    "https://api.discogs.com/releases/149188",
+    "https://api.discogs.com/releases/154649",
+    "https://api.discogs.com/releases/468852",
+    "https://api.discogs.com/releases/1745540",
+    "https://api.discogs.com/releases/180335",
+    "https://api.discogs.com/releases/193489",
+    "https://api.discogs.com/releases/205959",
+    "https://api.discogs.com/releases/263960",
+    "https://api.discogs.com/releases/261299"
+  ],
+  "decisions": [
+    "25 BC-numbered vinyl catalog entries; alternate pressings and duplicate IDs consolidated.",
+    "CB-1 / id32005016 is outside the BC001\u2013BC025 archive, undated and unsupported by supplied artwork; excluded pending owner confirmation, not claimed to be an erroneous Discogs submission.",
+    "User-approved public founder credit: Founded by Joeski & Stas. Parent operation from user, not inferred from Discogs.",
+    "Local artwork matched by printed artist/title where legible, and supplied catalog filenames for illustrated-only sides (015/024/025); alternate restoration copies remain on Desktop.",
+    "Printed release dates use year precision; no past catalog item is announced as a new release.",
+    "No contact phone/email, marketplace prices, user reviews or long notes copied.",
+    "2x12 formats retained; no digital audio assets supplied."
+  ]
+}

@@ -1,3 +1,12 @@
+## 2026-10-28 — Big Chief archive + release-first showcase (preview review pending)
+
+- Branch codex/big-chief-release-showcase builds on PR13 Micasa branch; keep both unmerged until browser review. Existing untracked docs/ untouched/excluded.
+- Discogs label5300 public API: 54 rows including duplicates/promos; selected25 BC001–BC025 vinyl releases,2001–2004. Individual APIs provide titles/artists/tracks/year/format/exactURI. LastAPI hit429, retried only after a pause and succeeded. CB-1 outside supplied BC-numbered archive is recorded as excluded pending owner confirmation, not asserted to be wrong.
+-40 local1200pxWebP derivatives from supplied restored folder, all25 releases represented; no original overwrite. Shared archive handles both labels, dynamic counts/year/search/sort, arbitrary artwork sides with accurate captions and preserved2x12formats. Founded by Joeski & Stas credit per user's explicit instruction.
+- /new-releases hub, /showcase/big-chief-peeping-tom and /showcase/micasa-getting-thru-it show release-first design using clearly labeled historical sampledata. Fullrelease/individualtrack illustrativeprices, disabledpurchasecontrols, no fakeaudio/video/date/support/stock. Sample+hubnoindex/excludedsitemap; sourcearchivesnotmutated. Real latestMaya entry remains distinct, selected via existing guarded layer with force-dynamic. No backend/payment/auth provisioning or schema changes.
+- Homepage primaryCTA/homeheader/mainReleases now reach release-first hub; existing numbered MayaCatalog destination and all real catalog/commerce remain. Labels reachable via hubanddiscographytabs; PressKit/privateEPK untouched.
+- Build/TypeScript pass; newshowcase7+Micasa6/homepage6/catalog8/coverage15/remix6 tests pass; detector[]. No browser/CUA tool available thissession: visual, interactive, mobile, console QA not performed. LocalHTTP/previewREADY checks to follow; not production complete.
+
 ## 2026-10-28 — Founder credit wording
 
 Micasa page and metadata now say Founded by Joeski & Stas, per explicit user correction. Same public credit requested for future Big Chief page; no Big Chief page exists yet. Recorded in data provenance/shared project record. PR13 remains unmerged pending browser review.

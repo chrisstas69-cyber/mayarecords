@@ -4,7 +4,7 @@ export function DiscographyTabs({
   active,
   compact = false,
 }: {
-  active: "releases" | "remixes" | "micasa";
+  active: "releases" | "remixes" | "micasa" | "big-chief";
   compact?: boolean;
 }) {
   return (
@@ -16,6 +16,7 @@ export function DiscographyTabs({
         { key: "releases", href: "/releases", label: "Maya Records" },
         { key: "remixes", href: "/remixes", label: "Joeski Remixes" },
         { key: "micasa", href: "/labels/micasa", label: "Micasa · Vinyl archive" },
+        { key: "big-chief", href: "/labels/big-chief", label: "Big Chief · Vinyl archive" },
       ].map((item) => (
         <Link
           key={item.key}

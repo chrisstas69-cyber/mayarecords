@@ -104,3 +104,32 @@ say Printed label / Other side. The reconstructed emblem uses Chris's approved
 outline; emerald is a selected web color, not an authenticated print standard.
 
 Regression: `node --test scripts/test-micasa.cjs`.
+
+## Big Chief archive and release-first previews
+
+`big-chief-releases.json` powers `/labels/big-chief` through the same archive
+component as Micasa. Source: Discogs label5300 and selected individual release
+API records (2026-10-28). See `big-chief-sources.json` for decisions and exact
+source URLs. One card per BC001–BC025; alternate pressings are secondary links.
+The unrelated-looking, undated CB-1 listing is not in the supported BC-numbered
+archive; excluded pending owner confirmation, not declared a Discogs error.
+40 derivative WebPs come from Chris's restored folder; originals and three
+alternate restorations are unchanged. No new photo/logo reconstruction performed.
+
+`src/lib/release-showcase.ts` defines two explicitly illustrative campaigns from
+existing historical entries: Big Chief BC007 and Micasa MICASA002. It does not
+modify the historical records. `/new-releases` is a release-first preview hub,
+with the real current Maya catalog selected through the existing guarded data
+layer; `/showcase/[slug]` demonstrates full-release and per-track purchase layout.
+All demo buttons are disabled; no audio/video, dates, stock or support quotes are
+invented. Sample prices are illustrative, not offers. No cart IDs, checkout,
+Supabase inserts or Stripe calls are attached. Demo routes and the current demo
+hub are noindex and excluded from the sitemap. The two archive pages remain
+independently usable and indexable. Replacing the mock campaign with real new
+releases requires cleared assets, real dates/prices and backend activation.
+
+The Joeski homepage primary action now opens `/new-releases`; its numbered Maya
+Catalog destination still opens the original `/releases` archive. Label-family
+links on the hub reach Maya, Micasa and Big Chief. No separate app or checkout.
+
+Regression: `node --test scripts/test-label-showcase.cjs scripts/test-micasa.cjs`.

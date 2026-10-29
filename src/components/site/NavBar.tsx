@@ -10,7 +10,7 @@ import { homeSerif, homeSans } from "@/lib/home-fonts";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
-  { href: "/releases", label: "Releases" },
+  { href: "/new-releases", label: "Releases" },
   { href: "/remixes", label: "Remixes" },
   { href: "/members", label: "Members" },
   { href: "/mixes", label: "Mixes" },
@@ -46,14 +46,14 @@ export function NavBar() {
           <span>Maya Records</span>
         </Link>
         <nav className="home-nav" aria-label="Homepage navigation">
-          <Link href="/releases">Releases</Link>
+          <Link href="/new-releases">New releases</Link>
           <Link href="/members">Members’ Edits</Link>
           <Link href="/mixes">DJ Mixes</Link>
           <Link href="/about">About</Link>
         </nav>
         <div className="home-header__actions">
-          <Link className="home-header__catalog" href="/releases">
-            Enter catalog <span>↗</span>
+          <Link className="home-header__catalog" href="/new-releases">
+            New from Maya <span>↗</span>
           </Link>
           <CartButton />
           <button
