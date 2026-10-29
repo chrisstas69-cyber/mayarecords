@@ -8,6 +8,7 @@ const PLATFORM_LINKS = [
   { label: "Traxsource", url: "https://www.traxsource.com/label/447/maya-records" },
   { label: "Resident Advisor", url: "https://ra.co/dj/joeski" },
   { label: "Instagram", url: "https://instagram.com/djjoeski" },
+  { label: "YouTube", url: "https://www.youtube.com/@joeskiflores/featured" },
 ];
 
 export function Footer() {
