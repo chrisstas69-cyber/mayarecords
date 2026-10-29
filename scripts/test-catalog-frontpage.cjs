@@ -97,7 +97,7 @@ test('settings action authenticates admin, validates before writes, handles RLS/
 test('public settings gracefully handle absent backend, absent migration and configured promotion', async () => {
   let configured=false, calls=0, row=null;
   class Query {select(){return this;}eq(){return this;}async maybeSingle(){return {data:row};}}
-  const data=load('src/lib/data/catalog.ts',{'server-only':{},'@/lib/supabase/server':{createClient:async()=>{calls++;return {from:()=>new Query()};}},'@/lib/supabase/config':{isSupabaseConfigured:()=>configured},'./seed':{SEED_RELEASES:releases},'../../../data/site-promotion.json':{default:require('../data/site-promotion.json')},'../promotion':promo});
+  const data=load('src/lib/data/catalog.ts',{'./artist-enrichment':{enrichArtist:artist=>artist},'./artists.generated':{ARCHIVE_ARTISTS:[]},'server-only':{},'@/lib/supabase/server':{createClient:async()=>{calls++;return {from:()=>new Query()};}},'@/lib/supabase/config':{isSupabaseConfigured:()=>configured},'./seed':{SEED_RELEASES:releases},'../../../data/site-promotion.json':{default:require('../data/site-promotion.json')},'../promotion':promo});
   assert.equal((await data.getSiteSettings()).promotion.kind,'release');assert.equal(calls,0);
   configured=true;row={hero_headline:'Existing CMS before migration'};
   assert.equal((await data.getSiteSettings()).promotion.kind,'release');

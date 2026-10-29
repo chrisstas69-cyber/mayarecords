@@ -65,7 +65,7 @@ test('published mix reads are guarded, use bundled archive on absent/error/empty
  const ts=require('typescript'),vm=require('node:vm');
  async function load(configured,data,error){
   let created=0,selected=false;const query={select(){return this},eq(key,value){assert.equal(key,'state');assert.equal(value,'published');selected=true;return this},async order(){return {data,error}}};
-  const imports={'server-only':{},'@/lib/supabase/server':{createClient:async()=>{created++;return {from(table){assert.equal(table,'mixes');return query}}}},'@/lib/supabase/config':{isSupabaseConfigured:()=>configured},'./seed':{SEED_MIXES:mixes},'../../../data/site-promotion.json':{},'../promotion':{readPromotion:()=>null}};
+  const imports={'./artist-enrichment':{enrichArtist:artist=>artist},'./artists.generated':{ARCHIVE_ARTISTS:[]},'server-only':{},'@/lib/supabase/server':{createClient:async()=>{created++;return {from(table){assert.equal(table,'mixes');return query}}}},'@/lib/supabase/config':{isSupabaseConfigured:()=>configured},'./seed':{SEED_MIXES:mixes},'../../../data/site-promotion.json':{},'../promotion':{readPromotion:()=>null}};
   const code=ts.transpileModule(fs.readFileSync(path.join(root,'src/lib/data/catalog.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
   const mod={exports:{}};vm.runInThisContext('(function(require,module,exports){'+code+'\n})')(name=>{if(!(name in imports))throw Error('Unmocked import '+name);return imports[name]},mod,mod.exports);
   const result=await mod.exports.getPublishedMixes();assert.equal(created,configured?1:0);assert.equal(selected,configured);return result;
