@@ -134,3 +134,8 @@ Moved here from the old-Mac migration. `node_modules` was deliberately not copie
 (Intel binaries). Run `npm install` before building.
 
 **Next:** _fill in_
+
+## 2026-10-29 — Joeski YouTube channel
+- Added the exact owner-supplied https://www.youtube.com/@joeskiflores/featured link beside existing platforms in the interior footer and Contact/Elsewhere list.
+- Separate branch codex/joeski-youtube-social from main; no changes to pending label/showcase PRs13/14, catalog, gated Press Kit, cart or player.
+- Build/typecheck pass. Desktop/mobile isolated Chrome checks both links, exact href, new-tab safety, no horizontal overflow and navigation away/back without page exceptions. Homepage/coverage regression tests pass.
