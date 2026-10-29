@@ -9,7 +9,7 @@ import "./micasa.css";
 
 export const metadata: Metadata = {
   title: "Micasa — Vinyl Archive | Maya Records",
-  description: "Micasa, co-founded by Chris and Joeski. Explore the original vinyl catalog, restored label artwork, tracklists and Discogs pressing references.",
+  description: "Micasa, founded by Joeski & Stas. Explore the original vinyl catalog, restored label artwork, tracklists and Discogs pressing references.",
   alternates: { canonical: "/labels/micasa" },
 };
 
@@ -19,7 +19,7 @@ export default function MicasaPage() {
       <div className="micasa-breadcrumb"><Link href="/releases">Maya Records</Link><span>/</span><span>Micasa</span></div>
       <header className="micasa-hero">
         <div className="micasa-identity"><Image src="/images/labels/micasa/logo.svg" alt="Micasa emblem" width={190} height={190} priority /><div><h1>Micasa</h1><p>A Maya Records imprint.</p></div></div>
-        <div className="micasa-intro"><p>Co-founded by Chris and Joeski. Born on vinyl. Part of the Maya Records family.</p><p>Explore the original records, their artwork and the tracks that tell the label’s story.</p><a href="#vinyl-archive">Explore the archive <ArrowDown size={16} aria-hidden="true" /></a></div>
+        <div className="micasa-intro"><p>Founded by Joeski &amp; Stas. Born on vinyl. Part of the Maya Records family.</p><p>Explore the original records, their artwork and the tracks that tell the label’s story.</p><a href="#vinyl-archive">Explore the archive <ArrowDown size={16} aria-hidden="true" /></a></div>
       </header>
       <DiscographyTabs active="micasa" />
       <MicasaArchive />

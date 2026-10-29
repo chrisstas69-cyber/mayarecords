@@ -1,3 +1,7 @@
+## 2026-10-28 — Founder credit wording
+
+Micasa page and metadata now say Founded by Joeski & Stas, per explicit user correction. Same public credit requested for future Big Chief page; no Big Chief page exists yet. Recorded in data provenance/shared project record. PR13 remains unmerged pending browser review.
+
 
 ## 2026-10-28 — Micasa vinyl archive (preview review pending)
 
