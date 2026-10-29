@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { ArtistPortrait } from "@/components/site/ArtistPortrait";
 import Link from "next/link";
 import { getArtists } from "@/lib/data/catalog";
 import { Reveal } from "@/components/site/Reveal";
 
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Artists",
@@ -29,19 +29,12 @@ export default async function ArtistsPage() {
           <Reveal key={artist.id} delay={(i % 3) * 80}>
             <Link href={`/artists/${artist.slug}`} className="group block">
               <div className="relative aspect-[4/5] overflow-hidden border border-line bg-surface">
-                {artist.photo_url ? (
-                  <Image
-                    src={artist.photo_url}
-                    alt={artist.name}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover grayscale-[30%] transition-all duration-700 group-hover:scale-[1.03] group-hover:grayscale-0"
-                  />
-                ) : (
-                  <div className="flex h-full items-center justify-center">
-                    <span className="display-md text-faint">{artist.name.charAt(0)}</span>
-                  </div>
-                )}
+                <ArtistPortrait
+                  src={artist.photo_url}
+                  name={artist.name}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  className="grayscale-[30%] transition-all duration-700 group-hover:scale-[1.03] group-hover:grayscale-0"
+                />
                 <div className="absolute inset-0 bg-gradient-to-t from-night/85 via-transparent to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
                   <h2 className="display-sm text-cream transition-colors group-hover:text-gold">{artist.name}</h2>

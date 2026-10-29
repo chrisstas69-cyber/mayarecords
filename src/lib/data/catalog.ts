@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
 import type { Artist, Mix, Product, Release } from "@/lib/types";
 import { SEED_ARTISTS, SEED_MIXES, SEED_PRODUCTS, SEED_RELEASES } from "./seed";
+import { enrichArtist } from "./artist-enrichment";
+import { ARCHIVE_ARTISTS } from "./artists.generated";
 import promotionDefaults from "../../../data/site-promotion.json";
 import { readPromotion } from "../promotion";
 import type { PromotionConfig } from "../promotion";
@@ -130,61 +132,74 @@ export async function getSiteSettings(): Promise<SiteSettings> {
   return DEFAULT_SETTINGS;
 }
 
+const ARCHIVE_SLUGS = new Set<string>(ARCHIVE_ARTISTS.map(artist => artist.slug));
+function fallbackArtists(): Artist[] {
+  return SEED_ARTISTS.map(artist => enrichArtist({
+    ...artist,
+    release_count: SEED_RELEASES.filter(release => release.artist_id === artist.id).length,
+  })).filter(artist => ARCHIVE_SLUGS.has(artist.slug) || (artist.release_count ?? 0) > 0);
+}
+
 export async function getArtists(): Promise<Artist[]> {
+  const fallback = fallbackArtists();
   if (isSupabaseConfigured()) {
-    const supabase = await createClient();
-    const { data, error } = await supabase!
-      .from("artists")
-      .select("*, releases(count)")
-      .order("name");
-    if (!error && data && data.length > 0) {
-      return data
-        .map((a) => ({
-          ...(a as unknown as Artist),
-          links: (a.links as Artist["links"]) ?? [],
-          release_count:
-            (a.releases as Array<{ count: number }> | null)?.[0]?.count ?? 0,
-        }))
-        .filter((a) => a.release_count > 0);
+    try {
+      const supabase = await createClient();
+      const { data, error } = await supabase!
+        .from("artists")
+        .select("*, releases(count)")
+        .order("name");
+      if (!error && data && data.length > 0) {
+        const merged = new Map(fallback.map(artist => [artist.slug, artist]));
+        for (const row of data) {
+          const artist = enrichArtist({
+            ...(row as unknown as Artist),
+            links: (row.links as Artist["links"]) ?? [],
+            release_count: (row.releases as Array<{ count: number }> | null)?.[0]?.count ?? 0,
+          });
+          if (ARCHIVE_SLUGS.has(artist.slug) || (artist.release_count ?? 0) > 0) merged.set(artist.slug, artist);
+        }
+        return [...merged.values()].sort((a, b) => a.name.localeCompare(b.name));
+      }
+    } catch {
+      return fallback;
     }
   }
-  return SEED_ARTISTS.map((a) => ({
-    ...a,
-    release_count: SEED_RELEASES.filter((r) => r.artist_id === a.id).length,
-  })).filter((a) => a.release_count > 0);
+  return fallback;
 }
 
 export async function getArtistBySlug(
   slug: string,
 ): Promise<{ artist: Artist; releases: Release[] } | null> {
   if (isSupabaseConfigured()) {
-    const supabase = await createClient();
-    const { data } = await supabase!
-      .from("artists")
-      .select("*")
-      .eq("slug", slug)
-      .maybeSingle();
-    if (data) {
-      const artist = {
-        ...(data as unknown as Artist),
-        links: (data.links as Artist["links"]) ?? [],
-      };
-      const { data: rel } = await supabase!
-        .from("releases")
-        .select(RELEASE_SELECT)
-        .eq("artist_id", artist.id)
-        .eq("state", "published")
-        .order("release_date", { ascending: false });
-      return {
-        artist,
-        releases: ((rel ?? []) as unknown as ReleaseRow[]).map(shapeRelease),
-      };
+    try {
+      const supabase = await createClient();
+      const { data } = await supabase!
+        .from("artists")
+        .select("*")
+        .eq("slug", slug)
+        .maybeSingle();
+      if (data) {
+        const artist = enrichArtist({
+          ...(data as unknown as Artist),
+          links: (data.links as Artist["links"]) ?? [],
+        });
+        const { data: rel } = await supabase!
+          .from("releases")
+          .select(RELEASE_SELECT)
+          .eq("artist_id", artist.id)
+          .eq("state", "published")
+          .order("release_date", { ascending: false });
+        return { artist, releases: ((rel ?? []) as unknown as ReleaseRow[]).map(shapeRelease) };
+      }
+    } catch {
+      // A configured but unreachable backend must not hide bundled artist pages.
     }
   }
-  const artist = SEED_ARTISTS.find((a) => a.slug === slug);
+  const artist = SEED_ARTISTS.find(artist => artist.slug === slug);
   if (!artist) return null;
   return {
-    artist,
-    releases: SEED_RELEASES.filter((r) => r.artist_id === artist.id),
+    artist: enrichArtist(artist),
+    releases: SEED_RELEASES.filter(release => release.artist_id === artist.id),
   };
 }
