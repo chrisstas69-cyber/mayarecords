@@ -1,3 +1,18 @@
+## 2026-10-28 — Founder credit wording
+
+Micasa page and metadata now say Founded by Joeski & Stas, per explicit user correction. Same public credit requested for future Big Chief page; no Big Chief page exists yet. Recorded in data provenance/shared project record. PR13 remains unmerged pending browser review.
+
+
+## 2026-10-28 — Micasa vinyl archive (preview review pending)
+
+- Added `/labels/micasa`, discovered through the existing discography tabs on Releases and Remixes; no main navigation overcrowding or parent-site redesign.
+- Source: Discogs label13754 public API (web reader was challenged); 15 distinct catalogs, 2002–2005. Exact per-release URLs, tracks, artists, years and separate alternate pressing references. No fabricated 009.
+- Matched supplied MICASA009 artwork to actual MICASA008 El Ritual from printed artist/title/tracks; originals unchanged. 24 local WebP side images across13 releases;015/016 metadata retained with honest missing-artwork states. Approved Micasa logo reused.
+- Informational only: no prices, cart/audio/download/payment integration. Monthly future-release plans separately labeled, not fake release listings. Founders/parent operation from Chris's own explanation.
+- Search across artist/title/tracks/catalog, year filter, catalog/newest sorts, clear/empty states, alternate artwork controls and expandable tracklists. Gated Press Kit and all existing catalog source files untouched.
+- Build and typecheck pass; Micasa6/catalog8/remix6/coverage15/homepage6 tests pass. Design detector empty. Browser tool unavailable in this session: desktop/mobile interactive and visual QA, production readiness remain unverified. PR preview is for review, do not claim production complete.
+- Existing untracked docs/LABEL-ARCHITECTURE.md belongs to other work and remains excluded. No Supabase/Stripe setup or migrations.
+
 # joeski-platform — worklog
 
 Newest entry at the top. Whichever tool you're in, append here before you stop.
@@ -152,3 +167,7 @@ Moved here from the old-Mac migration. `node_modules` was deliberately not copie
 - User explicitly requested publishing the artist updates to GitHub/Vercel after reviewing the local artist page. Release scope is PR16 only; generator work and pending label/showcase PR13/14 remain separate.
 - Supplied research caveats, identity ambiguities and image-rights review notes remain documented; publishing authorization is not a claim of independently verified permissions or identities.
 - Rechecking build/tests and preview before merging through GitHub; production readiness and live artist/browser checks recorded in the shared project record after deployment.
+
+## 2026-10-29 — Publish Micasa archive
+- User explicitly approved publishing Micasa and Big Chief after the artist update. Reconciled PR13 with current main so artist enrichment and YouTube links remain intact.
+- Publishing the existing informational vinyl archives, not enabling digital sales for historical vinyl. Founder credit remains Joeski & Stas. Generator repository and original-vinyl Figma proof remain separate.
