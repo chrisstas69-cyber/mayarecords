@@ -167,3 +167,7 @@ Moved here from the old-Mac migration. `node_modules` was deliberately not copie
 - User explicitly requested publishing the artist updates to GitHub/Vercel after reviewing the local artist page. Release scope is PR16 only; generator work and pending label/showcase PR13/14 remain separate.
 - Supplied research caveats, identity ambiguities and image-rights review notes remain documented; publishing authorization is not a claim of independently verified permissions or identities.
 - Rechecking build/tests and preview before merging through GitHub; production readiness and live artist/browser checks recorded in the shared project record after deployment.
+
+## 2026-10-29 — Publish Micasa archive
+- User explicitly approved publishing Micasa and Big Chief after the artist update. Reconciled PR13 with current main so artist enrichment and YouTube links remain intact.
+- Publishing the existing informational vinyl archives, not enabling digital sales for historical vinyl. Founder credit remains Joeski & Stas. Generator repository and original-vinyl Figma proof remain separate.
