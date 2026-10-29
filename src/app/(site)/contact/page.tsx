@@ -31,6 +31,7 @@ const CHANNELS = [
 
 const SOCIALS = [
   { label: "Instagram", url: "https://instagram.com/djjoeski" },
+  { label: "YouTube", url: "https://www.youtube.com/@joeskiflores/featured" },
   { label: "SoundCloud", url: "https://soundcloud.com/mayarecordings" },
   { label: "Beatport", url: "https://www.beatport.com/artist/joeski/1638" },
   { label: "Traxsource", url: "https://www.traxsource.com/label/447/maya-records" },

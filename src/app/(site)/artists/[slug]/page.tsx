@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import { ArtistPortrait } from "@/components/site/ArtistPortrait";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink } from "lucide-react";
 import { ReleaseCard } from "@/components/site/ReleaseCard";
 import { getArtistBySlug } from "@/lib/data/catalog";
 
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -40,20 +40,16 @@ export default async function ArtistPage({ params }: Props) {
       <div className="grid gap-12 md:grid-cols-5 md:gap-16">
         <div className="md:col-span-2">
           <div className="relative aspect-[4/5] overflow-hidden border border-line bg-surface">
-            {artist.photo_url && (
-              <Image
-                src={artist.photo_url}
-                alt={artist.name}
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, 40vw"
-                className="object-cover"
-              />
-            )}
+            <ArtistPortrait
+              src={artist.photo_url}
+              name={artist.name}
+              priority
+              sizes="(max-width: 768px) 100vw, 40vw"
+            />
           </div>
         </div>
         <div className="md:col-span-3">
-          <p className="eyebrow mb-3">{artist.origin}</p>
+          {artist.origin && <p className="eyebrow mb-3">{artist.origin}</p>}
           <h1 className="display-lg text-cream">{artist.name}</h1>
           {artist.bio && <p className="mt-6 max-w-2xl leading-relaxed text-sand">{artist.bio}</p>}
           {artist.links.length > 0 && (

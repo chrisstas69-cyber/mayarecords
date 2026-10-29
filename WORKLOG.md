@@ -149,3 +149,21 @@ Moved here from the old-Mac migration. `node_modules` was deliberately not copie
 (Intel binaries). Run `npm install` before building.
 
 **Next:** _fill in_
+
+## 2026-10-29 — Joeski YouTube channel
+- Added the exact owner-supplied https://www.youtube.com/@joeskiflores/featured link beside existing platforms in the interior footer and Contact/Elsewhere list.
+- Separate branch codex/joeski-youtube-social from main; no changes to pending label/showcase PRs13/14, catalog, gated Press Kit, cart or player.
+- Build/typecheck pass. Desktop/mobile isolated Chrome checks both links, exact href, new-tab safety, no horizontal overflow and navigation away/back without page exceptions. Homepage/coverage regression tests pass.
+
+## 2026-10-29 — Artist enrichment review PR
+- Branch stas/artist-enrichment from current main. Read owner-supplied Desktop ZIP CODEX_PROMPT/README/missing/snippet; copied exact 64-record enrichment JSON and 49 readable image files without overwriting different files. Generated catalog TS untouched.
+- New slug-keyed enrichment fills only null/whitespace/empty fields, preserving existing names, IDs, original Joeski photo/bio/links and release relationships. Research metadata is not rendered. Supabase artist results are enriched too; partial/empty/unavailable backend cannot hide bundled archive artists. Artist pages explicitly force-dynamic.
+- ArtistPortrait gracefully handles absent/broken images on index and detail pages. No invented bios, photos, origins or links. Unknown slugs remain not-found. Alias/collaboration slugs stay separate.
+- Added real ESLint tooling/config (previous npm run lint only prompted for installation); existing Reveal rule reference resolved by registering its TypeScript plugin. npm run lint/typecheck/build pass; 47 regression checks include six new artist checks covering all64 slugs, preserve/empty/null semantics and configured/unconfigured/partial/offline backend paths.
+- Package warns photo rights are not cleared, guesses J/Nick/Penn mappings, shares a person's bio/photo across 333 collaboration credits, and has dated biographies. docs/ARTIST-ENRICHMENT-REVIEW.md includes complete missing/ambiguous lists and a pre-existing dependency audit. This is a preview/review PR, NOT production publishing approval. Source ZIP and untracked owner folder unchanged.
+- Browser verification complete on local3193: all64 artist detail routes HTTP200; all49 supplied photo URLs HTTP200/image MIME; Joeski/HarryRomero/333-3ski/Káax spot-checked at1440px and390px, no overflow or page exceptions. Directory exposes64 profile links. Harry photo loads; injected missing-photo response triggers the graceful portrait fallback. Screenshot /tmp/artist-harry-preview.png; receipt /tmp/artist-browser-results.json. npm audit reports five pre-existing advisories at unchanged versions, documented separately. Production artist pages are not modified by this PR.
+
+## 2026-10-29 — Artist release approved
+- User explicitly requested publishing the artist updates to GitHub/Vercel after reviewing the local artist page. Release scope is PR16 only; generator work and pending label/showcase PR13/14 remain separate.
+- Supplied research caveats, identity ambiguities and image-rights review notes remain documented; publishing authorization is not a claim of independently verified permissions or identities.
+- Rechecking build/tests and preview before merging through GitHub; production readiness and live artist/browser checks recorded in the shared project record after deployment.
