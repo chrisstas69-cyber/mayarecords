@@ -1,3 +1,7 @@
+## 2026-10-28 — Big Chief emblem and fixed lettering
+
+Added supplied Big Chief emblem alongside the label heading, and a matching Big Chief badge in both release-showcase views. Full artwork is converted to WebP and displayed through a centered CSS crop; no AI redraw or change to original file. Reconstructed fixed BIG CHIEF lettering as gold/white SVG from supplied artwork, with source hash/region recorded in data/big-chief-brand.json. This is not font identification or a reusable typeface; no font name guessed. Black/white/gold SVG+PNG wordmark copies in Desktop/Big Chief Logo Assets. Archives, track data, demo safeguards and checkout remain unchanged. Same PR14 preview branch; production remains unchanged. Browser visual QA still unavailable.
+
 ## 2026-10-28 — Big Chief archive + release-first showcase (preview review pending)
 
 - Branch codex/big-chief-release-showcase builds on PR13 Micasa branch; keep both unmerged until browser review. Existing untracked docs/ untouched/excluded.

@@ -11,7 +11,7 @@ export function ReleaseShowcaseFeature({ showcase, full = false }: { showcase: R
     <section className="release-feature" aria-label={`${showcase.label} sample release presentation`}>
       <div className="release-feature__art"><Image src={release.artwork[0].src} alt={`${release.title} — original ${release.catalogNumber} vinyl label, used for a design demonstration`} width={1200} height={1200} priority sizes="(max-width: 700px) 100vw, 45vw" /><span>Sample campaign · not a new release</span></div>
       <div className="release-feature__copy">
-        <div className="release-feature__label"><Link href={showcase.labelHref}>{showcase.label}</Link><span>Demo edition</span></div>
+        <div className="release-feature__label"><Link href={showcase.labelHref}>{showcase.label === "Big Chief" ? <span className="showcase-brand"><span className="showcase-brand__emblem"><Image src="/images/labels/big-chief/emblem-artwork.webp" width={2055} height={765} sizes="140px" alt="" /></span><Image className="showcase-brand__wordmark" src="/images/labels/big-chief/wordmark-gold.svg" alt="Big Chief" width={1600} height={380} /></span> : showcase.label}</Link><span>Demo edition</span></div>
         <p className="release-feature__artist">{release.artist}</p>
         <h2>{release.title}</h2>
         <p className="release-feature__intro">One release. Every mix. A direct connection to the label.</p>

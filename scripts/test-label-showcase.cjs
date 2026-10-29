@@ -41,3 +41,9 @@ test('homepage primary action leads to release-first hub and Big Chief founder c
  const page=fs.readFileSync(path.join(root,'src/app/(site)/labels/big-chief/page.tsx'),'utf8');assert.match(page,/Founded by Joeski &amp; Stas/);
  const tabs=fs.readFileSync(path.join(root,'src/components/site/DiscographyTabs.tsx'),'utf8');assert.match(tabs,/\/labels\/big-chief/);assert.match(tabs,/\/labels\/micasa/);
 });
+test('Big Chief header uses supplied emblem and real vector lettering, not a guessed font',()=>{
+ const page=fs.readFileSync(path.join(root,'src/app/(site)/labels/big-chief/page.tsx'),'utf8');assert.match(page,/emblem-artwork\.webp/);assert.match(page,/wordmark-gold\.svg/);assert.match(page,/<span className="sr-only">Big Chief<\/span>/);
+ for(const name of ['gold','white']){const svg=fs.readFileSync(path.join(root,`public/images/labels/big-chief/wordmark-${name}.svg`),'utf8');assert.match(svg,/<path /);assert.doesNotMatch(svg,/<image|<script|data:/);}
+ const provenance=require('../data/big-chief-brand.json');assert.match(provenance.sha256,/^[a-f0-9]{64}$/);assert.match(provenance.wordmark,/not an identified or reusable font/);
+ const html=renderToStaticMarkup(React.createElement(feature.ReleaseShowcaseFeature,{showcase:showcases.RELEASE_SHOWCASES[0]}));assert.match(html,/wordmark-gold\.svg/);assert.match(html,/alt="Big Chief"/);
+});

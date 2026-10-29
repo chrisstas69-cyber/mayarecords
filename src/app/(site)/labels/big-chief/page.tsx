@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { VinylArchive } from "@/components/site/MicasaArchive";
 import { DiscographyTabs } from "@/components/site/DiscographyTabs";
@@ -21,7 +22,10 @@ export default function BigChiefPage() {
     <div className="micasa-container">
       <div className="micasa-breadcrumb"><Link href="/new-releases">Maya Records family</Link><span>/</span><span>Big Chief</span></div>
       <header className="micasa-hero">
-        <div className="micasa-identity"><div><h1>Big Chief</h1><p>A Maya Records imprint.</p></div></div>
+        <div className="micasa-identity big-chief-identity">
+          <div className="big-chief-emblem"><Image src="/images/labels/big-chief/emblem-artwork.webp" alt="Big Chief emblem" width={2055} height={765} priority sizes="450px" /></div>
+          <div><h1 className="big-chief-wordmark"><span className="sr-only">Big Chief</span><Image src="/images/labels/big-chief/wordmark-gold.svg" alt="" width={1600} height={380} priority /></h1><p>A Maya Records imprint.</p></div>
+        </div>
         <div className="micasa-intro"><p>Founded by Joeski &amp; Stas. Original records, a shared history, and a new chapter with the Maya Records family.</p><a href="https://www.discogs.com/label/5300-Big-Chief" target="_blank" rel="noopener noreferrer">Big Chief on Discogs <ArrowUpRight size={16} aria-hidden="true" /></a></div>
       </header>
       <DiscographyTabs active="big-chief" />

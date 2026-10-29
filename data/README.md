@@ -133,3 +133,5 @@ Catalog destination still opens the original `/releases` archive. Label-family
 links on the hub reach Maya, Micasa and Big Chief. No separate app or checkout.
 
 Regression: `node --test scripts/test-label-showcase.cjs scripts/test-micasa.cjs`.
+
+Big Chief branding: `data/big-chief-brand.json` records the supplied artwork hash and lettering trace region. `emblem-artwork.webp` is the full artwork, shown centered in CSS. `wordmark-gold.svg` / `wordmark-white.svg` contain fixed lettering paths, not a font. Original artwork is untouched; no AI redraw.
